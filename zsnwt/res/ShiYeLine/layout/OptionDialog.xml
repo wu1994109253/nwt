@@ -1,0 +1,135 @@
+﻿<SkinDialog DefaultWidth="600" DefaultHeight="435" Animation="SizeChange" ThemeHeight="-1" Icon="128" SysButton="MIN,Min2.png;CLOSE,Close2.png">
+	<SkinRadioGroup Id="10" LayoutWidth="125" LayoutHeight="315" AlignParentLeft="0" AlignParentTop="0">
+		<SkinVerticalLayout LayoutHeight="FillParent" LayoutWidth="FillParent">
+			<OptionButton Id="200" LayoutWidth="FillParent" LayoutHeight="45" Image="ListItem2.png" Layout="OptionButton.xml" ChildImage1="OptionNormal.png" ChildText2="IDS_OPTION_NOMAL" Checked="true"/>
+			<OptionButton Id="300" LayoutWidth="FillParent" LayoutHeight="45" Image="ListItem2.png" Layout="OptionButton.xml" ChildImage1="OptionNetwork.png" ChildText2="IDS_OPTION_NET"/>
+			<OptionButton Id="400" LayoutWidth="FillParent" LayoutHeight="45" Image="ListItem2.png" Layout="OptionButton.xml" ChildImage1="OptionNotify.png" ChildText2="IDS_OPTION_NOTIFY"/>
+			<OptionButton Id="500" LayoutWidth="FillParent" LayoutHeight="45" Image="ListItem2.png" Layout="OptionButton.xml" ChildImage1="OptionHotKey.png" ChildText2="IDS_OPTION_HOT_KEY"/>
+			<OptionButton Id="600" LayoutWidth="FillParent" LayoutHeight="45" Image="ListItem2.png" Layout="OptionButton.xml" ChildImage1="OptionLock.png" ChildText2="IDS_OPTION_LOCK"/>
+			<OptionButton Id="700" LayoutWidth="FillParent" LayoutHeight="45" Image="ListItem2.png" Layout="OptionButton.xml" ChildImage1="OptionMail.png" ChildText2="IDS_OPTION_MAIL"/>
+		</SkinVerticalLayout>
+	</SkinRadioGroup>
+	<SkinLine AlignParentLeft="125" AlignParentBottom="1" LayoutWidth="1" AlignParentTop="0" Color="ID_COLOR_LINE"/>
+	<SkinRelativeLayout AlignParentLeft="126" AlignParentRight="0" LayoutHeight="FillParent" BkgColor="ID_COLOR_BKG">
+		<OptionListView Id="20" LayoutWidth="FillParent" AlignParentTop="28" AlignParentBottom="10" GetChildEnable="true" ScrollStep="60" VScrollBar="VScrollBar.xml">
+			<SkinListItem AllowMoveWindow="true" Id="2000" LayoutWidth="FillParent" LayoutHeight="570">
+				<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+					<SkinRelativeLayout Id="2001" Layout="SeparatorLine.xml" ChildText1="IDS_OPTION_NOMAL" LayoutHeight="30" AlignParentLeft="15" AlignParentTop="0" AlignParentRight="8"/>
+					<SkinCheckBox Id="2002" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" ToBottomOf="2001,5" ChildText1="IDS_AUTO_RUN" Layout="CheckBox.xml"/>
+					<SkinCheckBox Id="2003" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="200" ToBottomOf="2001,5" ChildText1="IDS_AUTO_RUN_MIN" Layout="CheckBox.xml"/>
+					<SkinCheckBox Id="2004" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" ToBottomOf="2002,5" ChildText1="IDS_LAN_UPDATE" Layout="CheckBox.xml"/>
+					<SkinCheckBox Id="2005" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="200" ToBottomOf="2002,5" ChildText1="IDS_HIDE_IP" Layout="CheckBox.xml"/>
+					<SkinCheckBox Id="2006" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" ToBottomOf="2004,5" ChildText1="IDS_NOT_ACCEPT_SHAKE_WINDOW" Layout="CheckBox.xml"/>
+					<SkinCheckBox Id="2007" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="200" ToBottomOf="2004,5" ChildText1="IDS_NOT_ACCEPT_SUBNET_SHARE" Layout="CheckBox.xml"/>
+					<SkinCheckBox Id="2008" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" ToBottomOf="2006,5" ChildText1="IDS_NOT_SEND_ADVERTISEMENT" Layout="CheckBox.xml"/>
+					<SkinCheckBox Id="2009" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="200" ToBottomOf="2006,5" ChildText1="IDS_OPEN_AUTO_GROUP" Layout="CheckBox.xml"/>
+					<SkinCheckBox Id="2010" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" ToBottomOf="2008,5" ChildText1="IDS_OPEN_IPMSG_GROUP" Layout="CheckBox.xml"/>
+					<SkinRelativeLayout Id="2201" Layout="SeparatorLine.xml" ChildText1="IDS_RECEIVE_MSG" LayoutHeight="30" AlignParentLeft="15" ToBottomOf="2010,15" AlignParentRight="8"/>
+					<SkinRadioGroup LayoutHeight="24" AlignParentLeft="0" AlignParentRight="0" ToBottomOf="2201,5" >
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRadioButton Id="2202" LayoutWidth="WrapContent" LayoutHeight="FillParent" AlignParentLeft="28" ChildText1="IDS_AUTO_POPUP" Layout="RadioButton.xml"/>
+							<SkinRadioButton Id="2203" LayoutWidth="WrapContent" LayoutHeight="FillParent" AlignParentLeft="200" ChildText1="IDS_FLASH_WINDOW" Layout="RadioButton.xml"/>
+						</SkinRelativeLayout>
+					</SkinRadioGroup>
+					<SkinRelativeLayout Id="2301" Layout="SeparatorLine.xml" ChildText1="IDS_CLOSE_DLG" LayoutHeight="30" AlignParentLeft="15" ToBottomOf="2203,15" AlignParentRight="8"/>
+					<SkinRadioGroup LayoutHeight="24" AlignParentLeft="0" AlignParentRight="0" ToBottomOf="2301,5" >
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRadioButton Id="2302" LayoutWidth="WrapContent" LayoutHeight="FillParent" AlignParentLeft="28" ChildText1="IDS_QUIT_APP" Layout="RadioButton.xml"/>
+							<SkinRadioButton Id="2303" LayoutWidth="WrapContent" LayoutHeight="FillParent" AlignParentLeft="200" ChildText1="IDS_TO_TRAY" Layout="RadioButton.xml"/>
+						</SkinRelativeLayout>
+					</SkinRadioGroup>
+					<SkinRelativeLayout Id="2401" Layout="SeparatorLine.xml" ChildText1="IDS_FRIEND_INFO_SHOW" LayoutHeight="30" AlignParentLeft="15" ToBottomOf="2303,15" AlignParentRight="8"/>
+					<SkinRadioGroup LayoutHeight="24" AlignParentLeft="0" AlignParentRight="0" ToBottomOf="2401,5" >
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRadioButton Id="2402" LayoutWidth="WrapContent" LayoutHeight="FillParent" AlignParentLeft="28" ChildText1="IDS_SHOW_SIGN" Layout="RadioButton.xml"/>
+							<SkinRadioButton Id="2403" LayoutWidth="WrapContent" LayoutHeight="FillParent" AlignParentLeft="200" ChildText1="IDS_SHOW_IP" Layout="RadioButton.xml"/>
+						</SkinRelativeLayout>
+					</SkinRadioGroup>
+					<SkinRelativeLayout Id="2501" Layout="SeparatorLine.xml" ChildText1="IDS_FILE_TRANS" LayoutHeight="30" AlignParentLeft="15" ToBottomOf="2403,15" AlignParentRight="8"/>
+					<SkinCheckBox Id="2502" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" ToBottomOf="2501,5" ChildText1="IDS_ALLOW_ACTIVE_SEND" Layout="CheckBox.xml"/>
+					<SkinCheckBox Id="2506" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" ToBottomOf="2502,5" ChildText1="IDS_RECV_PATH_SENDER" Layout="CheckBox.xml"/>
+					<SkinCheckBox Id="2507" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="200" ToBottomOf="2502,5" ChildText1="IDS_RECV_PATH_TIME" Layout="CheckBox.xml"/>
+					<SkinTextView Id="2503" LayoutWidth="72" LayoutHeight="30" ToBottomOf="2506,5" AlignParentLeft="28" Text="IDS_STORE_PATH"/>
+					<SkinEditView Id="2504" LayoutWidth="280" LayoutHeight="28" ToBottomOf="2506,6" AlignParentLeft="100" Image="Edit.png" ReadOnly="true"/>
+					<SkinButton Id="2505" LayoutWidth="70" LayoutHeight="28" ToRightOf="2504,5" ToBottomOf="2506,6" Image="Button.png" Layout="Button.xml" ChildText1="IDS_BROWSE"/>
+				</SkinRelativeLayout>
+			</SkinListItem>
+			<SkinListItem AllowMoveWindow="true" Id="3000" LayoutWidth="FillParent" LayoutHeight="400">
+				<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+					<SkinRelativeLayout Id="3001" Layout="SeparatorLine.xml" ChildText1="IDS_OPTION_NET" LayoutHeight="30" AlignParentLeft="15" AlignParentTop="0" AlignParentRight="8"/>
+					<SkinButton Id="3002" LayoutWidth="280" LayoutHeight="28" ToBottomOf="3001,6" AlignParentLeft="100" Image="Button.png" Layout="Button.xml" ChildText1="IDS_OPTION_NET"/>
+					<SkinRelativeLayout Id="3401" Layout="SeparatorLine.xml" ChildText1="IDS_OTHER_SUBNET" LayoutHeight="30" AlignParentLeft="15" ToBottomOf="3002,15"  AlignParentRight="8"/>
+					<SkinButton Id="3402" LayoutWidth="280" LayoutHeight="28" ToBottomOf="3401,6" AlignParentLeft="100" Image="Button.png" Layout="Button.xml" ChildText1="IDS_SUBNET_CONFIG"/>
+					<SkinButton Id="3403" LayoutWidth="280" LayoutHeight="28" ToBottomOf="3402,16" AlignParentLeft="100" Image="Button.png" Layout="Button.xml" ChildText1="IDS_SUBNET_BLACK_NAME"/>
+					<SkinRelativeLayout Id="3501" Layout="SeparatorLine.xml" ChildText1="IDS_REMOTE_PASSWORD" LayoutHeight="30" AlignParentLeft="15" ToBottomOf="3403,15"  AlignParentRight="8"/>
+					<SkinButton Id="3502" LayoutWidth="280" LayoutHeight="28" ToBottomOf="3501,6" AlignParentLeft="100" Image="Button.png" Layout="Button.xml" ChildText1="IDS_SET_PASSWORD"/>
+					<SkinRelativeLayout Id="3301" Layout="SeparatorLine.xml" ChildText1="IDS_AUTO_REFRESH" LayoutHeight="30" AlignParentLeft="15" ToBottomOf="3502,15"  AlignParentRight="8"/>
+					<SkinCheckBox Id="3302" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" ToBottomOf="3301,5" ChildText1="IDS_OPEN_AUTO_REFRESH" Layout="CheckBox.xml"/>
+					<SkinTextView Id="3303" LayoutWidth="72" LayoutHeight="30" ToBottomOf="3302,5" AlignParentLeft="28" Text="IDS_AUTO_REFRESH_INTERVAL"/>
+					<SkinComboBox Id="3304" LayoutWidth="280" LayoutHeight="28" ToBottomOf="3302,6" AlignParentLeft="100" Layout="ComboBox.xml" Image="Edit.png" ReadOnly="true"/>
+				</SkinRelativeLayout>
+			</SkinListItem>
+			<SkinListItem AllowMoveWindow="true" Id="4000" LayoutWidth="FillParent" LayoutHeight="305">
+				<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+					<SkinRelativeLayout Id="4001" Layout="SeparatorLine.xml" ChildText1="IDS_NOTIFY_WHAT" LayoutHeight="30" AlignParentLeft="15" AlignParentTop="0" AlignParentRight="8"/>
+					<SkinCheckBox Id="4002" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" ToBottomOf="4001,5" ChildText1="IDS_NOTIFY_MYSELF_ONLINE" Layout="CheckBox.xml"/>
+					<SkinCheckBox Id="4003" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" ToBottomOf="4002,5" ChildText1="IDS_NOTIFY_ONLINE_OFFLINE" Layout="CheckBox.xml"/>
+					<SkinCheckBox Id="4004" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" ToBottomOf="4003,5" ChildText1="IDS_NOTIFY_RECEIVE_MSG_FILE" Layout="CheckBox.xml"/>
+					<SkinCheckBox Id="4005" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" ToBottomOf="4004,5" ChildText1="IDS_NOTIFY_FINISH_FILE_TRANS" Layout="CheckBox.xml"/>
+					<SkinCheckBox Id="4006" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" ToBottomOf="4005,5" ChildText1="IDS_NOTIFY_MAIL_NUMBER_CHANGE" Layout="CheckBox.xml"/>
+					<SkinRelativeLayout Id="4101" Layout="SeparatorLine.xml" ChildText1="IDS_NOTIFY_SOUND" LayoutHeight="30" AlignParentLeft="15" ToBottomOf="4006,15" AlignParentRight="8"/>
+					<SkinCheckBox Id="4102" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" ToBottomOf="4101,5" ChildText1="IDS_NOTIFY_CLOSE_ALL_SOUND" Layout="CheckBox.xml"/>
+					<SkinHyperlink Id="4103" LayoutWidth="WrapContent" LayoutHeight="24" ToBottomOf="4101,5" ToRightOf="4102,5" Text="IDS_OPEN_SOUND_FOLDER"/>
+					<SkinCheckBox Id="4104" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" ToBottomOf="4102,5" ChildText1="IDS_NOTIFY_QGROUP_SOUND" Layout="CheckBox.xml"/>
+				</SkinRelativeLayout>
+			</SkinListItem>
+			<SkinListItem AllowMoveWindow="true" Id="5000" LayoutWidth="FillParent" LayoutHeight="180">
+				<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+					<SkinRelativeLayout Id="5001" Layout="SeparatorLine.xml" ChildText1="IDS_OPTION_HOT_KEY" LayoutHeight="30" AlignParentLeft="15" AlignParentTop="0" AlignParentRight="8"/>
+					<SkinCheckBox Id="5002" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" ToBottomOf="5001,8" ChildText1="IDS_HOTKEY_SHOW_HIDE_MAIN_WINDOW" Layout="CheckBox.xml"/>
+					<SkinCheckBox Id="5003" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" ToBottomOf="5002,8" ChildText1="IDS_HOTKEY_PRINT_SCREEN" Layout="CheckBox.xml"/>
+					<SkinCheckBox Id="5004" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" ToBottomOf="5003,8" ChildText1="IDS_LOCK_APP2" Layout="CheckBox.xml"/>
+					<SkinCheckBox Id="5005" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" ToBottomOf="5004,8" ChildText1="IDS_HOTKEY_OPEN_RECVFOLDER" Layout="CheckBox.xml"/>
+					<SkinHotKeyView Id="5102" LayoutWidth="185" LayoutHeight="28" ToBottomOf="5001,6" AlignParentLeft="160" Image="Edit.png"/>
+					<SkinHotKeyView Id="5103" LayoutWidth="185" LayoutHeight="28" ToBottomOf="5002,6" AlignParentLeft="160" Image="Edit.png"/>
+					<SkinHotKeyView Id="5104" LayoutWidth="185" LayoutHeight="28" ToBottomOf="5003,6" AlignParentLeft="160" Image="Edit.png"/>
+					<SkinHotKeyView Id="5105" LayoutWidth="185" LayoutHeight="28" ToBottomOf="5004,6" AlignParentLeft="160" Image="Edit.png"/>
+					<SkinTextView Id="5202" LayoutWidth="50" LayoutHeight="28" ToBottomOf="5001,6" ToRightOf="5102,5" FontColor="ID_COLOR_RED"/>
+					<SkinTextView Id="5203" LayoutWidth="50" LayoutHeight="28" ToBottomOf="5002,6" ToRightOf="5103,5" FontColor="ID_COLOR_RED"/>
+					<SkinTextView Id="5204" LayoutWidth="50" LayoutHeight="28" ToBottomOf="5003,6" ToRightOf="5104,5" FontColor="ID_COLOR_RED"/>
+					<SkinTextView Id="5205" LayoutWidth="50" LayoutHeight="28" ToBottomOf="5004,6" ToRightOf="5105,5" FontColor="ID_COLOR_RED"/>
+				</SkinRelativeLayout>
+			</SkinListItem>
+			<SkinListItem AllowMoveWindow="true" Id="6000" LayoutWidth="FillParent" LayoutHeight="210">
+				<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+					<SkinRelativeLayout Id="6001" Layout="SeparatorLine.xml" ChildText1="IDS_OPTION_LOCK" LayoutHeight="30" AlignParentLeft="15" AlignParentTop="0" AlignParentRight="8"/>
+					<SkinTextView Id="6002" LayoutHeight="30" ToBottomOf="6001,5" AlignParentLeft="28" AlignParentRight="8" Text="IDS_LOCK_SCREEEN_TIPS" FontColor="ID_COLOR_DISABLE"/>
+					<SkinButton Id="6003" LayoutWidth="280" LayoutHeight="28" ToBottomOf="6002,10" AlignParentLeft="100" Image="Button.png" Layout="Button.xml" ChildText1="IDS_SET_PASSWORD"/>
+					<SkinRelativeLayout Id="6101" Layout="SeparatorLine.xml" ChildText1="IDS_IDLE_TIPS" LayoutHeight="30" AlignParentLeft="15" ToBottomOf="6003,15" AlignParentRight="8"/>
+					<SkinComboBox Id="6102" LayoutWidth="60" LayoutHeight="28" ToBottomOf="6101,5" AlignParentLeft="28" Layout="ComboBox.xml" Image="Edit.png"/>
+					<SkinTextView Id="6103" LayoutWidth="WrapContent" LayoutHeight="28" ToRightOf="6102,5" ToBottomOf="6101,5" Text="IDS_IDLE_TIPS2"/>
+					<SkinRadioGroup LayoutHeight="24" ToRightOf="6103,15" AlignParentRight="0" ToBottomOf="6101,7">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRadioButton Id="6104" LayoutWidth="WrapContent" LayoutHeight="FillParent" AlignParentLeft="0" ChildText1="IDS_CHANGE_TO_AWAY" Layout="RadioButton.xml"/>
+							<SkinRadioButton Id="6105" LayoutWidth="WrapContent" LayoutHeight="FillParent" ToRightOf="6104,25" ChildText1="IDS_AUTON_LOCK_APP" Layout="RadioButton.xml"/>
+						</SkinRelativeLayout>
+					</SkinRadioGroup>
+				</SkinRelativeLayout>
+			</SkinListItem>
+			<SkinListItem AllowMoveWindow="true" Id="7000" LayoutWidth="FillParent" LayoutHeight="397">
+				<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+					<SkinRelativeLayout Id="7001" Layout="SeparatorLine.xml" ChildText1="IDS_MAIL_PERCEPTION_TIPS" LayoutHeight="30" AlignParentLeft="15" AlignParentTop="0" AlignParentRight="8"/>
+					<SkinButton Id="7205" LayoutWidth="280" LayoutHeight="28" ToBottomOf="7001,6" AlignParentLeft="100" Image="Button.png" Layout="Button.xml" ChildText1="IDS_MAIL_PERCEPTION_CONFIG"/>
+					<SkinRelativeLayout Id="7301" Layout="SeparatorLine.xml" ChildText1="IDS_CLICKED_MAIL_BUTTON" LayoutHeight="30" AlignParentLeft="15" ToBottomOf="7205,15" AlignParentRight="8"/>
+					<SkinRadioGroup LayoutWidth="155" LayoutHeight="56" AlignParentLeft="0" ToBottomOf="7301,8">
+						<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+							<SkinRadioButton Id="7302" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" AlignParentTop="0" ChildText1="IDS_OPEN_MAIL_DEFAULT_CLIENT" Layout="RadioButton.xml"/>
+							<SkinRadioButton Id="7303" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" ToBottomOf="7302,8" ChildText1="IDS_OPEN_MAIL_WEB_PAGE" Layout="RadioButton.xml"/>
+						</SkinRelativeLayout>
+					</SkinRadioGroup>
+					<SkinEditView Id="7304" LayoutWidth="200" LayoutHeight="28" ToBottomOf="7302,6" AlignParentLeft="180" Image="Edit.png"/>
+				</SkinRelativeLayout>
+			</SkinListItem>
+		</OptionListView>
+	</SkinRelativeLayout>
+</SkinDialog>

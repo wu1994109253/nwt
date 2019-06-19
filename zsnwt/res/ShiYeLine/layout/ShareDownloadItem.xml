@@ -1,0 +1,11 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<FileIconView Id="1001" LayoutWidth="42" LayoutHeight="42" AlignParentLeft="7" AlignParentVerticalCenter="true"/>
+	<SkinTextView Id="1002" LayoutHeight="20" ToRightOf="1001,5" AlignParentVerticalCenter="-15" AlignParentRight="50" AutoLayout="true"/>
+	<SkinProgress Id="1003" LayoutHeight="10" ToRightOf="1001,5" AlignParentVerticalCenter="0" AlignParentRight="50" Image="Progress.png"/>
+	<SkinTextView Id="1004" LayoutHeight="20" ToRightOf="1001,5" AlignParentVerticalCenter="15" AlignParentRight="50"/>
+	<SkinButton Id="1005" LayoutWidth="20" LayoutHeight="20" ToRightOf="1004,5" AlignParentVerticalCenter="0" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="Suspend.png" Tips="IDS_SUSPEND"/>
+	<SkinButton Id="1006" LayoutWidth="20" LayoutHeight="20" ToRightOf="1004,5" AlignParentVerticalCenter="0" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="Continue.png" Tips="IDS_CONTINUE"/>
+	<SkinButton Id="1007" LayoutWidth="20" LayoutHeight="20" ToRightOf="1006,1" AlignParentVerticalCenter="0" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="Cancel.png" Tips="IDS_CANCEL"/>
+	<SkinButton Id="1008" LayoutWidth="20" LayoutHeight="20" ToRightOf="1004,5" AlignParentVerticalCenter="0" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="OpenFile.png" Tips="IDS_OPEN_FILE"/>
+	<SkinButton Id="1009" LayoutWidth="20" LayoutHeight="20" ToRightOf="1006,1" AlignParentVerticalCenter="0" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="OpenFolder.png" Tips="IDS_OPEN_FOLDER"/>
+</SkinRelativeLayout>

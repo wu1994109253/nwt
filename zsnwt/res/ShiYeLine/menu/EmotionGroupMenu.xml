@@ -1,0 +1,8 @@
+﻿<Menu>
+	<MenuItem Id="1001" Text="IDS_ADD_GROUP"/>
+	<MenuItem Id="1002" Text="IDS_RENAME_GROUP"/>
+	<MenuItem Id="1003" Text="IDS_DELETE_GROUP"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="1004" Text="IDS_MOVE_LEFT_GROUP"/>
+	<MenuItem Id="1005" Text="IDS_MOVE_RIGHT_GROUP"/>
+</Menu>

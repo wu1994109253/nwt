@@ -1,0 +1,4 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<QGroupHeadView Id="1001" LayoutWidth="24" LayoutHeight="24" AlignParentLeft="5" AlignParentVerticalCenter="true"/>
+	<SkinTextViewEx Id="1002" ToRightOf="1001,5" LayoutHeight="FillParent" AlignParentRight="3" AlignParentVerticalCenter="true"/>
+</SkinRelativeLayout>

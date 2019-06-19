@@ -1,0 +1,4 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinImageView Id="20110" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentLeft="3" AlignParentVerticalCenter="0" Image="ImageDate.png"/>
+	<SkinTextView Id="20111" LayoutHeight="FillParent" ToRightOf="20110,5" AlignParentRight="5"/>
+</SkinRelativeLayout>

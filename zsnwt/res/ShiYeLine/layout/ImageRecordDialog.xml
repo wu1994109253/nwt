@@ -1,0 +1,23 @@
+﻿<SkinDialog DefaultWidth="702" DefaultHeight="500" Caption="IDS_IMAGE_RECORD" Animation="SizeChange" Icon="128" SysButton="MIN;CLOSE">
+	<SkinAnimationGroup Id="100" LayoutWidth="WrapContent" LayoutHeight="28" AlignParentLeft="11" AlignParentTop="40">
+		<SkinHorizontalLayout LayoutWidth="WrapContent" LayoutHeight="FillParent" AlignParentLeft="0">
+			<SkinRadioButton Id="200" LayoutWidth="79" LayoutHeight="FillParent" BindView="2000" Layout="Button.xml" Image="TabButton.png" ChildText1="IDS_RECENT_CONTACTOR"/>
+			<SkinRadioButton Id="300" LayoutWidth="60" LayoutHeight="FillParent" BindView="3000" Layout="Button.xml" Image="TabButton.png" ChildText1="IDS_CONTACTOR"/>
+			<SkinRadioButton Id="400" LayoutWidth="60" LayoutHeight="FillParent" BindView="4000" Layout="Button.xml" Image="TabButton.png" ChildText1="IDS_QGROUP"/>
+		</SkinHorizontalLayout>
+	</SkinAnimationGroup>
+	<SkinRelativeLayout LayoutWidth="200" AlignParentLeft="10" AlignParentTop="68" AlignParentBottom="10" BkgImage="ChatRecordBkg.png">
+		<SwitchAnimationHost AlignParentLeft="2" AlignParentRight="2" AlignParentTop="1" AlignParentBottom="32" Animation="LeftRightSlide">
+			<MessageListView Id="2000" VScrollBar="VScrollBar.xml" Visible="false"/>
+			<UserTreeView Id="3000" VScrollBar="VScrollBar.xml" Visible="false"/>
+			<QGroupListView Id="4000" VScrollBar="VScrollBar.xml" Visible="false"/>
+		</SwitchAnimationHost>
+		<SearchComboBox Id="105" AlignParentLeft="1" AlignParentRight="1" LayoutHeight="28" AlignParentBottom="1" PopupDown="false" Image="ComboSearch2.png" Tips="IDS_SEARCH_COMBOBOX_SHORT_TIPS" TipsColor="ID_COLOR_DISABLE" Limit="16"/>
+	</SkinRelativeLayout>
+	<SkinLine AlignParentLeft="10" AlignParentTop="40" LayoutWidth="1" LayoutHeight="27" Color="ID_COLOR_LINE"/>
+	<SkinRelativeLayout AlignParentLeft="220" AlignParentTop="40" AlignParentRight="10" AlignParentBottom="10" BkgImage="DialogRightBkg.png">
+		<SkinTextView Id="101" LayoutHeight="30" AlignParentLeft="5" AlignParentRight="5" AlignParentTop="0" AutoLayout="true"/>
+		<ChatImageLayout Id="5000" AlignParentLeft="2" AlignParentRight="2" AlignParentTop="30" AlignParentBottom="2" Layout="ChatImageLayout.xml">
+		</ChatImageLayout>
+	</SkinRelativeLayout>
+</SkinDialog>

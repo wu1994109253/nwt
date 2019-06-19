@@ -1,0 +1,5 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinListEditView Id="20113" LayoutHeight="22" AlignParentTop="0" AlignParentLeft="56" AlignParentRight="10" FontColor="ID_COLOR_DISABLE"/>
+	<SkinButton Id="20112" LayoutWidth="36" LayoutHeight="36" AlignParentLeft="10" AlignParentTop="5" Layout="UserHeadButton2.xml"/>
+	<SkinListEditView Id="20111" MouseWheel="false" RichEdit="true" Image="EditRecvMsg.png" MultiLine="true" ReadOnly="true" ClientOffset="12,5,5,5" AlignParentLeft="50" AlignParentRight="5" ToBottomOf="20113,1" AlignParentBottom="5"/>
+</SkinRelativeLayout>

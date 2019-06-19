@@ -1,0 +1,8 @@
+﻿<SkinDialog SysButton="CLOSE" Icon="128" Caption="IDS_CONTROL_SHOW1" Animation="SizeChange">
+	<SkinMessageIcon Id="100002" LayoutWidth="32" LayoutHeight="32" AlignParentLeft="25" AlignParentVerticalCenter="-10"/>
+	<SkinTextView Id="100001" MaxWidth="300" LayoutHeight="WrapContent" AlignParentLeft="75" AlignParentRight="15" AlignParentVerticalCenter="-10" HorzAlignment="Left" MultiLine="true"/>
+	<SkinCheckBox Id="100003" LayoutWidth="300" LayoutHeight="25" ChildText1="IDS_CONTROL_SHOW_TEXT8" Layout="CheckBox.xml" AlignParentLeft="75" AlignParentBottom="55" Visible="false"/>
+	<SkinButton Id="1" LayoutWidth="75" LayoutHeight="25" Image="Button2.png" ChildText1="IDS_OK" ChildFontColor1="ID_COLOR_WHITE" Layout="Button.xml" AlignParentHorizontalCenter="0" AlignParentBottom="20" PressDownOffset="1" Visible="false"/>
+	<SkinButton Id="6" LayoutWidth="75" LayoutHeight="25" Image="Button2.png" ChildText1="IDS_OK" ChildFontColor1="ID_COLOR_WHITE" Layout="Button.xml" AlignParentHorizontalCenter="-50" AlignParentBottom="20" PressDownOffset="1" Visible="false"/>
+	<SkinButton Id="7" LayoutWidth="75" LayoutHeight="25" Image="Button2.png" ChildText1="IDS_CANCEL" ChildFontColor1="ID_COLOR_WHITE" Layout="Button.xml" AlignParentHorizontalCenter="50" AlignParentBottom="20" PressDownOffset="1" Visible="false"/>
+</SkinDialog>

@@ -1,0 +1,5 @@
+<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinTreeItemExpandButton Id="100001" LayoutWidth="WrapContent" LayoutHeight="WrapContent" Image="TreeExpand.png" AlignParentLeft="5" AlignParentVerticalCenter="0"/>
+	<SkinCheckBox Id="1102" LayoutWidth="WrapContent" LayoutHeight="24" ToRightOf="100001,3" AlignParentVerticalCenter="true" Layout="CheckBox.xml"/>
+	<GroupNameView Id="1101" ToRightOf="1102,0" AlignParentRight="5" LayoutHeight="FillParent" AutoLayout="true"/>
+</SkinRelativeLayout>

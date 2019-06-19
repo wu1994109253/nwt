@@ -1,0 +1,6 @@
+﻿<SkinDialog>
+	<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent" BkgColor="ID_COLOR_TIPS_DIALOG_BKG">
+		<SkinImageViewEx LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="true" AlignParentVerticalCenter="-10" Image="Loading.png" Interval="300" AutoPlay="true"/>
+		<SkinTextView LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="true" AlignParentVerticalCenter="10" Text="IDS_REFRESH_ING" FontColor="ID_COLOR_WHITE" HorzAlignment="Center"/>
+	</SkinRelativeLayout>
+</SkinDialog>

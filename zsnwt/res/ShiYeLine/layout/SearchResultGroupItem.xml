@@ -1,0 +1,4 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<GroupHeadView Id="100001" LayoutWidth="24" LayoutHeight="24" AlignParentLeft="5" AlignParentVerticalCenter="true" Image="Group24.png"/>
+	<SearchResultTextView Id="100002" ToRightOf="100001,5" LayoutWidth="WrapContent" LayoutHeight="FillParent" AlignParentVerticalCenter="true"/>
+</SkinRelativeLayout>

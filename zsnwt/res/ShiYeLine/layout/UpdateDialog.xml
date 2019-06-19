@@ -1,0 +1,35 @@
+﻿<SkinDialog MinWidth="350" MinHeight="175" DefaultWidth="350" DefaultHeight="175" Caption="IDS_ONLINE_UPDATE" Animation="SizeChange" SysButton="CLOSE">
+	<SwitchAnimationHost Id="100" LayoutWidth="FillParent" AlignParentTop="30" AlignParentBottom="2" Animation="LeftRightSlide">
+		<SkinRelativeLayout Id="900" LayoutWidth="FillParent" LayoutHeight="FillParent" Visible="false">
+			<SkinTextView LayoutWidth="FillParent" AlignParentTop="0" AlignParentVerticalCenter="true" HorzAlignment="Center" FontStyle="ID_FONT_BIG" Text="IDS_UPDATE_CHECKING"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout Id="1000" LayoutWidth="FillParent" LayoutHeight="FillParent" Visible="false">
+			<SkinHorizontalLayout LayoutWidth="WrapContent" LayoutHeight="WrapContent">
+				<SkinImageView LayoutWidth="WrapContent" LayoutHeight="WrapContent" LayoutAlignment="Center,Center" Image="Finish.png"/>
+				<SkinTextView Id="1001" LayoutWidth="WrapContent" LayoutHeight="WrapContent" HorzAlignment="Center" FontStyle="ID_FONT_BIG" Text="IDS_UPDATE_ALREADY_LATEST"/>
+			</SkinHorizontalLayout>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout Id="2000" LayoutWidth="FillParent" LayoutHeight="FillParent" Visible="false">
+			<SkinTextView LayoutHeight="24" AlignParentLeft="50" AlignParentRight="50" AlignParentTop="8" FontColor="ID_COLOR_HYPERLINK" Text="IDS_UPDATE_LOG" FontStyle="ID_FONT_BIG"/>
+			<SkinLine LayoutHeight="1" AlignParentLeft="50" AlignParentRight="50" AlignParentTop="32" Color="ID_COLOR_LINE"/>
+			<SkinTextView Id="2001" AlignParentLeft="50" AlignParentRight="50" AlignParentTop="35" AlignParentBottom="45" MultiLine="true"/>
+			<SkinButton Id="2002" LayoutWidth="75" LayoutHeight="25" AlignParentHorizontalCenter="-50" AlignParentBottom="12" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_UPDATE"/>
+			<SkinButton Id="2003" LayoutWidth="75" LayoutHeight="25" AlignParentHorizontalCenter="50" AlignParentBottom="12" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_SKIP"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout Id="3000" LayoutWidth="FillParent" LayoutHeight="FillParent" Visible="false">
+			<SkinTextView Id="3001" LayoutHeight="25" AlignParentLeft="20" AlignParentRight="20" AlignParentTop="35" FontStyle="ID_FONT_BIG"/>
+			<SkinProgress Id="3002" LayoutHeight="6" AlignParentLeft="20" AlignParentRight="20" AlignParentTop="65" Image="Progress.png" Range="100"/>
+			<SkinButton Id="2" LayoutWidth="75" LayoutHeight="25" AlignParentHorizontalCenter="0" AlignParentBottom="20" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_CANCEL"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout Id="4000" LayoutWidth="FillParent" LayoutHeight="FillParent" Visible="false">
+			<SkinImageView LayoutWidth="32" LayoutHeight="32" AlignParentLeft="35" AlignParentTop="35" Image="Finish.png"/>
+			<SkinTextView Id="4001" LayoutHeight="32" AlignParentLeft="65" AlignParentRight="0" AlignParentTop="35" FontStyle="ID_FONT_BIG" Text="IDS_UPDATE_DOWNLOAD_FINISH"/>
+			<SkinButton Id="4002" LayoutWidth="75" LayoutHeight="25" AlignParentHorizontalCenter="-50" AlignParentBottom="20" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_INSTALL"/>
+			<SkinButton Id="2" LayoutWidth="75" LayoutHeight="25" AlignParentHorizontalCenter="50" AlignParentBottom="20" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_CANCEL"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout Id="5000" LayoutWidth="FillParent" LayoutHeight="FillParent" Visible="false">
+			<SkinTextView Id="4001" LayoutWidth="FillParent" AlignParentTop="0" AlignParentVerticalCenter="-8" HorzAlignment="Center" FontStyle="ID_FONT_BIG" Text="IDS_UPDATE_ERROR"/>
+			<SkinButton Id="1" LayoutWidth="75" LayoutHeight="25" AlignParentHorizontalCenter="0" AlignParentBottom="12" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_OK"/>
+		</SkinRelativeLayout>
+	</SwitchAnimationHost>
+</SkinDialog>

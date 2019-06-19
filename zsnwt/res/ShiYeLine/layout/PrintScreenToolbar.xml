@@ -1,0 +1,35 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinRadioGroup LayoutWidth="70" LayoutHeight="28" AlignParentLeft="3" AlignParentTop="3">
+		<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+			<SkinRadioButton Id="100" LayoutWidth="22" LayoutHeight="22" Image="IconButton.png" ChildImage1="PrintScreenRect.png" Layout="IconButton.xml" AlignParentLeft="0" AlignParentTop="0" PressDownOffset="1"/>
+			<SkinRadioButton Id="101" LayoutWidth="22" LayoutHeight="22" Image="IconButton.png" ChildImage1="PrintScreenArrow.png" Layout="IconButton.xml" AlignParentLeft="24" AlignParentTop="0" PressDownOffset="1"/>
+			<SkinRadioButton Id="102" LayoutWidth="22" LayoutHeight="22" Image="IconButton.png" ChildImage1="PrintScreenPen.png" Layout="IconButton.xml" AlignParentLeft="48" AlignParentTop="0" PressDownOffset="1"/>
+		</SkinRelativeLayout>
+	</SkinRadioGroup>
+	<SkinImageView LayoutWidth="2" LayoutHeight="18" Image="PrintScreenSeparator.png" AlignParentLeft="75" AlignParentTop="5"/>
+	<SkinButton Id="103" LayoutWidth="22" LayoutHeight="22" Image="IconButton.png" ChildImage1="PrintScreenUndo.png" Layout="IconButton.xml" AlignParentLeft="79" AlignParentTop="3" PressDownOffset="1"/>
+	<SkinButton Id="104" LayoutWidth="22" LayoutHeight="22" Image="IconButton.png" ChildImage1="PrintScreenSave.png" Layout="IconButton.xml" AlignParentLeft="103" AlignParentTop="3" PressDownOffset="1"/>
+	<SkinImageView LayoutWidth="2" LayoutHeight="18" Image="PrintScreenSeparator.png" AlignParentLeft="127" AlignParentTop="5"/>
+	<SkinButton Id="105" LayoutWidth="22" LayoutHeight="22" Image="IconButton.png" ChildImage1="PrintScreenCancel.png" Layout="IconButton.xml" AlignParentLeft="131" AlignParentTop="3" PressDownOffset="1"/>
+	<SkinButton Id="106" LayoutWidth="52" LayoutHeight="22" Image="IconButton.png" ChildImage1="PrintScreenFinish.png" ChildText2="IDS_CAPTURE_IMAGE_FINISH_TIPS" Layout="IconButton.xml" AlignParentLeft="155" AlignParentTop="3" PressDownOffset="1"/>
+	<SkinRelativeLayout Id="1000" LayoutWidth="FillParent" LayoutHeight="28" AlignParentBottom="0" Visible="false">
+		<SkinRadioGroup LayoutWidth="70" LayoutHeight="28" AlignParentLeft="3" AlignParentBottom="3">
+			<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+				<SkinRadioButton Id="107" LayoutWidth="22" LayoutHeight="22" Image="IconButton.png" ChildImage1="PrintScreenSmall.png" Layout="IconButton.xml" AlignParentLeft="0" AlignParentBottom="0" PressDownOffset="1"/>
+				<SkinRadioButton Id="108" LayoutWidth="22" LayoutHeight="22" Image="IconButton.png" ChildImage1="PrintScreenMid.png" Layout="IconButton.xml" AlignParentLeft="24" AlignParentBottom="0" PressDownOffset="1"/>
+				<SkinRadioButton Id="109" LayoutWidth="22" LayoutHeight="22" Image="IconButton.png" ChildImage1="PrintScreenBig.png" Layout="IconButton.xml" AlignParentLeft="48" AlignParentBottom="0" PressDownOffset="1"/>
+			</SkinRelativeLayout>
+		</SkinRadioGroup>
+		<SkinImageView LayoutWidth="2" LayoutHeight="18" Image="PrintScreenSeparator.png" AlignParentLeft="75" AlignParentBottom="5"/>
+		<SkinRadioGroup LayoutHeight="18" AlignParentLeft="85" AlignParentRight="0" AlignParentBottom="5">
+			<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+				<PrintScreenColor Id="110" LayoutWidth="16" LayoutHeight="18" Image="IconButton.png" PrintScreenColor="255,201,18,18" AlignParentLeft="0" AlignParentBottom="0" PressDownOffset="1"/>
+				<PrintScreenColor Id="111" LayoutWidth="16" LayoutHeight="18" Image="IconButton.png" PrintScreenColor="255,255,197,40" AlignParentLeft="20" AlignParentBottom="0" PressDownOffset="1"/>
+				<PrintScreenColor Id="112" LayoutWidth="16" LayoutHeight="18" Image="IconButton.png" PrintScreenColor="255,38,181,0" AlignParentLeft="40" AlignParentBottom="0" PressDownOffset="1"/>
+				<PrintScreenColor Id="113" LayoutWidth="16" LayoutHeight="18" Image="IconButton.png" PrintScreenColor="255,160,97,239" AlignParentLeft="60" AlignParentBottom="0" PressDownOffset="1"/>
+				<PrintScreenColor Id="114" LayoutWidth="16" LayoutHeight="18" Image="IconButton.png" PrintScreenColor="255,43,132,223" AlignParentLeft="80" AlignParentBottom="0" PressDownOffset="1"/>
+				<PrintScreenColor Id="115" LayoutWidth="16" LayoutHeight="18" Image="IconButton.png" PrintScreenColor="255,160,160,160" AlignParentLeft="100" AlignParentBottom="0" PressDownOffset="1"/>
+			</SkinRelativeLayout>
+		</SkinRadioGroup>
+	</SkinRelativeLayout>
+</SkinRelativeLayout>

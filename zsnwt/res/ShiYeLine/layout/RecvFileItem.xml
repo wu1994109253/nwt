@@ -1,0 +1,11 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<UserHeadView Id="20112" LayoutWidth="32" LayoutHeight="32" AlignParentLeft="10" AlignParentTop="5"/>
+	<SkinRelativeLayout Image="EditRecvMsg.png" LayoutWidth="245" AlignParentLeft="50" AlignParentTop="5" AlignParentBottom="5">
+		<FileIconView Id="20141" LayoutWidth="42" LayoutHeight="42" AlignParentLeft="13" AlignParentTop="5"/>
+		<SkinTextView Id="20142" LayoutHeight="20" ToRightOf="20141,5" AlignParentTop="8" AlignParentRight="5" AutoLayout="true"/>
+		<SkinTextView Id="20143" LayoutHeight="20" ToRightOf="20141,5" AlignParentTop="28" AlignParentRight="5" FontColor="ID_COLOR_DISABLE"/>
+		<SkinLine AlignParentLeft="9" AlignParentRight="1" ToBottomOf="20141,5" LayoutHeight="1" Color="ID_COLOR_LINE"/>
+		<SkinHyperlink Id="20146" LayoutWidth="WrapContent" LayoutHeight="WrapContent" ToBottomOf="20141,10" AlignParentRight="5" Text="IDS_RECV_SAVE_AS"/>
+		<SkinHyperlink Id="20147" LayoutWidth="WrapContent" LayoutHeight="WrapContent" ToBottomOf="20141,10" ToLeftOf="20146,5" Text="IDS_RECV"/>
+	</SkinRelativeLayout>
+</SkinRelativeLayout>

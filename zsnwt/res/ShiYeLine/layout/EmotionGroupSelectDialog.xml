@@ -1,0 +1,7 @@
+﻿<SkinDialog DefaultWidth="375" DefaultHeight="165" Icon="128" Caption="IDS_ADD_EMOTION_CAPTION" SysButton="CLOSE">
+	<SkinTextView Text="IDS_GROUP_NAME" LayoutWidth="180" LayoutHeight="24" AlignParentLeft="20" AlignParentTop="50"/>
+	<SkinComboBox Id="101" Limit="32" LayoutHeight="24" AlignParentLeft="20" AlignParentRight="105" AlignParentTop="75" Layout="ComboBox.xml" Image="Edit.png" ReadOnly="true"/>
+	<SkinHyperlink Id="102" Text="IDS_NEW_GROUP" LayoutWidth="80" LayoutHeight="24" AlignParentRight="20" AlignParentTop="75"/>
+	<SkinButton Layout="Button.xml" ChildText1="IDS_OK" Image="Button.png" LayoutWidth="75" LayoutHeight="25" AlignParentRight="100" AlignParentBottom="20" Id="1"/>
+	<SkinButton Layout="Button.xml" ChildText1="IDS_CANCEL" Image="Button.png" LayoutWidth="75" LayoutHeight="25" AlignParentRight="20" AlignParentBottom="20" Id="2"/>
+</SkinDialog>

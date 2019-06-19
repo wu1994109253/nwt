@@ -1,0 +1,41 @@
+﻿<SkinDialog DefaultWidth="280" DefaultHeight="550" MinWidth="280" MinHeight="550" Resize="true" ThemeHeight="168" Icon="128" SysButton="FEED;SKIN;MIN;CLOSE" Drag="File">
+	<SwitchAnimationHost LayoutWidth="FillParent" AlignParentTop="30" AlignParentBottom="0" Animation="LeftRightSlide">
+		<SkinRelativeLayout Id="39200" LayoutWidth="FillParent" LayoutHeight="FillParent">
+			<SkinButton Id="101" LayoutWidth="76" LayoutHeight="76" AlignParentLeft="8" AlignParentTop="18" Tips="IDS_OPTION_PERSONAL" Layout="UserHeadButton.xml"/>
+			<SkinTextView Id="102" LayoutWidth="WrapContent" LayoutHeight="24" ToRightOf="101,5" AlignParentTop="20" FontColor="ID_COLOR_CAPTION" FontStyle="ID_FONT_BOLD_BIG"/>
+			<SkinButton Id="103" LayoutWidth="36" LayoutHeight="19" ToRightOf="102,3" AlignParentTop="22" Image="IconButton.png" Layout="StatusButton.xml"/>
+			<SkinEditViewEx Id="104" LayoutHeight="24" ToRightOf="101,1" AlignParentTop="42" AlignParentRight="10" ClientOffset="4,4,4,4" Image="Edit2.png" KillFocusColor="ID_COLOR_CAPTION" TipsColor="ID_COLOR_CAPTION" />
+			<SearchComboBox Id="105" LayoutWidth="FillParent" LayoutHeight="32" AlignParentTop="106" Image="ComboSearch.png" Tips="IDS_SEARCH_COMBOBOX_TIPS" KillFocusColor="ID_COLOR_CAPTION" TipsColor="ID_COLOR_CAPTION" Limit="32"/>
+			<SkinButton Id="201" LayoutWidth="24" LayoutHeight="24" ToRightOf="101,5" AlignParentTop="68" Image="IconButton.png" Layout="IconButton.xml" Tips="IDS_WEB_SHARE_TIPS" ChildImage1="WebShare.png"/>
+			<SkinButton Id="202" LayoutWidth="24" LayoutHeight="24" ToRightOf="201,3" AlignParentTop="68" Image="IconButton.png" Layout="IconButton.xml" Tips="IDS_RORUM" ChildImage1="ForumCenter.png"/>
+			<SkinButton Id="203" LayoutWidth="WrapContent" LayoutHeight="24" ToRightOf="202,3" AlignParentTop="68" Image="IconButton.png" Layout="IconButton.xml" Tips="IDS_MY_SCORE" ChildFontColor2="ID_COLOR_CAPTION"/>
+			<SkinButton Id="204" LayoutWidth="WrapContent" LayoutHeight="24" ToRightOf="203,3" AlignParentTop="68" Image="IconButton.png" Layout="IconButton.xml" Tips="IDS_OPTION_MAIL" ChildImage1="Mail.png" ChildFontColor2="ID_COLOR_CAPTION"/>
+			<SkinButton Id="205" LayoutWidth="WrapContent" LayoutHeight="24" ToRightOf="204,3" AlignParentTop="68" Image="IconButton.png" Layout="IconButton.xml" Tips="IDS_ADD_APP" ChildImage1="AddApp.png" ChildFontColor2="ID_COLOR_CAPTION" Visible="false"/>
+			<SkinButton Id="206" LayoutWidth="WrapContent" LayoutHeight="24" ToRightOf="204,3" AlignParentTop="68" Image="IconButton.png" Layout="IconButton.xml" Tips="IDS_MORE_APP" ChildImage1="MoreApp.png" ChildFontColor2="ID_COLOR_CAPTION" Visible="false"/>
+			<SkinAnimationGroup Id="100" LayoutWidth="FillParent" LayoutHeight="35" AlignParentTop="140 ">
+				<SkinGridLayout ColumnCount="3" LayoutHeight="FillParent" LayoutWidth="FillParent">
+					<MainTabItem Id="200" LayoutWidth="FillParent" LayoutHeight="FillParent" BindView="2000" Image="MainTabRecent.png" Tips="IDS_RECENT_CONTACTOR"/>
+					<MainTabItem Id="300" LayoutWidth="FillParent" LayoutHeight="FillParent" BindView="3000" Image="MainTabContactor.png" Tips="IDS_CORP_STRUCT"/>
+					<MainTabItem Id="400" LayoutWidth="FillParent" LayoutHeight="FillParent" BindView="4000" Image="MainTabQGroup.png" Tips="IDS_QGROUP"/>
+				</SkinGridLayout>
+			</SkinAnimationGroup>
+			<SwitchAnimationHost LayoutWidth="FillParent" AlignParentTop="175" AlignParentBottom="33" Animation="LeftRightSlide">
+				<MessageListView Id="2000" LayoutWidth="FillParent" LayoutHeight="FillParent" VScrollBar="VScrollBar.xml" Visible="false"/>
+				<UserTreeView Id="3000" LayoutWidth="FillParent" LayoutHeight="FillParent" VScrollBar="VScrollBar.xml" Visible="false"/>
+				<QGroupListView Id="4000" LayoutWidth="FillParent" LayoutHeight="FillParent" VScrollBar="VScrollBar.xml" Visible="false"/>
+			</SwitchAnimationHost>
+			<SkinLine AlignParentLeft="0" AlignParentRight="1" LayoutHeight="1" AlignParentBottom="32" Color="ID_COLOR_LINE"/>
+			<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="32" AlignParentBottom="0" BkgColor="ID_COLOR_DEFAULT1">
+				<SkinButton Id="301" LayoutWidth="24" LayoutHeight="24" AlignParentLeft="6" AlignParentBottom="4" Image="MainMenu.png" Tips="IDS_MAIN_MENU_TIPS"/>
+				<SkinButton Id="302" LayoutWidth="24" LayoutHeight="24" ToRightOf="301,3" AlignParentBottom="4" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="Config.png" Tips="IDS_CONFIG"/>
+				<SkinButton Id="306" LayoutWidth="24" LayoutHeight="24" ToRightOf="302,3" AlignParentBottom="4" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="Message.png" Tips="IDS_MESSAGE"/>
+				<SkinButton Id="303" LayoutWidth="24" LayoutHeight="24" ToRightOf="306,3" AlignParentBottom="4" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="FileShare.png" Tips="IDS_FILE_SHARE_TIPS"/>
+				<SkinButton Id="304" LayoutWidth="24" LayoutHeight="24" ToRightOf="303,3" AlignParentBottom="4" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="BatchSend.png" Tips="IDS_BATCH_SEND"/>
+				<SkinButton Id="311" LayoutWidth="24" LayoutHeight="24" ToRightOf="304,3" AlignParentBottom="4" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="Find.png" Tips="IDS_ONE_KEY_ADD_CONTACTOR"/>
+				<SkinButton Id="312" LayoutWidth="24" LayoutHeight="24" ToRightOf="311,3" AlignParentBottom="4" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="Add.png" Tips="IDS_CREATE_QGROUP"/>
+				<SkinButton Id="313" LayoutWidth="24" LayoutHeight="24" AlignParentRight="6" AlignParentBottom="4" Image="IconButton.png" Layout="AnimationButton.xml" ChildImage1="Refresh.png" Tips="IDS_REFRESH"/>
+			</SkinRelativeLayout>
+		</SkinRelativeLayout>
+		<LockScreenLayout Id="39201" LayoutWidth="FillParent" LayoutHeight="FillParent" BkgColor="ID_COLOR_WHITE" Layout="LockScreenLayout.xml" Visible="false"/>
+	</SwitchAnimationHost>
+</SkinDialog>

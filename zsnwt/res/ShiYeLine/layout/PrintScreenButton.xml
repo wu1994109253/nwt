@@ -1,0 +1,6 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinHorizontalLayout LayoutWidth="WrapContent" LayoutHeight="WrapContent">
+		<SkinButton Id="21041" LayoutWidth="24" LayoutHeight="24" Layout="IconButton.xml" ChildImage1="PrintScreenLeft.png" Tips="IDS_PRINT_SCREEN_TIPS"/>
+		<SkinButton Id="21042" LayoutWidth="24" LayoutHeight="24" Layout="IconButton.xml" ChildImage1="PrintScreenRight.png" Tips="IDS_PRINT_SCREEN_HIDE_DLG_TIPS"/>
+	</SkinHorizontalLayout>
+</SkinRelativeLayout>

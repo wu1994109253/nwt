@@ -1,0 +1,104 @@
+﻿<Images>
+	<Image Name="AlphaSliderThumb.png" Frame="4"/>
+	<Image Name="AlphaSliderBkg.png" Patch="8,5,8,5"/>
+	<Image Name="Button.png" Frame="4"/>
+	<Image Name="Button2.png" Frame="3" Patch="15,10,15,10"/>
+	<Image Name="Button3.png" Frame="3" Patch="15,10,35,10"/>
+	<Image Name="Button4.png" Frame="3" Patch="15,10,15,10"/>
+	<Image Name="Button5.png" Frame="3"/>
+	<Image Name="Button6.png" Frame="3" Patch="15,10,15,10"/>
+	<Image Name="IconButton.png" Frame="3"/>
+	<Image Name="VipButton.png" Frame="4"/>
+	<Image Name="ComboArrow.png" Frame="4"/>
+	<Image Name="CheckBox.png" Frame="12"/>
+	<Image Name="Close.png" Frame="3"/>
+	<Image Name="Close2.png" Frame="3"/>
+	<Image Name="Close3.png" Frame="3"/>
+	<Image Name="Feedback.png" Frame="3"/>
+	<Image Name="Edit.png" Frame="4"/>
+	<Image Name="Edit2.png" Frame="3"/>
+	<Image Name="Edit3.png" Frame="3"/>
+	<Image Name="SkinTips.png" Patch="48,8,24,16"/>
+	<Image Name="ComboSearch.png" Frame="3" Patch="8,8,30,8"/>
+	<Image Name="ComboSearch2.png" Frame="3" Patch="8,8,30,8"/>
+	<Image Name="ComboSearch3.png" Frame="3" Patch="8,8,30,8"/>
+	<Image Name="ListItem.png" Frame="3"/>
+	<Image Name="ListItem2.png" Frame="3"/>
+	<Image Name="ListItem3.png" Frame="3"/>
+	<Image Name="ListItem4.png" Frame="3"/>
+	<Image Name="ListItem5.png" Frame="3"/>
+	<Image Name="ChatListItem.png" Frame="4"/>
+	<Image Name="ChatListItem2.png" Frame="4"/>
+	<Image Name="TopMostItem.png" Frame="3"/>
+	<Image Name="Max.png" Frame="3"/>
+	<Image Name="Max2.png" Frame="3"/>
+	<Image Name="Menu.png" Frame="3"/>
+	<Image Name="Help.png" Frame="3"/>
+	<Image Name="MenuCheck.png" Frame="2"/>
+	<Image Name="MenuBkg.png" Patch="16,16,16,16"/>
+	<Image Name="Skin.png" Frame="3"/>
+	<Image Name="Min.png" Frame="3"/>
+	<Image Name="Min2.png" Frame="3"/>
+	<Image Name="TopMost.png" Frame="4"/>
+	<Image Name="NoTopMost.png" Frame="4"/>
+	<Image Name="Progress.png" Frame="2" Patch="7,2,7,2"/>
+	<Image Name="Progress2.png" Frame="2" Patch="7,2,7,2"/>
+	<Image Name="Progress3.png" Frame="2" Patch="7,7,7,7"/>
+	<Image Name="RadioButton.png" Frame="8"/>
+	<Image Name="Restore.png" Frame="3"/>
+	<Image Name="Restore2.png" Frame="3"/>
+	<Image Name="Shadow.png" Frame="1" Patch="16,16,16,16"/>
+	<Image Name="Tips.png"  Patch="16,16,16,16"/>
+	<Image Name="TreeExpand.png" Frame="2"/>
+	<Image Name="VScrollThumb.png" Frame="3" Patch="4,4,4,4"/>
+	<Image Name="HScrollThumb.png" Frame="3" Patch="4,4,4,4"/>
+	<Image Name="EditSendMsg.png" Patch="10,24,16,10"/>
+	<Image Name="EditRecvMsg.png" Patch="16,24,10,10"/>
+	<Image Name="ImageClose.png" Frame="3"/>
+	<Image Name="ImageClose2.png" Frame="3"/>
+	<Image Name="ImageDefaultSize.png" Frame="3"/>
+	<Image Name="ImageFullScreen.png" Frame="3"/>
+	<Image Name="ImageQuitFullScreen.png" Frame="3"/>
+	<Image Name="ImageRotate.png" Frame="3"/>
+	<Image Name="ImageRotate2.png" Frame="3"/>
+	<Image Name="ImageSave.png" Frame="3"/>
+	<Image Name="ImageShadow.png" Patch="12,12,13,13"/>
+	<Image Name="ImageToolbar.png" Patch="16,16,16,16"/>
+	<Image Name="HeadFrame.png" Frame="3"/>
+	<Image Name="HeadFrame2.png" Frame="3"/>
+	<Image Name="MainMenu.png" Frame="3"/>
+	<Image Name="MainTabContactor.png" Frame="3"/>
+	<Image Name="MainTabQGroup.png" Frame="3"/>
+	<Image Name="MainTabRecent.png" Frame="3"/>
+	<Image Name="AddChat.png" Frame="3"/>
+	<Image Name="ChatSearch.png" Frame="3"/>
+	<Image Name="PrintScreenButton.png" Frame="3"/>
+	<Image Name="ChatMiscTab.png" Frame="3"/>
+	<Image Name="TabButton.png" Frame="3"/>
+	<Image Name="ChatMiscTabClose.png" Frame="3"/>
+	<Image Name="EmotionTabButton.png" Frame="3"/>
+	<Image Name="EmotionMoveLeft.png" Frame="3"/>
+	<Image Name="EmotionMoveRight.png" Frame="3"/>
+	<Image Name="EmotionItemBkg.png" Frame="3"/>
+	<Image Name="EmotionBkg.png" Patch="88,16,16,16"/>
+	<Image Name="Scanning.png" Frame="17"/>
+	<Image Name="Loading.png" Frame="4"/>
+	<Image Name="PathArrow.png" Frame="4" Patch="2,2,12,2"/>
+	<Image Name="PathButton.png" Frame="4" Patch="2,2,2,2"/>
+	<Image Name="PathButton2.png" Frame="4" Patch="2,2,12,2"/>
+	<Image Name="BatchSendBkg.png" Patch="78,28,78,28"/>
+	<Image Name="ChatRecordBkg.png" Patch="78,28,78,28"/>
+	<Image Name="FileShareBkg.png" Patch="7,100,7,10"/>
+	<Image Name="DialogRightBkg.png" Patch="7,50,7,10"/>
+	<Image Name="Back.png" Frame="3" Patch="20,7,10,7"/>
+	<Image Name="ShareHistory.png" Frame="3"/>
+	<Image Name="FullScreen.png" Frame="3"/>
+	<Image Name="NoFullScreen.png" Frame="3"/>
+	<Image Name="RemoteTopMost.png" Frame="3"/>
+	<Image Name="RemoteNoTopMost.png" Frame="3"/>
+	<Image Name="RemoteFinish.png" Frame="3"/>
+	<Image Name="Refresh.png" Frame="8"/>
+	<Image Name="ShareHistoryBkg.png" Patch="20,75,60,20"/>
+	<Image Name="HandAddSubnet.png" Frame="3"/>
+	<Image Name="AutoAddSubnet.png" Frame="3"/>
+</Images>

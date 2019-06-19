@@ -1,0 +1,27 @@
+﻿<SkinDialog DefaultWidth="559" DefaultHeight="600" Caption="IDS_MY_SCORE" Animation="SizeChange" ThemeHeight="135" Icon="128" SysButton="MIN;CLOSE">
+	<SkinButton Id="101" LayoutWidth="76" LayoutHeight="76" AlignParentLeft="8" AlignParentTop="48" Layout="UserHeadButton.xml"/>
+	<SkinTextView Id="102" LayoutHeight="24" ToRightOf="101,10" AlignParentTop="50" AlignParentRight="8" FontColor="ID_COLOR_CAPTION" FontStyle="ID_FONT_BOLD_BIG"/>
+	<SkinTextView Id="103" LayoutWidth="WrapContent" LayoutHeight="24" ToRightOf="101,10" AlignParentTop="72" FontColor="ID_COLOR_CAPTION"/>
+	<SkinHyperlink Id="104" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentTop="72" ToRightOf="103,10" Text="IDS_COPY"/>
+	<SkinRelativeLayout Id="200" LayoutHeight="24" ToRightOf="101,8" AlignParentRight="10" AlignParentTop="98">
+		<SkinTextView Id="202" LayoutWidth="WrapContent" LayoutHeight="FillParent" AlignParentLeft="0" FontColor="ID_COLOR_CAPTION"/>
+		<SkinTextView Id="204" LayoutWidth="WrapContent" LayoutHeight="FillParent" ToRightOf="202,25" FontColor="ID_COLOR_CAPTION"/>
+	</SkinRelativeLayout>
+	<SkinRelativeLayout Id="300" LayoutWidth="FillParent" AlignParentTop="135" AlignParentBottom="0">
+		<SkinRelativeLayout Id="301" LayoutHeight="28" AlignParentLeft="25" AlignParentTop="15" AlignParentRight="8" Layout="SeparatorLine.xml" ChildText1="IDS_HOW_GET_SCORE"/>
+		<SkinTextView Id="302" LayoutHeight="28" AlignParentLeft="50" LayoutWidth="WrapContent" ToBottomOf="301,5" Text="IDS_HOW_GET_SCORE_TIPS1"/>
+		<SkinTextView Id="303" LayoutHeight="28" AlignParentLeft="50" LayoutWidth="WrapContent" ToBottomOf="302,5" Text="IDS_HOW_GET_SCORE_TIPS2"/>
+		<SkinTextView Id="304" LayoutHeight="28" AlignParentLeft="50" LayoutWidth="WrapContent" ToBottomOf="303,5" Text="IDS_HOW_GET_SCORE_TIPS3"/>
+		<SkinTextView Id="305" LayoutHeight="28" AlignParentLeft="50" LayoutWidth="WrapContent" ToBottomOf="304,5" Text="IDS_HOW_GET_SCORE_TIPS4"/>
+		<SkinTextView Id="306" LayoutHeight="28" AlignParentLeft="50" LayoutWidth="WrapContent" ToBottomOf="305,5" Text="IDS_HOW_GET_SCORE_TIPS5"/>
+		<SkinButton Id="403" LayoutWidth="80" LayoutHeight="24" AlignParentRight="50" ToBottomOf="302,7" Image="Button.png" Layout="Button.xml" ChildText1="IDS_SCAN_CODE_NOW"/>
+		<SkinButton Id="404" LayoutWidth="80" LayoutHeight="24" AlignParentRight="50" ToBottomOf="303,7" Image="Button.png" Layout="Button.xml" ChildText1="IDS_SIGNIN_NOW"/>
+		<SkinButton Id="405" LayoutWidth="80" LayoutHeight="24" AlignParentRight="50" ToBottomOf="304,7" Image="Button.png" Layout="Button.xml" ChildText1="IDS_TRY_LUCK"/>
+		<SkinButton Id="406" LayoutWidth="80" LayoutHeight="24" AlignParentRight="50" ToBottomOf="305,7" Image="Button.png" Layout="Button.xml" ChildText1="IDS_ADD_SHIYELINE_CODE"/>
+		<SkinRelativeLayout Id="501" LayoutHeight="28" AlignParentLeft="25" ToBottomOf="306,15" AlignParentRight="8" Layout="SeparatorLine.xml" ChildText1="IDS_HOW_USE_SCORE"/>
+		<VipButton Id="502" LayoutWidth="75" LayoutHeight="90" ToBottomOf="501,25" AlignParentHorizontalCenter="-150" Image="VipButton.png" Layout="VipButton.xml" ChildImage1="RedName.png" ChildText2="IDS_RED_NAME"/>
+		<VipButton Id="503" LayoutWidth="75" LayoutHeight="90" ToBottomOf="501,25" AlignParentHorizontalCenter="true" Image="VipButton.png" Layout="VipButton.xml" ChildImage1="CrownName.png" ChildText2="IDS_CROWN_NAME"/>
+		<VipButton Id="504" LayoutWidth="75" LayoutHeight="90" ToBottomOf="501,25" AlignParentHorizontalCenter="150" Image="VipButton.png" Layout="VipButton.xml" ChildImage1="UpName.png" ChildText2="IDS_UP_NAME"/>
+		<SkinImageView Id="601" LayoutHeight="WrapContent" AlignParentLeft="WrapContent" AlignParentHorizontalCenter="true" AlignParentBottom="0" Cursor="32649" Image="Advertisement.gif" AutoPlay="true" ClickAble="true"/>
+	</SkinRelativeLayout>
+</SkinDialog>

@@ -1,0 +1,4 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<FileIconView Id="100001" LayoutWidth="42" LayoutHeight="42" AlignParentHorizontalCenter="Center" AlignParentTop="1"/>
+	<SkinTextView Id="100002" AlignParentLeft="2" AlignParentRight="2" LayoutHeight="20" AutoLayout="true" ToBottomOf="100001,0" HorzAlignment="Center"/>
+</SkinRelativeLayout>

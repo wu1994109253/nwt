@@ -1,0 +1,5 @@
+﻿<SkinDialog DefaultWidth="275" DefaultHeight="435" AllowMove="false">
+	<SkinHyperlink Id="100" LayoutWidth="WrapContent" LayoutHeight="32" AlignParentLeft="20" AlignParentTop="24" Text="IDS_CLEAR_HISTORY"/>
+	<ShareDownloadListView Id="101" AlignParentLeft="12" AlignParentRight="12" AlignParentTop="56" AlignParentBottom="12" EmptyTips="IDS_SHARE_DOWNLOAD_HISTORY_EMPTY_TIPS" EmptyImage="BatchSendFile.png" VScrollBar="VScrollBar.xml"/>
+	<SkinLayout AlignParentLeft="0" AlignParentTop="0" AlignParentRight="0" AlignParentBottom="0" BkgImage="ShareHistoryBkg.png"/>
+</SkinDialog>

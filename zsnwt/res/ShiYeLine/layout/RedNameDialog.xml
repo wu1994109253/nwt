@@ -1,0 +1,5 @@
+﻿<SkinDialog DefaultWidth="480" DefaultHeight="215" Caption="IDS_RED_NAME" Animation="SizeChange" Icon="128" SysButton="CLOSE">
+	<SkinTextView Id="101" LayoutHeight="28" AlignParentLeft="0" AlignParentRight="0" AlignParentTop="70" HorzAlignment="Center" Text="IDS_RED_NAME_TIPS1" FontStyle="ID_FONT_BOLD_BIG"/>
+	<SkinTextView Id="102" LayoutHeight="28" AlignParentLeft="0" AlignParentRight="0" ToBottomOf="101,5" HorzAlignment="Center" Text="IDS_RED_NAME_TIPS2"/>
+	<SkinButton Id="1" LayoutWidth="100" LayoutHeight="28" AlignParentHorizontalCenter="0" AlignParentBottom="30" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_OK"/>
+</SkinDialog>

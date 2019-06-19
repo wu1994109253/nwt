@@ -1,0 +1,7 @@
+﻿<SkinDialog DefaultWidth="400" DefaultHeight="220" Caption="IDS_TRY_LUCK" Animation="SizeChange" Icon="128" SysButton="CLOSE">
+	<SkinHorizontalLayout LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="0" AlignParentTop="45">
+		<SkinImageView Id="101" LayoutWidth="WrapContent" LayoutHeight="WrapContent" LayoutAlignment="Center,Center" Image="BadLuck.png"/>
+		<SkinTextView Id="102" LayoutWidth="WrapContent" LayoutHeight="WrapContent" HorzAlignment="Center" Text="IDS_BAD_LUCK"/>
+	</SkinHorizontalLayout>
+	<SkinButton Id="1" LayoutWidth="75" LayoutHeight="25" Image="Button2.png" ChildText1="IDS_OK" ChildFontColor1="ID_COLOR_WHITE" Layout="Button.xml" AlignParentHorizontalCenter="0" AlignParentBottom="20"/>
+</SkinDialog>

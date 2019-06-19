@@ -1,0 +1,12 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<UserHeadView Id="20112" LayoutWidth="32" LayoutHeight="32" AlignParentRight="10" AlignParentTop="5"/>
+	<SkinRelativeLayout Image="EditSendMsg.png" LayoutWidth="245" AlignParentRight="50" AlignParentTop="5" AlignParentBottom="5">
+		<FileIconView Id="20141" LayoutWidth="42" LayoutHeight="42" AlignParentLeft="5" AlignParentTop="5"/>
+		<SkinTextView Id="20142" LayoutHeight="20" ToRightOf="20141,5" AlignParentTop="8" AlignParentRight="15" AutoLayout="true"/>
+		<SkinTextView Id="20143" LayoutHeight="20" ToRightOf="20141,5" AlignParentTop="28" AlignParentRight="15" FontColor="ID_COLOR_DISABLE"/>
+		<SkinLine AlignParentLeft="1" AlignParentRight="9" ToBottomOf="20141,5" LayoutHeight="1" Color="ID_COLOR_LINE"/>
+		<SkinHyperlink Id="20148" LayoutWidth="WrapContent" LayoutHeight="WrapContent" ToBottomOf="20141,10" AlignParentLeft="5" Text="IDS_RETRIEVE"/>
+		<SkinHyperlink Id="20144" LayoutWidth="WrapContent" LayoutHeight="WrapContent" ToBottomOf="20141,10" AlignParentRight="15" Text="IDS_OPEN_FOLDER"/>
+		<SkinHyperlink Id="20145" LayoutWidth="WrapContent" LayoutHeight="WrapContent" ToBottomOf="20141,10" ToLeftOf="20144,5" Text="IDS_OPEN"/>
+	</SkinRelativeLayout>
+</SkinRelativeLayout>

@@ -1,0 +1,6 @@
+﻿<Menu>
+	<MenuItem Id="2000" Text="IDS_ADD_EMOTION"/>
+	<MenuItem Id="2001" Text="IDS_IMPORT_EMOTION_PACKAGE"/>
+	<MenuItem Id="2002" Text="IDS_EXPORT_EMOTION_GROUP"/>
+	<MenuItem Id="2003" Text="IDS_EXPORT_EMOTION_ALL"/>
+</Menu>

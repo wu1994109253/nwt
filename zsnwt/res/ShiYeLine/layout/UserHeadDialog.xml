@@ -1,0 +1,17 @@
+﻿<SkinDialog DefaultWidth="580" DefaultHeight="370" Caption="IDS_SET_PHOTO" Animation="SizeChange" Icon="128" SysButton="MIN;CLOSE">
+	<SkinGridView Id="101" AlignParentLeft="10" AlignParentRight="160" AlignParentTop="40" AlignParentBottom="10" CellSize="76,76" MarginPoint="4,4" ColumnCount="5" VScrollBar="VScrollBar.xml">
+		<HeadItem Image="HeadFrame.png" Layout="UserDefaultHeadItem.xml"/>
+	</SkinGridView>
+	<SkinRelativeLayout Id="110" AlignParentLeft="0" AlignParentRight="157" AlignParentTop="30" AlignParentBottom="0" Visible="false">
+		<ImageEditor Id="111" LayoutWidth="FillParent" AlignParentTop="0" AlignParentBottom="0" RedrawParent="true"/>
+	</SkinRelativeLayout>
+	<SkinRelativeLayout LayoutWidth="156" AlignParentTop="30" AlignParentRight="1" AlignParentBottom="1" >
+		<SkinImageView LayoutWidth="102" LayoutHeight="102" AlignParentHorizontalCenter="true" AlignParentTop="32" Image="HeadFrame.png"/>
+		<UserHeadViewEx Id="201" LayoutWidth="96" LayoutHeight="96" AlignParentHorizontalCenter="true" AlignParentTop="35"/>
+		<SkinButton Id="301" LayoutWidth="96" LayoutHeight="25" AlignParentHorizontalCenter="true" ToBottomOf="201,20" Image="Button.png" ChildText1="IDS_ADD_PHOTO" Layout="Button.xml"/>
+		<SkinButton Id="302" LayoutWidth="96" LayoutHeight="25" AlignParentHorizontalCenter="true" ToBottomOf="301,10" Image="Button.png" ChildText1="IDS_DELETE_PHOTO" Layout="Button.xml"/>
+		<SkinButton Id="1" LayoutWidth="96" LayoutHeight="25" AlignParentHorizontalCenter="true" ToBottomOf="302,10" Image="Button.png" ChildText1="IDS_OK" Layout="Button.xml"/>
+		<SkinButton Id="2" LayoutWidth="96" LayoutHeight="25" AlignParentHorizontalCenter="true" ToBottomOf="1,10" Image="Button.png" ChildText1="IDS_CANCEL" Layout="Button.xml"/>
+	</SkinRelativeLayout>
+	<SkinLine AlignParentRight="156" LayoutWidth="1" AlignParentTop="30" AlignParentBottom="1" Color="ID_COLOR_LINE"/> 
+</SkinDialog>

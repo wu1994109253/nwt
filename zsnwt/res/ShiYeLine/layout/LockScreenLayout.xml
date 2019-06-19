@@ -1,0 +1,11 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent" BkgColor="ID_COLOR_DEFAULT1" >
+	<SkinButton Id="39301" LayoutWidth="102" LayoutHeight="102" AlignParentHorizontalCenter="Center" AlignParentTop="65" Layout="UserHeadButton.xml" Enable="false"/>
+	<SkinTextView Id="39302" LayoutHeight="28" AlignParentLeft="25" AlignParentRight="25" ToBottomOf="39301,5" HorzAlignment="Center" FontStyle="ID_FONT_BOLD_BIG"/>
+	<SkinTextView Id="39303" Mode="1" LayoutHeight="40" AlignParentLeft="25" AlignParentRight="25" ToBottomOf="39302,15" HorzAlignment="Center" FontColor="ID_COLOR_DISABLE" MultiLine="true"/>
+	<SkinTextView Id="39304" Mode="2" LayoutHeight="40" AlignParentLeft="25" AlignParentRight="25" ToBottomOf="39302,15" HorzAlignment="Center" FontColor="ID_COLOR_DISABLE" MultiLine="true" Text="IDS_LOCK_SCREEEN_TIPS2"/>
+	<SkinButton Id="39305" Mode="1" LayoutWidth="102" LayoutHeight="102" AlignParentHorizontalCenter="true" ToBottomOf="39303,15" Image="IconButton.png" Layout="BigButton.xml" ChildImage1="Lock.png" ChildText2="IDS_UNLOCK"/>
+	<SkinEditView Id="39306" Mode="2" LayoutWidth="250" LayoutHeight="28" ToBottomOf="39303,25" AlignParentHorizontalCenter="true" Image="Edit.png" Password="true"/>
+	<SkinTextView Id="39307" Mode="2" LayoutWidth="250" LayoutHeight="20" ToBottomOf="39306,2" AlignParentHorizontalCenter="true" FontColor="ID_COLOR_RED"/>
+	<SkinButton Id="39308" Mode="2" LayoutWidth="75" LayoutHeight="24" AlignParentHorizontalCenter="-50" ToBottomOf="39306,35" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_OK"/>
+	<SkinButton Id="39309" Mode="2" LayoutWidth="75" LayoutHeight="24" AlignParentHorizontalCenter="50" ToBottomOf="39306,35" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_CANCEL"/>
+</SkinRelativeLayout>

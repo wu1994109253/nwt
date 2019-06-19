@@ -1,0 +1,4 @@
+﻿<SkinDialog DefaultWidth="200" DefaultHeight="50" ThemeHeight="0">
+	<SkinImageView Id="101" LayoutWidth="16" LayoutHeight="16" AlignParentLeft="15" AlignParentVerticalCenter="0" Image="Loading.gif"/>
+	<SkinTextView Text="IDS_EMOTION_EXPORT_ING" LayoutHeight="20" AlignParentLeft="32" AlignParentRight="15" AlignParentVerticalCenter="0"/>
+</SkinDialog>

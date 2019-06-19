@@ -1,0 +1,9 @@
+﻿<SkinDialog DefaultWidth="375" DefaultHeight="585" Caption="IDS_FEEDBACK_TIPS" Animation="SizeChange" Icon="128" SysButton="CLOSE">
+	<SkinTextView Id="101" LayoutHeight="28" AlignParentLeft="25" AlignParentRight="5" AlignParentTop="50" Text="IDS_FEEDBACK_TIPS1" FontStyle="ID_FONT_BOLD_BIG"/>
+	<SkinImageView Id="102" LayoutWidth="302" LayoutHeight="302" AlignParentHorizontalCenter="0" ToBottomOf="101,17" Image="QQFeedback.png"/>
+	<SkinTextView Id="103" LayoutHeight="28" AlignParentLeft="25" AlignParentRight="25" ToBottomOf="102,17" Text="IDS_FEEDBACK_TIPS2" FontStyle="ID_FONT_BOLD_BIG"/>
+	<SkinHyperlink Id="104" LayoutWidth="WrapContent" LayoutHeight="28" ToBottomOf="103,10" AlignParentLeft="65" Text="IDS_FEEDBACK_QQGROUP" FontStyle="ID_FONT_BOLD_BIG"/>
+	<SkinHyperlink Id="107" LayoutWidth="WrapContent" LayoutHeight="28" ToBottomOf="103,10" ToRightOf="104,10" Text="IDS_COPY" FontStyle="ID_FONT_BOLD"/>
+	<SkinTextView Id="105" LayoutHeight="28" AlignParentLeft="25" AlignParentRight="25" ToBottomOf="104,17" Text="IDS_FEEDBACK_TIPS3" FontStyle="ID_FONT_BOLD_BIG"/>
+	<SkinHyperlink Id="106" LayoutWidth="WrapContent" LayoutHeight="28" ToBottomOf="105,10" AlignParentLeft="65" Text="IDS_FEEDBACK_RORUM" FontStyle="ID_FONT_BOLD_BIG"/>
+</SkinDialog>

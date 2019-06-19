@@ -1,0 +1,13 @@
+﻿<SkinDialog DefaultWidth="300" DefaultHeight="200" SysButton="CLOSE" Icon="128" Caption="IDS_NOTIFY">
+	<SkinHyperlink Id="104" HorzAlignment="Center" AlignParentLeft="8" AlignParentRight="8" LayoutHeight="20" AlignParentTop="45"/>
+	<SkinTextView Id="105" HorzAlignment="Center" LayoutHeight="20" AlignParentLeft="8" AlignParentRight="8" AlignParentTop="70"/>
+	<SkinHyperlink Id="106" HorzAlignment="Center" LayoutHeight="20" AlignParentLeft="8" AlignParentRight="8" AlignParentTop="70" Mode="2" FontColor="ID_COLOR_TEXT"/>
+	<SkinHyperlink Id="301" Text="IDS_RECV" LayoutWidth="WrapContent" LayoutHeight="20" AlignParentLeft="15" AlignParentBottom="6" Mode="3"/>
+	<SkinHyperlink Id="305" Text="IDS_RECV_CONTINUE" LayoutWidth="WrapContent" LayoutHeight="20" AlignParentLeft="15" AlignParentBottom="6" Mode="3"/>
+	<SkinHyperlink Id="302" Text="IDS_RECV_SAVE_AS" LayoutWidth="WrapContent" LayoutHeight="20" ToRightOf="305,15" AlignParentBottom="6" Mode="3"/>
+	<SkinHyperlink Id="303" Text="IDS_RECV_REFUSE" LayoutWidth="WrapContent" LayoutHeight="20" ToRightOf="302,15" AlignParentBottom="6" Mode="3"/>
+	<SkinHyperlink Id="5014" Text="IDS_RECV" LayoutWidth="WrapContent" LayoutHeight="20" AlignParentLeft="38" AlignParentBottom="6" Mode="4"/>
+	<SkinHyperlink Id="5015" Text="IDS_RECV_REFUSE" LayoutWidth="WrapContent" LayoutHeight="20" AlignParentRight="38" AlignParentBottom="6" Mode="4"/>
+	<SkinButton Id="110" Tips="IDS_ON_SOUND_TIPS" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="SoundOn.png" LayoutWidth="20" LayoutHeight="20" AlignParentRight="6" AlignParentBottom="6"/>
+	<SkinButton Id="111" Tips="IDS_OFF_SOUND_TIPS" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="SoundOff.png" LayoutWidth="20" LayoutHeight="20" AlignParentRight="6" AlignParentBottom="6"/>
+</SkinDialog>

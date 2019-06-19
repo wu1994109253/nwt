@@ -1,0 +1,4 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<UserHeadView Id="20112" LayoutWidth="32" LayoutHeight="32" AlignParentLeft="10" AlignParentTop="5"/>
+	<SkinListEditView Id="20111" MouseWheel="false" RichEdit="true" Image="EditRecvMsg.png" MultiLine="true" ReadOnly="true" ClientOffset="12,5,5,5" AlignParentLeft="50" AlignParentRight="5" AlignParentTop="5" AlignParentBottom="5"/>
+</SkinRelativeLayout>

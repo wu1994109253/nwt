@@ -1,0 +1,9 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinEditView Id="5411" AlignParentLeft="2" AlignParentRight="2" AlignParentTop="2" LayoutHeight="100" Limit="150" MultiLine="true" ReadOnly="true" VScrollBar="VScrollBar.xml"/>
+	<SkinRelativeLayout Id="5412" LayoutWidth="FillParent" LayoutHeight="28" ToBottomOf="5411,1" BkgColor="ID_COLOR_DEFAULT1">
+		<SkinLine AlignParentLeft="0" AlignParentRight="1" LayoutHeight="1" AlignParentTop="0" Color="ID_COLOR_LINE"/> 
+		<SkinTextView Id="5413" LayoutHeight="FillParent" AlignParentLeft="2" AlignParentRight="0" Text="群成员列表(1/11)"/>
+		<SkinLine AlignParentLeft="0" AlignParentRight="1" LayoutHeight="1" AlignParentBottom="0" Color="ID_COLOR_LINE"/> 
+	</SkinRelativeLayout>
+	<QGroupMemberListView Id="5410" AlignParentBottom="0" ToBottomOf="5412,0" AlignParentLeft="0" AlignParentRight="0" VScrollBar="VScrollBar.xml"/>
+</SkinRelativeLayout>

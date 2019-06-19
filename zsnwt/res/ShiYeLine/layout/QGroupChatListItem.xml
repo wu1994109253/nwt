@@ -1,0 +1,8 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinButton Id="2202" LayoutWidth="18" LayoutHeight="18" AlignParentVerticalCenter="true" AlignParentRight="3" Image="Close3.png" Tips="IDS_CLOSE" AllowCheckListItem="false" Visible="false"/>
+	<SkinHorizontalLayout Id="2204" LayoutWidth="18" LayoutHeight="18" AlignParentVerticalCenter="true" AlignParentRight="3" Image="RedPoint.png" Visible="false">
+		<SkinTextView Id="2205"  LayoutWidth="FillParent" LayoutHeight="FillParent" FontStyle="ID_FONT_SMALL" FontColor="ID_COLOR_WHITE" HorzAlignment="Center" Text="0"/>
+	</SkinHorizontalLayout>
+	<QGroupHeadView Id="100001" LayoutWidth="32" LayoutHeight="32" AlignParentLeft="5" AlignParentVerticalCenter="true" />
+	<ChatNameView Id="100002" LayoutHeight="40" ToRightOf="100001,5" AlignParentRight="15" AlignParentVerticalCenter="true" AutoLayout="true" FontColor="ID_COLOR_CAPTION"/>
+</SkinRelativeLayout>

@@ -1,0 +1,35 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+		<HideAnimationHost Id="5150" LayoutWidth="FillParent" AlignParentTop="1" AlignParentBottom="34" HideAnimation="TopBottomHide">
+			<SkinRelativeLayout Id="5160" LayoutWidth="FillParent" LayoutHeight="FillParent">
+				<SkinRelativeLayout Id="5165" LayoutWidth="FillParent" AlignParentTop="0" LayoutHeight="0" Color="ID_COLOR_DEFAULT1" Visible="false">
+					<SkinTextView Id="5166" LayoutHeight="22" AlignParentLeft="10" AlignParentRight="100" AlignParentVerticalCenter="0" Text="IDS_SEARCH_RESULT_FORMAT"/>
+					<SkinButton Id="5167" LayoutWidth="60" LayoutHeight="22" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="SearchBack.png" ChildText2="IDS_BACK" AlignParentRight="8" AlignParentVerticalCenter="0" RedrawParent="true"/>
+				</SkinRelativeLayout>
+				<OutputListView Id="5111" LayoutWidth="FillParent" ToBottomOf="5165,0" AlignParentBottom="0" ScrollStep="100" EmptyTips="IDS_CHAT_RECORD_EMPTY_TIPS" EmptyImage="LogoBkg.png" VScrollBar="VScrollBar.xml"/>
+			</SkinRelativeLayout>
+			<SkinRelativeLayout Id="5170" LayoutWidth="FillParent" LayoutHeight="30" Visible="false">
+				<SkinTextView Id="5171" LayoutWidth="WrapContent" LayoutHeight="22" AlignParentLeft="10" AlignParentVerticalCenter="0" Text="IDS_SEARCH_RANGE"/>
+				<SkinComboBox Id="5176" LayoutWidth="0" LayoutHeight="22" ToRightOf="5171,0" AlignParentVerticalCenter="0" Layout="ComboBox.xml" Image="Edit.png" ReadOnly="true" Visible="false"/>
+				<SkinComboBox Id="5172" LayoutWidth="100" LayoutHeight="22" ToRightOf="5176,0" AlignParentVerticalCenter="0" Layout="ComboBox.xml" Image="Edit.png" ReadOnly="true"/>
+				<SkinTextView Id="5173" LayoutWidth="WrapContent" LayoutHeight="22" ToRightOf="5172,20" AlignParentVerticalCenter="0" Text="IDS_SEARCH_CONTENT"/>
+				<SkinButton Id="5175" LayoutWidth="60" LayoutHeight="22" Image="Button.png" Layout="Button.xml" ChildText1="IDS_OK" AlignParentRight="8" AlignParentVerticalCenter="0" PressDownOffset="1"/>
+				<SkinEditView Id="5174" LayoutHeight="22" ToLeftOf="5175,10" ToRightOf="5173,0" AlignParentVerticalCenter="0" Image="Edit.png"/>
+			</SkinRelativeLayout>
+		</HideAnimationHost>
+		<SkinRelativeLayout Id="5180" LayoutWidth="FillParent" AlignParentTop="1" AlignParentBottom="34" Visible="false">
+			<SkinProgress Id="5181" LayoutHeight="6" AlignParentVerticalCenter="-6" AlignParentLeft="50" AlignParentRight="50" Image="Progress.png"/>
+			<SkinTextView Id="5182" AlignParentLeft="50" AlignParentRight="50" LayoutHeight="WrapContent" AlignParentVerticalCenter="10" HorzAlignment="Center" Text="IDS_SEARCHING"/>
+		</SkinRelativeLayout>
+		<SkinButton Id="5121" LayoutWidth="WrapContent" LayoutHeight="20" AlignParentLeft="5" AlignParentBottom="7" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="DeletePage.png" ChildText2="IDS_DELETE_PAGE"/>
+		<SkinButton Id="5122" LayoutWidth="WrapContent" LayoutHeight="20" ToRightOf="5121,5" AlignParentBottom="7" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="DeleteAll.png" ChildText2="IDS_DELETE_ALL"/>
+		<SkinComboBox Id="5128" LayoutWidth="60" LayoutHeight="20" AlignParentRight="8" AlignParentBottom="7" Layout="ComboBox.xml" Image="Edit.png" ReadOnly="true"/>
+		<SkinButton Id="5124" LayoutWidth="20" LayoutHeight="20" AlignParentRight="72" AlignParentBottom="7" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="LastPage.png" Tips="IDS_LAST_PAGE"/>
+		<SkinButton Id="5125" LayoutWidth="20" LayoutHeight="20" ToLeftOf="5124,6" AlignParentBottom="7" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="NextPage.png" Tips="IDS_PAGE_DOWN"/>
+		<SkinButton Id="5126" LayoutWidth="20" LayoutHeight="20" ToLeftOf="5125,6" AlignParentBottom="7" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="UpPage.png" Tips="IDS_PAGE_UP"/>
+		<SkinButton Id="5127" LayoutWidth="20" LayoutHeight="20" ToLeftOf="5126,6" AlignParentBottom="7" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="FirstPage.png" Tips="IDS_FIRST_PAGE"/>
+		<SkinButton Id="5123" LayoutWidth="20" LayoutHeight="20" ToLeftOf="5127,6" AlignParentBottom="7" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="MessageRecord.png" Tips="IDS_MESSAGE"/>
+		<SkinCheckBox Id="5130" LayoutWidth="20" LayoutHeight="20" ToLeftOf="5123,6" AlignParentBottom="7" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="Export.png" Tips="IDS_OPEN_EXPORT_BAR_TIPS"/>
+		<SkinCheckBox Id="5129" LayoutWidth="20" LayoutHeight="20" ToLeftOf="5130,6" AlignParentBottom="7" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="Search.png" Tips="IDS_OPEN_SEARCH_BAR_TIPS"/>
+	</SkinRelativeLayout>
+</SkinRelativeLayout>

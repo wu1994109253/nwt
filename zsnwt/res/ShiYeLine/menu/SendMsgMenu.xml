@@ -1,0 +1,4 @@
+﻿<Menu>
+	<MenuItem Id="10001" Text="IDS_SEND_ENTER"/>
+	<MenuItem Id="10002" Text="IDS_SEND_CTRL_ENTER"/>
+</Menu>

@@ -1,0 +1,4 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinTextView Id="100001" AlignParentLeft="8" AlignParentRight="8" LayoutHeight="28" AlignParentTop="3" FontStyle="ID_FONT_BOLD"/>
+	<SkinTextView Id="100002" AlignParentLeft="8" AlignParentRight="8" LayoutHeight="28" AlignParentBottom="3"/>
+</SkinRelativeLayout>

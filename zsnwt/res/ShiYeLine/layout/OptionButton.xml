@@ -1,0 +1,4 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinImageView Id="100001" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentLeft="15" AlignParentVerticalCenter="true"/>
+	<OptionTextView Id="100002" LayoutHeight="FillParent" ToRightOf="100001,5" AlignParentRight="5" FontColor="ID_COLOR_WHITE"/>
+</SkinRelativeLayout>

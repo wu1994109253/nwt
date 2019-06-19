@@ -1,0 +1,7 @@
+﻿<SkinDialog DefaultWidth="350" DefaultHeight="175" Icon="128" Caption="IDS_APP_NAME" Animation="SizeChange" SysButton="CLOSE">
+	<SkinImageView Id="102" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentLeft="35" AlignParentTop="50" Image="UserInfo.png"/>
+	<SkinTextView Id="103" LayoutWidth="WrapContent" LayoutHeight="22" Text="IDS_USER_NAME_TIPS" ToRightOf="102,5" AlignParentTop="50" />
+	<SkinTextView Id="104" LayoutWidth="WrapContent" LayoutHeight="24" Text="IDS_COMPANY" AlignParentLeft="35" ToBottomOf="102,10"/>
+	<SkinComboBox Id="101" LayoutHeight="24" Limit="30" Tips="IDS_COMPANY_TIPS" Image="Edit.png" ToRightOf="104,5" AlignParentRight="35" ToBottomOf="102,10" Layout="ComboBox.xml"/>
+	<SkinButton Id="1" LayoutWidth="75" LayoutHeight="25" AlignParentHorizontalCenter="0" AlignParentBottom="18" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_OK"/>
+</SkinDialog>

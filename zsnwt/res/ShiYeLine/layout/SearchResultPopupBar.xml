@@ -1,0 +1,5 @@
+﻿<SkinDialog>
+	<SkinListView Id="100" AlignParentLeft="0" AlignParentRight="1" LayoutHeight="FillParent" VScrollBar="VScrollBar.xml"/>
+	<SkinRelativeLayout AlignParentLeft="0" AlignParentRight="0" LayoutHeight="FillParent" BkgColor="ID_COLOR_WHITE">
+	</SkinRelativeLayout>
+</SkinDialog>

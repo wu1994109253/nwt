@@ -1,0 +1,12 @@
+﻿<Menu>
+	<MenuItem Id="1102" Text="IDS_TOOLBAR_SEND_MSG_TIPS"/>
+	<MenuItem Id="1103" Text="IDS_TOOLBAR_SEND_FILE_TIPS"/>
+	<MenuItem Id="1104" Text="IDS_TOOLBAR_SEND_FOLDER_TIPS"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="1116" Text="IDS_TOOLBAR_VIEW_PERSONAL_INFO"/>
+	<MenuItem Id="1106" Text="IDS_TOOLBAR_VIEW_CHAT_RECORD_TIPS"/>
+	<MenuItem Id="1107" Text="IDS_TOOLBAR_FILE_TRANS_RECORD_TIPS"/>
+	<MenuItem Id="1108" Text="IDS_FILE_SHARE_TIPS"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="1111" Text="IDS_QGROUP_KICK"/>
+</Menu>

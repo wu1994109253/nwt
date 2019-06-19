@@ -1,0 +1,19 @@
+﻿<SkinDialog DefaultWidth="350" DefaultHeight="435" Caption="IDS_OPTION_NET" Animation="SizeChange" Icon="128" SysButton="CLOSE">
+	<SkinRelativeLayout Id="3001" Layout="SeparatorLine.xml" ChildText1="IDS_SEARCH_SETTING" LayoutHeight="30" AlignParentLeft="35" AlignParentTop="42" AlignParentRight="8"/>
+	<SkinTextView Id="3002" LayoutWidth="72" LayoutHeight="30" ToBottomOf="3001,5" AlignParentLeft="48" Text="IDS_LAN_PORT"/>
+	<SkinTextView Id="3003" LayoutWidth="72" LayoutHeight="30" ToBottomOf="3002,5" AlignParentLeft="48" Text="IDS_CORP_STRUCT_NUMBER"/>
+	<SkinEditView Id="3004" AlignParentRight="48" LayoutHeight="28" ToBottomOf="3001,6" AlignParentLeft="120" Image="Edit.png" Number="true" Limit="5"/>
+	<SkinEditView Id="3005" AlignParentRight="48" LayoutHeight="28" ToBottomOf="3002,6" AlignParentLeft="120" Image="Edit.png"/>
+	<SkinImageView Id="3006" LayoutWidth="WrapContent" LayoutHeight="WrapContent" ToRightOf="3005,5" ToBottomOf="3002,12" Image="Question.png" SkinTips="CorpNumberTips.xml" SkinTipsOffset="-30,0"/>
+	<SkinRelativeLayout Id="3101" Layout="SeparatorLine.xml" ChildText1="IDS_MSG_CONTECT" LayoutHeight="30" AlignParentLeft="35" ToBottomOf="3003,15"  AlignParentRight="8"/>
+	<SkinCheckBox Id="3102" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="48" ToBottomOf="3101,5" ChildText1="IDS_OPEN_IPMSG_CONTECT" Layout="CheckBox.xml"/>
+	<SkinTextView Id="3103" LayoutWidth="72" LayoutHeight="30" ToBottomOf="3102,5" AlignParentLeft="48" Text="IDS_IPMSG_PORT"/>
+	<SkinEditView Id="3104" AlignParentRight="48" LayoutHeight="28" ToBottomOf="3102,6" AlignParentLeft="120" Image="Edit.png" Number="true"/>
+	<SkinRelativeLayout Id="3201" Layout="SeparatorLine.xml" ChildText1="IDS_BIND_MAC_TIPS" LayoutHeight="30" AlignParentLeft="35" ToBottomOf="3103,15"  AlignParentRight="8"/>
+	<SkinCheckBox Id="3202" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="48" ToBottomOf="3201,5" ChildText1="IDS_OPEN_BIND_MAC" Layout="CheckBox.xml"/>
+	<SkinTextView Id="3203" LayoutWidth="72" LayoutHeight="30" ToBottomOf="3202,5" AlignParentLeft="48" Text="IDS_BIND_MAC"/>
+	<SkinComboBox Id="3204" AlignParentRight="48" LayoutHeight="28" ToBottomOf="3202,6" AlignParentLeft="120" Layout="ComboBox.xml" Image="Edit.png" ReadOnly="true"/>
+	<SkinButton Id="1" LayoutWidth="75" LayoutHeight="25" AlignParentLeft="48" AlignParentBottom="20" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_OK"/>
+	<SkinButton Id="2" LayoutWidth="75" LayoutHeight="25" AlignParentHorizontalCenter="0" AlignParentBottom="20" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_CANCEL"/>
+	<SkinButton Id="3205" LayoutWidth="75" LayoutHeight="25" AlignParentRight="48" AlignParentBottom="20" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_APPLY"/>
+</SkinDialog>

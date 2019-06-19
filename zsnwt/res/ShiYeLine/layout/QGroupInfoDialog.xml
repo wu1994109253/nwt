@@ -1,0 +1,27 @@
+﻿<SkinDialog DefaultWidth="320" DefaultHeight="575" Animation="SizeChange" ThemeHeight="135" Icon="128" Caption="IDS_QGROUP_CONFIG_TIPS" SysButton="MIN;CLOSE">
+	<SkinButton Id="101" LayoutWidth="76" LayoutHeight="76" AlignParentHorizontalCenter="Center" AlignParentTop="32" Tips="IDS_SET_QGROUP_PHOTO" Layout="QGroupHeadButton.xml"/>
+	<SkinButton Id="301" LayoutWidth="70" LayoutHeight="24" AlignParentRight="10" AlignParentTop="100" Image="Button5.png" Layout="Button.xml" ChildText1="IDS_EDIT_PERSONAL_INFO" ChildFontColor1="ID_COLOR_WHITE"/>
+	<SkinButton Id="302" LayoutWidth="45" LayoutHeight="24" AlignParentRight="10" AlignParentTop="100" Image="Button5.png" Layout="Button.xml" ChildText1="IDS_CLOSE" ChildFontColor1="ID_COLOR_WHITE" Visible="false"/>
+	<SkinButton Id="303" LayoutWidth="45" LayoutHeight="24" AlignParentRight="60" AlignParentTop="100" Image="Button5.png" Layout="Button.xml" ChildText1="IDS_SAVE" ChildFontColor1="ID_COLOR_WHITE" Visible="false"/>
+	<SkinRelativeLayout LayoutWidth="FillParent" AlignParentTop="135" AlignParentBottom="10" >
+		<SkinRelativeLayout Id="1000" Layout="SeparatorLine.xml" ChildText1="IDS_QGROUP_INFO" LayoutHeight="28" AlignParentLeft="15" AlignParentTop="15" AlignParentRight="8"/>
+		<SkinTextView Id="1001" LayoutWidth="55" LayoutHeight="28" ToBottomOf="1000,5" AlignParentLeft="5" HorzAlignment="Right" Text="IDS_QGROUP_NAME_TIPS"/>
+		<SkinTextView Id="1002" LayoutWidth="55" LayoutHeight="28" ToBottomOf="1001,5" AlignParentLeft="5" HorzAlignment="Right" Text="IDS_SUBJECT"/>
+		<SkinTextView Id="1003" LayoutWidth="55" LayoutHeight="28" ToBottomOf="1002,5" AlignParentLeft="5" HorzAlignment="Right" Text="IDS_NOTICE"/>
+		<SkinEditTextView Id="1101" AlignParentRight="28" LayoutHeight="28" ToBottomOf="1000,5" AlignParentLeft="65" Image="Edit.png" Limit="16"/>
+		<SkinEditTextView Id="1102" AlignParentRight="28" LayoutHeight="28" ToBottomOf="1001,5" AlignParentLeft="65" Image="Edit.png" Limit="32"/>
+		<SkinEditTextView Id="1103" AlignParentRight="28" LayoutHeight="48" ToBottomOf="1002,5" AlignParentLeft="65" Image="Edit.png" Limit="150" MultiLine="true" VScrollBar="VScrollBar.xml"/>
+		<SkinRelativeLayout Id="2000" Layout="SeparatorLine.xml" ChildText1="IDS_QGROUP_CONFIG" LayoutHeight="28" AlignParentLeft="15" ToBottomOf="1103,15" AlignParentRight="8"/>
+		<SkinCheckBox Id="2001" LayoutWidth="WrapContent" LayoutHeight="28" AlignParentLeft="28" ToBottomOf="2000,5" ChildText1="IDS_NOT_ALLOW_OTHER_INVITE" Layout="CheckBox.xml"/>
+		<SkinTextView Id="2002" LayoutHeight="28" AlignParentLeft="28" AlignParentRight="28" ToBottomOf="2000,5"/>
+		<SkinCheckBox Id="2003" LayoutWidth="WrapContent" LayoutHeight="28" AlignParentLeft="28" ToBottomOf="2001,5" ChildText1="IDS_OPEN_QGROUP_MEMBER" Layout="CheckBox.xml"/>
+		<SkinRelativeLayout Id="3000" Layout="SeparatorLine.xml" ChildText1="IDS_QGROUP_MSG_SETTING" LayoutHeight="28" AlignParentLeft="15" ToBottomOf="2003,15" AlignParentRight="8"/>
+		<SkinRadioGroup LayoutWidth="155" LayoutHeight="84" AlignParentLeft="0" ToBottomOf="3000,5">
+			<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+				<SkinRadioButton Id="3001" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" AlignParentTop="0" ChildText1="IDS_QGROUP_AUTO_POPUP_MSG" Layout="RadioButton.xml"/>
+				<SkinRadioButton Id="3002" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" ToBottomOf="3001,8" ChildText1="IDS_QGROUP_JUST_SAVE_MSG" Layout="RadioButton.xml"/>
+				<SkinRadioButton Id="3003" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" ToBottomOf="3002,8" ChildText1="IDS_QGROUP_REFUSE_MSG" Layout="RadioButton.xml"/>
+			</SkinRelativeLayout>
+		</SkinRadioGroup>
+	</SkinRelativeLayout>
+</SkinDialog>

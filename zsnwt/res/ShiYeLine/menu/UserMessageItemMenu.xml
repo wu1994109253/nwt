@@ -1,0 +1,24 @@
+﻿<Menu>
+	<MenuItem Id="1102" Text="IDS_TOOLBAR_SEND_MSG_TIPS"/>
+	<MenuItem Id="1103" Text="IDS_TOOLBAR_SEND_FILE_TIPS"/>
+	<MenuItem Id="1104" Text="IDS_TOOLBAR_SEND_FOLDER_TIPS"/>
+	<MenuItem Id="1105" Text="IDS_EDIT_USER_REMARK"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="1203" Text="IDS_SESSION_TOP"/>
+	<MenuItem Id="1204" Text="IDS_CANCEL_SESSION_TOP"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Text="IDS_SINGLE_MSG_SETTING">
+		<MenuItem Id="1117" Text="IDS_QGROUP_AUTO_POPUP_MSG"/>
+		<MenuItem Id="1118" Text="IDS_QGROUP_JUST_SAVE_MSG"/>
+		<MenuItem Id="1119" Text="IDS_QGROUP_REFUSE_MSG"/>
+	</MenuItem>
+	<MenuItem Id="1116" Text="IDS_TOOLBAR_VIEW_PERSONAL_INFO"/>
+	<MenuItem Id="1106" Text="IDS_TOOLBAR_VIEW_CHAT_RECORD_TIPS"/>
+	<MenuItem Id="1107" Text="IDS_TOOLBAR_FILE_TRANS_RECORD_TIPS"/>
+	<MenuItem Id="1108" Text="IDS_FILE_SHARE_TIPS"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Text="IDS_REMOVE">
+		<MenuItem Id="1205" Text="IDS_REMOVE_RECENT_CONTACTOR"/>
+		<MenuItem Id="1206" Text="IDS_EMPTY_RECENT_CONTACTOR"/>
+	</MenuItem>
+</Menu>

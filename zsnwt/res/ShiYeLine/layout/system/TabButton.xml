@@ -1,0 +1,3 @@
+﻿<SkinHorizontalLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinTextView Id="100001" LayoutWidth="FillParent" LayoutHeight="FillParent" FontStyle="ID_FONT_BOLD" HorzAlignment="Center"/>
+</SkinHorizontalLayout>

@@ -1,0 +1,6 @@
+﻿<SkinDialog DefaultWidth="350" DefaultHeight="150" Icon="128" Caption="IDS_ADD_GROUP" SysButton="CLOSE">
+	<SkinTextView Text="IDS_GROUP_NAME" LayoutWidth="180" LayoutHeight="24" AlignParentLeft="20" AlignParentTop="40"/>
+	<SkinEditView Id="101" Limit="10" Image="Edit.png" LayoutHeight="24" AlignParentLeft="20" AlignParentRight="20" AlignParentTop="65"/>
+	<SkinButton Layout="Button.xml" ChildText1="IDS_OK" Image="Button.png" LayoutWidth="75" LayoutHeight="25" AlignParentRight="100" AlignParentBottom="20" Id="1"/>
+	<SkinButton Layout="Button.xml" ChildText1="IDS_CANCEL" Image="Button.png" LayoutWidth="75" LayoutHeight="25" AlignParentRight="20" AlignParentBottom="20" Id="2"/>
+</SkinDialog>

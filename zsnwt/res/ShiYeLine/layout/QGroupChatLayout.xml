@@ -1,0 +1,48 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinRelativeLayout LayoutWidth="FillParent" AlignParentTop="0" LayoutHeight="70">
+		<SkinTextView Id="1001" LayoutHeight="26" LayoutWidth="300" AlignParentLeft="10" AutoLayout="true" AlignParentTop="12" FontColor="ID_COLOR_BLACK" FontStyle="ID_FONT_BIG"/>
+		<SkinTextView Id="1002" LayoutWidth="148" LayoutHeight="24" AlignParentLeft="10" ToBottomOf="1001,0" AutoLayout="true" />
+		<SkinCheckBox Id="1201" LayoutWidth="40" LayoutHeight="40" AlignParentBottom="1" AlignParentRight="10" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="QGroupMember32.png" Tips="IDS_QGROUP_MEMBER_TIPS"/>
+		<SkinButton Id="1202" LayoutWidth="40" LayoutHeight="40" AlignParentBottom="1" ToLeftOf="1201,15" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="QGroupConfig32.png" Tips="IDS_QGROUP_CONFIG_TIPS"/>
+		<SkinButton Id="1203" LayoutWidth="40" LayoutHeight="40" AlignParentBottom="1" ToLeftOf="1202,15" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="QGroupQuit32.png"/>
+		<SkinButton Id="1204" LayoutWidth="40" LayoutHeight="40" AlignParentBottom="1" ToLeftOf="1203,15" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="QGroupInvite32.png" Tips="IDS_QGROUP_INVITE_TIPS"/>
+	</SkinRelativeLayout>
+	<ChatBottomLayout LayoutWidth="FillParent" AlignParentTop="70" AlignParentBottom="0">
+		<ChatSplitterLayout Id="4000">
+			<HideAnimationHost Id="2000" LayoutWidth="FillParent" AlignParentTop="1" AlignParentBottom="132" HideAnimation="TopBottomHide">
+				<SkinRelativeLayout Id="2010" LayoutWidth="FillParent" AlignParentTop="0" AlignParentBottom="30">
+					<OutputListView Id="2011" AlignParentTop="2" AlignParentBottom="2" AlignParentLeft="1" AlignParentRight="1" ScrollStep="100" CheckItem="false" Drag="File" VScrollBar="VScrollBar.xml"/>
+					<SkinLine AlignParentLeft="0" AlignParentRight="1" LayoutHeight="1" AlignParentTop="0" Color="ID_COLOR_LINE"/>
+					<SkinLine AlignParentLeft="0" AlignParentRight="1" LayoutHeight="1" ToBottomOf="2011,1" Color="ID_COLOR_LINE"/> 
+					<SkinSplitter Id="2012" AlignParentLeft="0" AlignParentRight="1" LayoutHeight="3" ToBottomOf="2011,0" Min="300" Max="450"/> 
+				</SkinRelativeLayout>
+				<SkinRelativeLayout Id="2020" LayoutWidth="FillParent" LayoutHeight="30" AlignParentBottom="0" Visible="false">
+					<SkinComboBox Id="2021" LayoutWidth="150" LayoutHeight="22" AlignParentLeft="4" AlignParentVerticalCenter="2" Layout="ComboBox.xml" Image="Edit.png" ReadOnly="true" ListMaxHeight="150"/>
+					<SkinComboBox Id="2022" LayoutWidth="50" LayoutHeight="22" ToRightOf="2021,10" AlignParentVerticalCenter="2" Layout="ComboBox.xml" Image="Edit.png" ReadOnly="true" ListMaxHeight="150"/>
+					<SkinButton Id="2026" LayoutWidth="20" LayoutHeight="20" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="Color2.png" ToRightOf="2022,10" AlignParentVerticalCenter="2" PressDownOffset="1"/>
+				</SkinRelativeLayout>
+			</HideAnimationHost>
+			<SkinRelativeLayout Id="2100" LayoutWidth="FillParent" ToBottomOf="2000,6" AlignParentBottom="0">
+				<SkinCheckBox Id="2101" LayoutWidth="24" LayoutHeight="24" AlignParentTop="0" AlignParentLeft="5" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="Font.png" Tips="IDS_FONT_TIPS"/>
+				<SkinButton Id="2102" LayoutWidth="24" LayoutHeight="24" AlignParentTop="0" ToRightOf="2101,10" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="Emotion.png" Tips="IDS_EMOTION_TIPS"/>
+				<SkinButton Id="2103" LayoutWidth="24" LayoutHeight="24" AlignParentTop="0" ToRightOf="2102,10" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="Picture.png" Tips="IDS_PICTURE_TIPS"/>
+				<SkinButton Id="2104" LayoutWidth="49" LayoutHeight="24" AlignParentTop="0" ToRightOf="2103,10" Image="PrintScreenButton.png" Layout="PrintScreenButton.xml" RedrawAllChild="true" MouseOverOffset="0" PressDownOffset="0"/>
+				<SkinButton Id="2105" LayoutWidth="24" LayoutHeight="24" AlignParentTop="0" ToRightOf="2104,10" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="FileTrans.png" Tips="IDS_SEND_FILE_TIPS"/>
+				<SkinButton Id="2106" LayoutWidth="24" LayoutHeight="24" AlignParentTop="0" ToRightOf="2105,10" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="FolderTrans.png" Tips="IDS_SEND_FOLDER_TIPS"/>
+				<SkinCheckBox Id="2108" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentTop="0" AlignParentRight="5" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="ChatRecord.png" ChildText2="IDS_CHAT_RECORD" Tips="IDS_CHAT_RECORD_TIPS"/>
+				<SkinButton Id="2201" LayoutWidth="80" LayoutHeight="24" AlignParentRight="7" AlignParentBottom="7" Image="Button3.png" Layout="SendMsgButton.xml" RedrawAllChild="true" MouseOverOffset="0" PressDownOffset="0"/>
+				<SkinButton Id="2202" LayoutWidth="70" LayoutHeight="24" ToLeftOf="2201,7" AlignParentBottom="7" Image="Button2.png" Layout="Button.xml" ChildText1="IDS_CLOSE_SHORTCUT" ChildFontColor1="ID_COLOR_WHITE"/>
+				<InputEditView Id="2203" AlignParentLeft="5" AlignParentRight="5" ToBottomOf="2106,2" AlignParentBottom="32" Limit="5000" MultiLine="true" Drag="File" RichEdit="true" Menu="EditMenu2.xml" VScrollBar="VScrollBar.xml"/>
+			</SkinRelativeLayout>
+		</ChatSplitterLayout>
+		<ChatMiscLayout Id="5000" Visible="false">
+			<SkinLine AlignParentLeft="0" AlignParentRight="0" LayoutHeight="1" AlignParentTop="1" Color="ID_COLOR_LINE"/> 
+			<SkinRadioGroup Id="5001" LayoutWidth="WrapContent" LayoutHeight="26" AlignParentLeft="1" AlignParentTop="2">
+				<SkinHorizontalLayout LayoutWidth="WrapContent" LayoutHeight="FillParent" AlignParentLeft="0"/>
+			</SkinRadioGroup>
+			<SkinFrameLayout Id="5002" AlignParentLeft="1" AlignParentRight="0" AlignParentTop="29" AlignParentBottom="0" Animation="LeftRightSlide"/>
+			<SkinLine LayoutWidth="1" AlignParentLeft="0" AlignParentTop="2" AlignParentBottom="1" Color="ID_COLOR_LINE"/> 
+			<SkinLine LayoutHeight="1" ToRightOf="5001,0" AlignParentTop="27" AlignParentRight="1" Color="ID_COLOR_LINE"/> 
+		</ChatMiscLayout>
+	</ChatBottomLayout>
+</SkinRelativeLayout>

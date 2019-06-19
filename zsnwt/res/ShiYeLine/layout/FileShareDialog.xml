@@ -1,0 +1,40 @@
+﻿<SkinDialog DefaultWidth="782" DefaultHeight="540" MinWidth="782" MinHeight="540" Resize="true" Caption="IDS_FILE_SHARE_TIPS" Animation="SizeChange" Drag="File" Icon="128" SysButton="MIN;MAX;CLOSE">
+	<SkinRelativeLayout LayoutWidth="200" AlignParentLeft="10" AlignParentTop="40" AlignParentBottom="10" BkgImage="BatchSendBkg.png">
+		<SkinTextView LayoutWidth="80" LayoutHeight="26" AlignParentLeft="0" AlignParentTop="0" Text="IDS_SELECT_CONTACTOR" HorzAlignment="Center"/>
+		<UserTreeView Id="3000" AlignParentLeft="2" AlignParentRight="2" AlignParentTop="27" AlignParentBottom="32" VScrollBar="VScrollBar.xml"/>
+		<SearchComboBox Id="105" AlignParentLeft="1" AlignParentRight="1" LayoutHeight="28" AlignParentBottom="1" PopupDown="false" Image="ComboSearch2.png" Tips="IDS_SEARCH_COMBOBOX_SHORT_TIPS" TipsColor="ID_COLOR_DISABLE" Limit="16"/>
+	</SkinRelativeLayout>
+	<SkinEditView Id="120" LayoutWidth="235" LayoutHeight="26" AlignParentTop="34" AlignParentRight="65" Tips="IDS_SHARE_FIND_TIPS" Image="Edit.png"/>
+	<SkinButton Id="121" LayoutWidth="50" LayoutHeight="26" AlignParentTop="34" AlignParentRight="10" Image="Button.png" Layout="Button.xml" ChildText1="IDS_FIND"/>
+	<SkinRelativeLayout AlignParentLeft="220" AlignParentTop="65" AlignParentRight="10" AlignParentBottom="10" BkgImage="FileShareBkg.png">
+		<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="23" AlignParentTop="5" >
+			<SkinButton Id="1001" LayoutWidth="WrapContent" LayoutHeight="FillParent" AlignParentLeft="5" Image="Back.png" Layout="BackButton.xml" ChildText1="IDS_BACK"/>
+			<SkinButton Id="1002" LayoutWidth="WrapContent" LayoutHeight="FillParent" ToRightOf="1001,10" Image="Button.png" Layout="Button.xml" ChildText1="IDS_SHARE_FILE"/>
+			<SkinButton Id="1003" LayoutWidth="WrapContent" LayoutHeight="FillParent" ToRightOf="1002,10" Image="Button.png" Layout="Button.xml" ChildText1="IDS_SHARE_FOLDER"/>
+			<SkinButton Id="1004" LayoutWidth="WrapContent" LayoutHeight="FillParent" ToRightOf="1003,10" Image="Button.png" Layout="Button.xml" ChildText1="IDS_CANCEL_SHARE"/>
+			<SkinButton Id="1005" LayoutWidth="WrapContent" LayoutHeight="FillParent" ToRightOf="1004,10" Image="Button.png" Layout="Button.xml" ChildText1="IDS_SET_PASSWORD"/>
+			<SkinButton Id="1006" LayoutWidth="WrapContent" LayoutHeight="FillParent" ToRightOf="1005,10" Image="Button.png" Layout="Button.xml" ChildText1="IDS_REFRESH"/>
+			<SkinButton Id="1007" LayoutWidth="WrapContent" LayoutHeight="FillParent" ToRightOf="1006,10" Image="Button.png" Layout="Button.xml" ChildText1="IDS_DOWNLOAD"/>
+			<SkinButton Id="1008" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentRight="14" AlignParentVerticalCenter="0" Image="ShareHistory.png"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout LayoutWidth="FillParent" AlignParentTop="32" AlignParentBottom="0">
+			<PathToolBar Id="151" AlignParentLeft="1" AlignParentRight="1" LayoutHeight="26" AlignParentTop="1" Root="IDS_SHARE_PATH_ROOT"/>
+			<SkinRelativeLayout AlignParentLeft="1" AlignParentRight="1" LayoutHeight="32" AlignParentTop="28">
+				<SkinCheckBox Id="201" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="5" AlignParentVerticalCenter="0" Layout="CheckBox.xml"/>
+				<SkinHorzPercentLayout LayoutHeight="FillParent" ToRightOf="201,0" AlignParentRight="0">
+					<SkinTextView Id="202" LayoutWidth="25" LayoutHeight="FillParent" Text="IDS_SHARE_FILE_NAME"/>
+					<SkinTextView Id="203" LayoutWidth="14" LayoutHeight="FillParent" Text="IDS_SHARE_FILE_SIZE"/>
+					<SkinTextView Id="204" LayoutWidth="27" LayoutHeight="FillParent" Text="IDS_SHARE_FILE_TIME"/>
+					<SkinTextView Id="205" LayoutWidth="8" LayoutHeight="FillParent" Text="IDS_SHARE_FILE_PATH_VALID"/>
+					<SkinTextView Id="206" LayoutWidth="14" LayoutHeight="FillParent" Text="IDS_SHARE_FILE_PASSWORD"/>
+					<SkinTextView Id="207" LayoutWidth="12" LayoutHeight="FillParent" Text="IDS_SHARE_FILE_DOWNLOAD_COUNT"/>
+				</SkinHorzPercentLayout>
+			</SkinRelativeLayout>
+			<SkinRelativeLayout Id="301" AlignParentLeft="1" AlignParentRight="1" AlignParentTop="60" AlignParentBottom="0" Visible="false">
+				<SkinImageView LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="true" AlignParentVerticalCenter="-10" Image="Loading.gif" AutoPlay="true"/>
+				<SkinTextView LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="true" AlignParentVerticalCenter="10" Text="IDS_LOADING"/>
+			</SkinRelativeLayout>
+			<ShareFileListView Id="2000" AlignParentLeft="1" AlignParentRight="1" AlignParentTop="60" AlignParentBottom="2" Drag="File" EmptyImage="LogoBkg.png" VScrollBar="VScrollBar.xml"/>
+		</SkinRelativeLayout>
+	</SkinRelativeLayout>
+</SkinDialog>

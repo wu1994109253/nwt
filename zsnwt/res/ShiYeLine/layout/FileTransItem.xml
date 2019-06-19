@@ -1,0 +1,13 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<FileIconView Id="1001" LayoutWidth="42" LayoutHeight="42" AlignParentLeft="5" AlignParentVerticalCenter="true"/>
+	<SkinTextView Id="1004" LayoutHeight="20" ToRightOf="1001,5" AlignParentRight="5" AlignParentTop="5"/>
+	<SkinProgress Id="1003" LayoutHeight="6" ToRightOf="1001,5" AlignParentVerticalCenter="0" AlignParentRight="5" Image="Progress.png"/>
+	<SkinHyperlink Id="301" LayoutWidth="WrapContent" LayoutHeight="WrapContent" ToRightOf="1001,5" AlignParentBottom="5" Text="IDS_RECV" Visible="false"/>
+	<SkinHyperlink Id="305" LayoutWidth="WrapContent" LayoutHeight="WrapContent" ToRightOf="1001,5" AlignParentBottom="5" Text="IDS_RECV_CONTINUE" Visible="false"/>
+	<SkinHyperlink Id="302" LayoutWidth="WrapContent" LayoutHeight="WrapContent" ToRightOf="305,15" AlignParentBottom="5" Text="IDS_RECV_SAVE_AS" Visible="false"/>
+	<SkinHyperlink Id="303" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentRight="5" AlignParentBottom="5" Text="IDS_RECV_REFUSE" Visible="false"/>
+	<SkinHyperlink Id="304" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentRight="5" AlignParentBottom="5" Text="IDS_CANCEL" Visible="false"/>
+	<SkinHyperlink Id="306" LayoutWidth="WrapContent" LayoutHeight="WrapContent" ToLeftOf="304,15" AlignParentBottom="5" Text="IDS_ACTIVE_SEND" Visible="false"/>
+	<SkinHyperlink Id="307" LayoutWidth="WrapContent" LayoutHeight="WrapContent" ToLeftOf="304,15" AlignParentBottom="5" Text="IDS_OFFLINE_SEND" Visible="false"/>
+	<SkinTextView Id="1002" LayoutHeight="20" ToLeftOf="304,0" ToRightOf="1001,5" AlignParentBottom="5" Visible="false"/>
+</SkinRelativeLayout>

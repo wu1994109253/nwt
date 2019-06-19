@@ -1,0 +1,10 @@
+﻿<SkinDialog ThemeHeight="0">
+	<SkinButton Id="101" ChildText2="IDS_IMPORT_EXPORT_EMOTION" Image="IconButton.png" ChildImage1="Add.png" Layout="IconButton.xml" LayoutWidth="85" LayoutHeight="25" AlignParentLeft="5" AlignParentTop="5"/>
+	<SkinButton Id="102" ChildText2="IDS_ADD_GROUP" Image="IconButton.png" ChildImage1="Add.png" Layout="IconButton.xml" LayoutWidth="80" LayoutHeight="25" AlignParentRight="5" AlignParentTop="5"/>
+	<SkinTextView Text="IDS_IMPORT_EXPORT_EMOTION_TIPS" FontColor="ID_COLOR_DISABLE" LayoutHeight="25" AlignParentLeft="100" AlignParentRight="90" AlignParentTop="5"/>
+	<EmotionTabCtrl Id="103" LayoutHeight="24" AlignParentLeft="5" AlignParentRight="22" AlignParentBottom="4"/>
+	<SkinFrameLayout Id="500" AlignParentLeft="5" AlignParentRight="3" AlignParentTop="35" AlignParentBottom="30" Animation="LeftRightSlide"/>
+	<SkinButton Id="201" LayoutWidth="10" LayoutHeight="11" AlignParentRight="13" AlignParentBottom="10" Image="EmotionMoveLeft.png" Visible="false"/>
+	<SkinButton Id="202" LayoutWidth="10" LayoutHeight="11" AlignParentRight="3" AlignParentBottom="10" Image="EmotionMoveRight.png" Visible="false"/>
+	<SkinLayout AlignParentLeft="0" AlignParentTop="0" AlignParentRight="0" AlignParentBottom="0" BkgColor="ID_COLOR_DEFAULT1"/>
+</SkinDialog>

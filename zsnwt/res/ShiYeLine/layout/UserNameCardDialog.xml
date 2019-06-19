@@ -1,0 +1,20 @@
+﻿<SkinDialog DefaultWidth="320" DefaultHeight="180" Animation="LeftRightExpand" ThemeHeight="-1">
+	<SkinRelativeLayout LayoutWidth="110" LayoutHeight="FillParent" AlignParentLeft="0">
+		<SkinHyperlink Id="101" LayoutWidth="FillParent" LayoutHeight="24" HorzAlignment="Center" AlignParentHorizontalCenter="Center" AlignParentVerticalCenter="-40" FontColor="ID_COLOR_CAPTION" FontStyle="ID_FONT_BOLD_BIG" Tips="IDS_USER_CARD_NAME_TIPS"/>
+		<SkinButton Id="102" LayoutWidth="76" LayoutHeight="76" AlignParentHorizontalCenter="Center" AlignParentVerticalCenter="15" Layout="UserHeadButton.xml" Enable="false"/>
+	</SkinRelativeLayout>
+	<SkinRelativeLayout AlignParentLeft="110" AlignParentRight="0" LayoutHeight="FillParent" BkgColor="ID_COLOR_BKG">
+		<SkinTextView Id="201" AlignParentLeft="10" AlignParentRight="10" LayoutHeight="24" AlignParentTop="5" HorzAlignment="Center" FontStyle="ID_FONT_BOLD_BIG" AutoLayout="true"/>
+		<SkinTextView Id="202" AlignParentLeft="10" AlignParentRight="10" LayoutHeight="20" ToBottomOf="201,0" HorzAlignment="Center" FontStyle="ID_FONT_BOLD" AutoLayout="true"/>
+		<SkinTextView Id="301" LayoutWidth="36" LayoutHeight="20" ToBottomOf="202,5" AlignParentLeft="10" HorzAlignment="Right" Text="IDS_PHONE"/>
+		<SkinTextView Id="302" LayoutWidth="36" LayoutHeight="20" ToBottomOf="301,5" AlignParentLeft="10" HorzAlignment="Right" Text="IDS_MOBILE"/>
+		<SkinTextView Id="303" LayoutWidth="36" LayoutHeight="20" ToBottomOf="302,5" AlignParentLeft="10" HorzAlignment="Right" Text="IDS_EMAIL"/>
+		<SkinTextView Id="304" LayoutWidth="36" LayoutHeight="20" ToBottomOf="303,5" AlignParentLeft="10" HorzAlignment="Right" Text="IDS_VERSION"/>
+		<SkinTextView Id="305" LayoutWidth="36" LayoutHeight="20" ToBottomOf="304,5" AlignParentLeft="10" HorzAlignment="Right" Text="IDS_IP"/>
+		<SkinTextView Id="401" AlignParentRight="10" LayoutHeight="20" ToBottomOf="202,5" ToRightOf="301,10" AutoLayout="true" Text="IDS_PHONE"/>
+		<SkinTextView Id="402" AlignParentRight="10" LayoutHeight="20" ToBottomOf="301,5" ToRightOf="301,10" AutoLayout="true" Text="IDS_MOBILE"/>
+		<SkinTextView Id="403" AlignParentRight="10" LayoutHeight="20" ToBottomOf="302,5" ToRightOf="301,10" AutoLayout="true" Text="IDS_EMAIL"/>
+		<SkinTextView Id="404" AlignParentRight="10" LayoutHeight="20" ToBottomOf="303,5" ToRightOf="301,10" AutoLayout="true" Text="IDS_VERSION"/>
+		<SkinTextView Id="405" AlignParentRight="10" LayoutHeight="20" ToBottomOf="304,5" ToRightOf="301,10" AutoLayout="true" Text="IDS_IP"/>
+	</SkinRelativeLayout>
+</SkinDialog>

@@ -1,0 +1,7 @@
+﻿<Menu>
+	<MenuItem Id="1403" Icon="WebShareWeiBo.png" Text="IDS_WEB_SHARE_WEIBO"/>
+	<MenuItem Id="1405" Icon="WebShareWeiXin.png" Text="IDS_WEB_SHARE_WEIXIN"/>
+	<MenuItem Id="1402" Icon="WebShareQZone.png" Text="IDS_WEB_SHARE_QZONE"/>
+	<MenuItem Id="1401" Icon="WebShareQQ.png" Text="IDS_WEB_SHARE_QQ"/>
+	<MenuItem Id="1404" Icon="WebShareTengXun.png" Text="IDS_WEB_SHARE_TENGXUN"/>
+</Menu>

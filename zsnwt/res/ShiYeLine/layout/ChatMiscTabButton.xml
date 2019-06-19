@@ -1,0 +1,6 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinHorizontalLayout LayoutWidth="WrapContent" LayoutHeight="FillParent">
+		<SkinTextView Id="100001" LayoutWidth="WrapContent" LayoutHeight="WrapContent" LayoutAlignment="Left,Center" Margin="5,0,0,0"/>
+		<SkinButton Id="5001" LayoutWidth="WrapContent" LayoutHeight="WrapContent" LayoutAlignment="Left,Top" Image="ChatMiscTabClose.png" Margin="0,1,1,0"/>
+	</SkinHorizontalLayout>
+</SkinRelativeLayout>

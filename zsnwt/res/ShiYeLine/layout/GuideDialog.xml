@@ -1,0 +1,15 @@
+﻿<SkinDialog DefaultWidth="720" DefaultHeight="535" Icon="500" Caption="IDS_NEW_GUIDE" SysButton="MIN;CLOSE" Animation="SizeChange" >
+	<SkinTextView LayoutWidth="75" LayoutHeight="24" AlignParentLeft="45" AlignParentTop="200" Text="IDS_YOUR_NAME" Mode="1"/>
+	<SkinEditView LayoutWidth="150" LayoutHeight="24" AlignParentLeft="80" AlignParentTop="200" Id="101" Limit="10" Mode="1" Image="Edit.png"/>
+	<SkinTextView LayoutWidth="75" LayoutHeight="24" AlignParentLeft="45" AlignParentTop="200" Text="IDS_YOUR_DEPARTMENT" Mode="2"/>
+	<SkinComboBox LayoutWidth="150" LayoutHeight="24" AlignParentLeft="80" AlignParentTop="200" Id="102" Limit="32" Mode="2" Image="Edit.png" Layout="ComboBox.xml"/>
+	<SkinButton LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentLeft="40" AlignParentTop="335" Image="AutoAddSubnet.png" Id="106" Mode="3"/>
+	<SkinButton LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentLeft="170" AlignParentTop="335" Image="HandAddSubnet.png" Id="107" Mode="3"/>
+	<SkinRelativeLayout LayoutWidth="716" LayoutHeight="395" BkgImage="GuideTips1.png" AlignParentRight="2" AlignParentBottom="75" Mode="1"/>
+	<SkinRelativeLayout LayoutWidth="716" LayoutHeight="395" BkgImage="GuideTips2.png" AlignParentRight="2" AlignParentBottom="75" Mode="2"/>
+	<SkinRelativeLayout LayoutWidth="716" LayoutHeight="395" BkgImage="GuideTips3.png" AlignParentRight="2" AlignParentBottom="75" Mode="3"/>
+	<SkinButton LayoutWidth="75" LayoutHeight="25" AlignParentRight="135" AlignParentBottom="28" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_PREVIOUS_STEP" Id="104"/>
+	<SkinButton LayoutWidth="75" LayoutHeight="25" AlignParentRight="50" AlignParentBottom="28" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_NEXT_STEP" Id="105"/>
+	<SkinButton LayoutWidth="75" LayoutHeight="25" AlignParentRight="50" AlignParentBottom="28" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_OK" Id="1"/>
+	<SkinRelativeLayout LayoutWidth="FillParent" AlignParentTop="30" AlignParentBottom="0" BkgColor="ID_COLOR_WHITE"/>
+</SkinDialog>

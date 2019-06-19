@@ -1,0 +1,4 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<UserHeadView Id="1001" LayoutWidth="24" LayoutHeight="24" AlignParentLeft="5" AlignParentVerticalCenter="true"/>
+	<SkinTextViewEx Id="1002" LayoutHeight="FillParent" ToRightOf="1001,5" AlignParentVerticalCenter="true" AlignParentRight="5"/>
+</SkinRelativeLayout>

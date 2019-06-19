@@ -1,0 +1,28 @@
+﻿<Menu>
+	<MenuItem Text="IDS_HEAD_SHOW">
+		<MenuItem Id="1113" Text="IDS_BIG_HEAD_SHOW"/>
+		<MenuItem Id="1114" Text="IDS_SMALL_HEAD_SHOW"/>
+	</MenuItem>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="1102" Text="IDS_TOOLBAR_SEND_MSG_TIPS"/>
+	<MenuItem Id="1103" Text="IDS_TOOLBAR_SEND_FILE_TIPS"/>
+	<MenuItem Id="1104" Text="IDS_TOOLBAR_SEND_FOLDER_TIPS"/>
+	<MenuItem Id="1105" Text="IDS_EDIT_USER_REMARK"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Text="IDS_SINGLE_MSG_SETTING">
+		<MenuItem Id="1117" Text="IDS_QGROUP_AUTO_POPUP_MSG"/>
+		<MenuItem Id="1118" Text="IDS_QGROUP_JUST_SAVE_MSG"/>
+		<MenuItem Id="1119" Text="IDS_QGROUP_REFUSE_MSG"/>
+	</MenuItem>
+	<MenuItem Id="1116" Text="IDS_TOOLBAR_VIEW_PERSONAL_INFO"/>
+	<MenuItem Id="1106" Text="IDS_TOOLBAR_VIEW_CHAT_RECORD_TIPS"/>
+	<MenuItem Id="1107" Text="IDS_TOOLBAR_FILE_TRANS_RECORD_TIPS"/>
+	<MenuItem Id="1108" Text="IDS_FILE_SHARE_TIPS"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="1101" Text="IDS_ONLY_SHOW_ONLINE_USER"/>
+	<MenuItem Id="1112" Text="IDS_COLLAPSE_USER_TREE_NODE"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="1109" Text="IDS_TOOLBAR_CLEAR_USER_TIPS"/>
+	<MenuItem Id="1110" Text="IDS_TOOLBAR_CLEAR_ALL_USER_TIPS"/>
+	<MenuItem Id="1115" Text="IDS_TOOLBAR_CLEAR_MONTH_USER_TIPS"/>
+</Menu>

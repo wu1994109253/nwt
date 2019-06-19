@@ -1,0 +1,5 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<QGroupHeadView Id="1001" LayoutWidth="42" LayoutHeight="42" AlignParentLeft="5" AlignParentVerticalCenter="true"/>
+	<SkinTextView Id="1002" LayoutHeight="30" ToRightOf="1001,5" AlignParentTop="5" AlignParentRight="5" />
+	<SkinTextView Id="1003" LayoutHeight="30" ToRightOf="1001,5" AlignParentBottom="5" AlignParentRight="5" FontColor="ID_COLOR_DISABLE"/>
+</SkinRelativeLayout>

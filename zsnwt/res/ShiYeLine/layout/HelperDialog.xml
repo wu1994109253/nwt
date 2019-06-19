@@ -1,0 +1,3 @@
+﻿<SkinDialog DefaultWidth="675" DefaultHeight="575" Caption="IDS_HELPER" Icon="128" SysButton="MIN;CLOSE">
+	<SkinHelperWebView Id="101" AlignParentLeft="1" AlignParentTop="31" AlignParentRight="1" AlignParentBottom="1" URL="www.baidu.com"/>
+</SkinDialog>

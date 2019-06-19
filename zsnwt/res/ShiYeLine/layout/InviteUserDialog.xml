@@ -1,0 +1,13 @@
+﻿<SkinDialog DefaultWidth="540" DefaultHeight="415" Caption="IDS_CREATE_QGROUP" Animation="SizeChange" Icon="128" SysButton="MIN;CLOSE">
+	<SkinRelativeLayout LayoutWidth="245" AlignParentLeft="10" AlignParentTop="40" AlignParentBottom="45" BkgImage="BatchSendBkg.png">
+		<SkinTextView LayoutWidth="80" LayoutHeight="26" AlignParentLeft="0" AlignParentTop="0" Text="IDS_SELECT_CONTACTOR" HorzAlignment="Center"/>
+		<QGroupInviteUserTreeView Id="3000" AlignParentLeft="2" AlignParentRight="2" AlignParentTop="27" AlignParentBottom="32" ItemExpand="FALSE" VScrollBar="VScrollBar.xml"/>
+		<SearchComboBox Id="105" AlignParentLeft="1" AlignParentRight="1" LayoutHeight="28" AlignParentBottom="1" PopupDown="false" Image="ComboSearch2.png" Tips="IDS_SEARCH_COMBOBOX_SHORT_TIPS" TipsColor="ID_COLOR_DISABLE" Limit="16"/>
+	</SkinRelativeLayout>
+	<SkinRelativeLayout AlignParentLeft="265" AlignParentTop="65" AlignParentRight="10" AlignParentBottom="45" Border="ID_COLOR_LINE">
+		<SelectedUserListView Id="200" AlignParentTop="2" AlignParentBottom="2" AlignParentLeft="2" AlignParentRight="2" VScrollBar="VScrollBar.xml"/>
+	</SkinRelativeLayout>
+	<SkinHyperlink Id="300" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentTop="40" AlignParentRight="11" Text="IDS_DELETE_ALL"/>
+	<SkinButton Id="2" LayoutWidth="75" LayoutHeight="24" AlignParentRight="10" AlignParentBottom="10" Image="Button2.png" Layout="Button.xml" ChildText1="IDS_CANCEL" ChildFontColor1="ID_COLOR_WHITE"/>
+	<SkinButton Id="1" LayoutWidth="75" LayoutHeight="24" ToLeftOf="2,10" AlignParentBottom="10" Image="Button2.png" Layout="Button.xml" ChildText1="IDS_OK" ChildFontColor1="ID_COLOR_WHITE"/>
+</SkinDialog>

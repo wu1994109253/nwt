@@ -1,0 +1,4 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinButton Id="22011" LayoutWidth="60" LayoutHeight="FillParent" AlignParentLeft="3" Layout="Button.xml" ChildText1="IDS_SEND_SHORTCUT" ChildFontColor1="ID_COLOR_WHITE"/>
+	<SkinButton Id="22012" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentRight="5" Layout="IconButton.xml" ChildImage1="SendMsgArrow.png" AlignParentVerticalCenter="1"/>
+</SkinRelativeLayout>

@@ -1,0 +1,3 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinLine LayoutHeight="1" AlignParentLeft="1" AlignParentRight="1" AlignParentVerticalCenter="0" DashStyle="Dot" StartColor="ID_COLOR_TEXT" EndColor="ID_COLOR_TRANSPARENT"/>
+</SkinRelativeLayout>

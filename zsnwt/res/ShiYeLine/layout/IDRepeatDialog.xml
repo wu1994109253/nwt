@@ -1,0 +1,4 @@
+﻿<SkinDialog DefaultWidth="600" DefaultHeight="445" SysButton="CLOSE" Icon="128" Caption="IDS_APP_NAME" Animation="SizeChange">
+	<SkinTextView AlignParentLeft="15" AlignParentTop="40" AlignParentRight="15" AlignParentBottom="45" HorzAlignment="Left" MultiLine="true" Text="IDS_ID_REPEAT_TIPS"/>
+	<SkinButton Id="1" LayoutWidth="75" LayoutHeight="25" Image="Button2.png" ChildText1="IDS_OK" ChildFontColor1="ID_COLOR_WHITE" Layout="Button.xml" AlignParentHorizontalCenter="0" AlignParentBottom="20" PressDownOffset="1"/>
+</SkinDialog>

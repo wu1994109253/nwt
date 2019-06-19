@@ -1,0 +1,7 @@
+﻿<SkinDialog>
+	<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent" BkgImage="RemoteToolbar.png">
+		<SkinButton Id="101" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentLeft="25" AlignParentVerticalCenter="0" Image="FullScreen.png" Tips="IDS_FULL_SCREEN_TIPS"/>
+		<SkinButton Id="103" LayoutWidth="WrapContent" LayoutHeight="WrapContent" ToRightOf="101,35" AlignParentVerticalCenter="0" Image="RemoteTopMost.png" Tips="IDS_TOP_MOST_TIPS"/>
+		<SkinButton Id="105" LayoutWidth="WrapContent" LayoutHeight="WrapContent" ToRightOf="103,35" AlignParentVerticalCenter="0" Image="RemoteFinish.png" Tips="IDS_CLOSE_TIPS"/>
+	</SkinRelativeLayout>
+</SkinDialog>

@@ -1,0 +1,14 @@
+﻿<SkinDialog DefaultWidth="715" DefaultHeight="500" MinWidth="715" MinHeight="500" Resize="true" Animation="SizeChange" ThemeHeight="-1" Icon="128" Drag="File" SysButton="MIN,Min2.png;MAX,Max2.png;CLOSE,Close2.png">
+	<SwitchAnimationHost LayoutWidth="FillParent" LayoutHeight="FillParent" Animation="LeftRightSlide" RedrawOwner="true">
+		<SkinRelativeLayout Id="39200" LayoutWidth="FillParent" LayoutHeight="FillParent">
+			<ChatListView Id="101" AlignParentLeft="0" LayoutWidth="150" AlignParentTop="0" AlignParentBottom="32" VScrollBar="VScrollBar.xml"/>
+			<SearchComboBox Id="105" AlignParentLeft="1" LayoutWidth="149" LayoutHeight="28" AlignParentBottom="1" PopupDown="false" Image="ComboSearch3.png" Tips="IDS_SEARCH_COMBOBOX_SHORT_TIPS" Limit="16"/>
+			<SkinLine AlignParentLeft="150" AlignParentBottom="1" LayoutWidth="1" AlignParentTop="0" Color="ID_COLOR_LINE"/>
+			<SkinRelativeLayout Id="1000" AlignParentLeft="151" AlignParentRight="0" LayoutHeight="FillParent" BkgColor="ID_COLOR_BKG"/>
+			<ChatFloatLayout Id="111" AlignParentLeft="115" AlignParentTop="2" LayoutWidth="25" LayoutHeight="21" BkgImage="UnReadBkg.png" Visible="false" Float="true">
+				<SkinTextView Id="112" LayoutWidth="FillParent" AlignParentTop="5" AlignParentBottom="0" HorzAlignment="Center" FontStyle="ID_FONT_SMALL" FontColor="ID_COLOR_WHITE"/>
+			</ChatFloatLayout>
+		</SkinRelativeLayout>
+		<LockScreenLayout Id="39201" LayoutWidth="FillParent" LayoutHeight="FillParent" BkgColor="ID_COLOR_WHITE" Layout="LockScreenLayout.xml" Visible="false"/>
+	</SwitchAnimationHost>
+</SkinDialog>

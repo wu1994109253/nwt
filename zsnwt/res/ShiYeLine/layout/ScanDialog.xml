@@ -1,0 +1,36 @@
+﻿<SkinDialog DefaultWidth="530" DefaultHeight="280" Caption="IDS_ONE_KEY_ADD_CONTACTOR" Animation="SizeChange" Icon="128" SysButton="MIN;CLOSE">
+	<SwitchAnimationHost Id="100" LayoutWidth="FillParent" AlignParentTop="30" AlignParentBottom="2" Animation="LeftRightSlide">
+		<SkinRelativeLayout Id="900" LayoutWidth="FillParent" LayoutHeight="FillParent">
+			<SkinTextView Id="101" MultiLine="true" Text="IDS_FAST_SCAN_TIPS1" LayoutWidth="250" LayoutHeight="40" AlignParentLeft="10" AlignParentTop="40"/>
+			<SkinTextView Id="102" MultiLine="true" Text="IDS_FAST_SCAN_TIPS2" LayoutWidth="250" LayoutHeight="60" AlignParentLeft="10" ToBottomOf="101,5" FontColor="ID_COLOR_DISABLE"/>
+			<SkinTextView Id="103" MultiLine="true" Text="IDS_FULL_SCAN_TIPS1" LayoutWidth="250" LayoutHeight="40" AlignParentLeft="280" AlignParentTop="40"/>
+			<SkinTextView Id="104" MultiLine="true" Text="IDS_FULL_SCAN_TIPS2" LayoutWidth="250" LayoutHeight="60" AlignParentLeft="280" ToBottomOf="103,5" FontColor="ID_COLOR_DISABLE"/>
+			<SkinButton Id="901" LayoutWidth="100" LayoutHeight="30" ToBottomOf="104,30" AlignParentLeft="100" Image="Button2.png" Layout="Button.xml" ChildText1="IDS_FAST_SCAN" ChildFontColor1="ID_COLOR_WHITE"/>
+			<SkinButton Id="902" LayoutWidth="100" LayoutHeight="30" ToBottomOf="104,30" AlignParentRight="100" Image="Button2.png" Layout="Button.xml" ChildText1="IDS_FULL_SCAN" ChildFontColor1="ID_COLOR_WHITE"/>
+			<SkinLine LayoutWidth="1" AlignParentLeft="263" AlignParentTop="15" AlignParentBottom="0" DashStyle="Dot" StartColor="ID_COLOR_TEXT" EndColor="ID_COLOR_TRANSPARENT"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout Id="1000" LayoutWidth="FillParent" LayoutHeight="FillParent" Visible="false">
+			<SkinImageViewEx Id="1001" LayoutWidth="51" LayoutHeight="51" AlignParentLeft="70" AlignParentTop="70" Image="Scanning.png"/>
+			<SkinTextView Id="1002" LayoutHeight="30" ToRightOf="1001,5" AlignParentRight="15" AlignParentTop="70" Text="IDS_SCANNING_TIPS" FontStyle="ID_FONT_BIG"/>
+			<SkinTextView LayoutHeight="20" ToRightOf="1001,5" AlignParentRight="15" AlignParentTop="100" Text="IDS_SCANNING_TIPS2" FontColor="ID_COLOR_DISABLE" />
+			<SkinProgress Id="1003" LayoutHeight="16" AlignParentLeft="70" AlignParentRight="52" AlignParentTop="135" Image="Progress3.png" Range="100"/>
+			<SkinTextView Id="1004" LayoutHeight="20" AlignParentLeft="70" AlignParentRight="52" AlignParentTop="165" FontColor="ID_COLOR_DISABLE" />
+		</SkinRelativeLayout>
+		<SkinRelativeLayout Id="2000" LayoutWidth="FillParent" LayoutHeight="FillParent" Visible="false">
+			<SkinImageView Id="2005" LayoutWidth="51" LayoutHeight="51" AlignParentLeft="70" AlignParentTop="70" Image="ScanSuccess.png"/>
+			<SkinTextViewEx Id="2001" LayoutHeight="30" ToRightOf="2005,5" AlignParentRight="15" AlignParentTop="70" FontStyle="ID_FONT_BIG"/>
+			<SkinTextViewEx Id="2002" LayoutHeight="20" ToRightOf="2005,5" AlignParentRight="15" AlignParentTop="100" FontColor="ID_COLOR_DISABLE" />
+			<SkinTextView Id="2004" LayoutHeight="20" ToRightOf="2005,5" AlignParentRight="15" AlignParentTop="125" Text="IDS_SCAN_COMPUTER_TIPS" FontColor="ID_COLOR_DISABLE" />
+			<SkinButton Id="2003" LayoutWidth="100" LayoutHeight="30" ToBottomOf="2004,30" AlignParentLeft="100" Image="Button2.png" Layout="Button.xml" ChildText1="IDS_YES" ChildFontColor1="ID_COLOR_WHITE"/>
+			<SkinButton Id="2" LayoutWidth="100" LayoutHeight="30" ToBottomOf="2004,30" AlignParentRight="100" Image="Button2.png" Layout="Button.xml" ChildText1="IDS_NO" ChildFontColor1="ID_COLOR_WHITE"/>
+		</SkinRelativeLayout>
+		<SkinRelativeLayout Id="3000" LayoutWidth="FillParent" LayoutHeight="FillParent" Visible="false">
+			<SkinImageView Id="3005" LayoutWidth="51" LayoutHeight="51" AlignParentLeft="70" AlignParentTop="70" Image="ScanFail.png"/>
+			<SkinTextViewEx Id="3001" LayoutHeight="30" ToRightOf="3005,5" AlignParentRight="15" AlignParentTop="70" FontStyle="ID_FONT_BIG"/>
+			<SkinTextViewEx Id="3002" LayoutHeight="20" ToRightOf="3005,5" AlignParentRight="15" AlignParentTop="100" FontColor="ID_COLOR_DISABLE" />
+			<SkinTextView Id="3004" LayoutHeight="20" ToRightOf="3005,5" AlignParentRight="15" AlignParentTop="125" Text="IDS_SCAN_COMPUTER_TIPS" FontColor="ID_COLOR_DISABLE" />
+			<SkinButton Id="3003" LayoutWidth="100" LayoutHeight="30" ToBottomOf="3004,30" AlignParentLeft="100" Image="Button2.png" Layout="Button.xml" ChildText1="IDS_RESCAN" ChildFontColor1="ID_COLOR_WHITE"/>
+			<SkinButton Id="2" LayoutWidth="100" LayoutHeight="30" ToBottomOf="3004,30" AlignParentRight="100" Image="Button2.png" Layout="Button.xml" ChildText1="IDS_CANCEL" ChildFontColor1="ID_COLOR_WHITE"/>
+		</SkinRelativeLayout>
+	</SwitchAnimationHost>
+</SkinDialog>

@@ -1,0 +1,17 @@
+﻿<SkinDialog DefaultWidth="400" DefaultHeight="255" Caption="IDS_SUBNET_CONFIG" Animation="SizeChange" Icon="128" SysButton="CLOSE">
+	<SkinTextView LayoutWidth="60" LayoutHeight="30" AlignParentLeft="10" AlignParentTop="40" Text="IDS_ADDRESS"/>
+	<SkinTextView LayoutWidth="60" LayoutHeight="30" AlignParentLeft="10" AlignParentTop="78" Text="IDS_LIST"/>
+	<SkinEditView Id="101" LayoutHeight="30" AlignParentLeft="70" AlignParentTop="40" AlignParentRight="100" Image="Edit.png" Tips="IDS_SUBNET_EDIT_TIPS"/>
+	<SkinRelativeLayout AlignParentLeft="70" AlignParentTop="78" AlignParentRight="100" AlignParentBottom="35" Border="ID_COLOR_LINE" BkgColor="ID_COLOR_WHITE">
+		<SkinListView Id="102" AlignParentTop="2" AlignParentBottom="2" AlignParentLeft="2" AlignParentRight="2" VScrollBar="VScrollBar.xml"/>
+	</SkinRelativeLayout>
+	<SkinButton Id="201" LayoutWidth="70" LayoutHeight="28" AlignParentRight="25" AlignParentTop="40" Image="Button.png" Layout="Button.xml" ChildText1="IDS_ADD"/>
+	<SkinButton Id="202" LayoutWidth="70" LayoutHeight="28" AlignParentRight="25" ToBottomOf="201,10" Image="Button.png" Layout="Button.xml" ChildText1="IDS_SYNC"/>
+	<SkinButton Id="203" LayoutWidth="70" LayoutHeight="28" AlignParentRight="25" ToBottomOf="202,10" Image="Button.png" Layout="Button.xml" ChildText1="IDS_DELETE"/>
+	<SkinButton Id="204" LayoutWidth="70" LayoutHeight="28" AlignParentRight="25" ToBottomOf="203,10" Image="Button.png" Layout="Button.xml" ChildText1="IDS_IMPORT_IP"/>
+	<SkinButton Id="205" LayoutWidth="70" LayoutHeight="28" AlignParentRight="25" ToBottomOf="204,10" Image="Button.png" Layout="Button.xml" ChildText1="IDS_EXPORT_IP"/>
+	<SkinImageView Id="301" LayoutWidth="WrapContent" LayoutHeight="WrapContent" ToRightOf="201,5" AlignParentTop="46" Image="Question.png" SkinTips="AddSubnetTips.xml" SkinTipsOffset="-30,0"/>
+	<SkinImageView Id="302" LayoutWidth="WrapContent" LayoutHeight="WrapContent" ToRightOf="202,5" ToBottomOf="201,16" Image="Question.png" SkinTips="SyncSubnetTips.xml" SkinTipsOffset="-30,0"/>
+	<SkinCheckBox Id="401" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="70" AlignParentBottom="5" ToBottomOf="102,5" ChildText1="IDS_ONLY_CONTECT_UP_SUBNET" Layout="CheckBox.xml"/>
+	<SkinTextView LayoutHeight="24" AlignParentBottom="5" ToBottomOf="102,5" ToRightOf="401,15" AlignParentRight="8" Text="IDS_SUBNET_RESTART_TIPS" FontColor="ID_COLOR_DISABLE"/>
+</SkinDialog>

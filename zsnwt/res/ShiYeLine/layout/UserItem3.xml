@@ -1,0 +1,5 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<UserHeadView Id="1001" LayoutWidth="24" LayoutHeight="24" AlignParentLeft="5" AlignParentVerticalCenter="true"/>
+	<SkinTextViewEx Id="1002" LayoutHeight="FillParent" ToRightOf="1001,5" AlignParentVerticalCenter="true" AlignParentRight="21"/>
+	<SkinButton Id="2001" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentRight="5" AlignParentVerticalCenter="true" Image="ChatMiscTabClose.png" Visible="false"/>
+</SkinRelativeLayout>

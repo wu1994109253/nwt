@@ -1,0 +1,6 @@
+﻿<Menu>
+	<MenuItem Id="11013" Text="IDS_OPEN"/>
+	<MenuItem Id="11014" Text="IDS_OPEN_FOLDER"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="11015" Text="IDS_COPY"/>
+</Menu>

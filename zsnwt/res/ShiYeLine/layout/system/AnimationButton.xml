@@ -1,0 +1,6 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinHorizontalLayout LayoutWidth="WrapContent" LayoutHeight="WrapContent">
+		<SkinImageViewEx Id="100001" LayoutWidth="WrapContent" LayoutHeight="WrapContent" LayoutAlignment="Center,Center" Interval="75" Margin="1,0,0,0"/>
+		<SkinTextView Id="100002" LayoutWidth="WrapContent" LayoutHeight="WrapContent" FontStyle="ID_FONT_NORMAL" HorzAlignment="Center" Margin="0,0,1,0"/>
+	</SkinHorizontalLayout>
+</SkinRelativeLayout>

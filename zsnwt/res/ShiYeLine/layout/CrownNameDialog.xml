@@ -1,0 +1,12 @@
+﻿<SkinDialog DefaultWidth="480" DefaultHeight="245" Caption="IDS_CROWN_NAME" Animation="SizeChange" Icon="128" SysButton="CLOSE">
+	<SkinTextView Id="101" LayoutHeight="28" AlignParentLeft="25" AlignParentRight="25" AlignParentTop="50" HorzAlignment="Center" Text="IDS_CROWN_NAME_TIPS" FontStyle="ID_FONT_BOLD_BIG"/>
+	<SkinImageView Id="102" LayoutWidth="32" LayoutHeight="32" AlignParentLeft="64" ToBottomOf="101,15" Image="CrownCu.png"/>
+	<SkinImageView Id="103" LayoutWidth="32" LayoutHeight="32" AlignParentLeft="224" ToBottomOf="101,15" Image="CrownSilver.png"/>
+	<SkinImageView Id="104" LayoutWidth="32" LayoutHeight="32" AlignParentLeft="384" ToBottomOf="101,15" Image="CrownGold.png"/>
+	<SkinTextView Id="105" LayoutWidth="160" LayoutHeight="50" AlignParentLeft="10" HorzAlignment="Center" MultiLine="true" ToBottomOf="102,0" Text="IDS_CROWN_NAME_TIPS1"/>
+	<SkinTextView Id="106" LayoutWidth="160" LayoutHeight="50" AlignParentLeft="170" HorzAlignment="Center" MultiLine="true" ToBottomOf="102,0" Text="IDS_CROWN_NAME_TIPS2"/>
+	<SkinTextView Id="107" LayoutWidth="160" LayoutHeight="50" AlignParentLeft="330" HorzAlignment="Center" MultiLine="true" ToBottomOf="102,0" Text="IDS_CROWN_NAME_TIPS3"/>
+	<SkinButton Id="201" LayoutWidth="100" LayoutHeight="28" AlignParentLeft="25" AlignParentBottom="30" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE"/>
+	<SkinButton Id="202" LayoutWidth="100" LayoutHeight="28" AlignParentHorizontalCenter="0" AlignParentBottom="30" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE"/>
+	<SkinButton Id="203" LayoutWidth="100" LayoutHeight="28" AlignParentRight="25" AlignParentBottom="30" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE"/>
+</SkinDialog>

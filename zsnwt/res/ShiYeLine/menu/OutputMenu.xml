@@ -1,0 +1,9 @@
+﻿<Menu>
+	<MenuItem Id="11002" Text="IDS_COPY"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="11005" Text="IDS_SELECT_ALL"/>
+	<MenuItem Id="11006" Text="IDS_IMAGE_SAVEAS"/>
+	<MenuItem Id="11007" Text="IDS_ADDTO_EMOTION"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="11008" Text="IDS_CLEAR_ALL"/>
+</Menu>

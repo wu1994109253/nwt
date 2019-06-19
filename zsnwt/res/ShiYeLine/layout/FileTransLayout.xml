@@ -1,0 +1,6 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<FileTransListView Id="310" AlignParentTop="0" AlignParentBottom="35" AlignParentLeft="0" AlignParentRight="0" VScrollBar="VScrollBar.xml"/>
+	<SkinButton Id="311" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_RECV_ALL" Image="Button2.png" Layout="Button.xml" LayoutWidth="85" LayoutHeight="24" AlignParentBottom="7" AlignParentLeft="3"/>
+	<SkinButton Id="313" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_SAVEAS_ALL" Image="Button2.png" Layout="Button.xml" LayoutWidth="85" LayoutHeight="24" AlignParentBottom="7" AlignParentHorizontalCenter="0"/>
+	<SkinButton Id="312" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_CANCEL_ALL" Image="Button2.png" Layout="Button.xml" LayoutWidth="85" LayoutHeight="24" AlignParentBottom="7" AlignParentRight="3"/>
+</SkinRelativeLayout>

@@ -1,0 +1,17 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinCheckBox Id="2001" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="5" AlignParentVerticalCenter="0" Layout="CheckBox.xml"/>
+	<SkinHorzPercentLayout LayoutHeight="FillParent" ToRightOf="2001,0" AlignParentRight="0">
+		<SkinRelativeLayout LayoutWidth="25" LayoutHeight="FillParent">
+			<FileIconView Id="2002" LayoutWidth="24" LayoutHeight="24" AlignParentLeft="0" AlignParentVerticalCenter="true"/>
+			<SkinTextView Id="2003" LayoutHeight="FillParent" ToRightOf="2002,5" AlignParentRight="3" AutoLayout="true" Text="IDS_SHARE_FILE_NAME"/>
+		</SkinRelativeLayout>
+		<SkinTextView Id="2004" LayoutWidth="14" LayoutHeight="FillParent"/>
+		<SkinTextView Id="2005" LayoutWidth="27" LayoutHeight="FillParent"/>
+		<SkinTextView Id="2006" LayoutWidth="8" LayoutHeight="FillParent"/>
+		<SkinRelativeLayout LayoutWidth="14" LayoutHeight="FillParent">
+			<SkinTextView Id="2007" LayoutWidth="WrapContent" LayoutHeight="FillParent" AlignParentLeft="0"/>
+			<SkinHyperlink Id="2008" LayoutHeight="FillParent" ToRightOf="2007,5" AlignParentRight="0" Text="IDS_COPY"/>
+		</SkinRelativeLayout>
+		<SkinTextView Id="2009" LayoutWidth="12" LayoutHeight="FillParent"/>
+	</SkinHorzPercentLayout>
+</SkinRelativeLayout>

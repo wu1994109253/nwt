@@ -1,0 +1,5 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinButton Id="1001" LayoutWidth="46" LayoutHeight="46" AlignParentLeft="5" AlignParentVerticalCenter="true" Layout="UserHeadButton2.xml"/>
+	<SkinTextView Id="1002" LayoutHeight="30" ToRightOf="1001,5" AlignParentTop="5" AlignParentRight="35" />
+	<UserInfoView Id="1003" LayoutHeight="30" ToRightOf="1001,5" AlignParentBottom="5" AlignParentRight="35" FontColor="ID_COLOR_DISABLE"/>
+</SkinRelativeLayout>

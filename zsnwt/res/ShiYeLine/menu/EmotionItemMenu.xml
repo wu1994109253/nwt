@@ -1,0 +1,5 @@
+﻿<Menu>
+	<MenuItem Id="3001" Text="IDS_DELETE_EMOTION"/>
+	<MenuItem Id="3000" Text="IDS_DELETE_GROUP_EMOTION"/>
+	<MenuItem Id="3002" Text="IDS_MOVE_EMOTION"/>
+</Menu>

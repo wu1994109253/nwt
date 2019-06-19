@@ -1,0 +1,23 @@
+﻿<Menu>
+	<MenuItem Id="1001" Text="IDS_ONLINE" Icon="Online.png"/>
+	<MenuItem Id="1002" Text="IDS_BUSY" Icon="Busy.png"/>
+	<MenuItem Id="1003" Text="IDS_RIGHT_BACK" Icon="RightBack.png"/>
+	<MenuItem Id="1004" Text="IDS_AWAY" Icon="Away.png"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="10111" Text="IDS_LOCK_APP"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="306" Text="IDS_MESSAGE"/>
+	<MenuItem Id="307" Text="IDS_FILE_RECORD"/>
+	<MenuItem Id="308" Text="IDS_IMAGE_RECORD"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="1012" Text="IDS_CONFIG"/>
+	<MenuItem Id="1013" Text="IDS_MY_SCORE"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="1014" Text="IDS_NEW_GUIDE"/>
+	<MenuItem Id="1015" Text="IDS_MENU_ONLINE_UPDATE"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="1016" Text="IDS_ABOUT"/>
+	<MenuItem Id="1017" Text="IDS_HELPER"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="1018" Text="IDS_QUIT"/>
+</Menu>

@@ -1,0 +1,23 @@
+﻿<SkinDialog DefaultWidth="415" DefaultHeight="420" Animation="SizeChange" Icon="128" Caption="IDS_MAIL_PERCEPTION_CONFIG" SysButton="MIN;CLOSE">
+	<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+		<SkinCheckBox Id="7002" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="28" AlignParentTop="45" ChildText1="IDS_MAIL_PERCEPTION" Layout="CheckBox.xml"/>
+		<SkinTextView Id="7003" LayoutWidth="46" LayoutHeight="30" ToBottomOf="7002,5" AlignParentLeft="48" Text="IDS_MAIL_PROTOCOL"/>
+		<SkinTextView Id="7004" LayoutWidth="46" LayoutHeight="30" ToBottomOf="7003,5" AlignParentLeft="48" Text="IDS_MAIL_HOST"/>
+		<SkinTextView Id="7005" LayoutWidth="46" LayoutHeight="30" ToBottomOf="7004,5" AlignParentLeft="48" Text="IDS_MAIL_PORT"/>
+		<SkinTextView Id="7006" LayoutWidth="46" LayoutHeight="30" ToBottomOf="7005,5" AlignParentLeft="48" Text="IDS_MAIL_USERNAME"/>
+		<SkinTextView Id="7007" LayoutWidth="46" LayoutHeight="30" ToBottomOf="7006,5" AlignParentLeft="48" Text="IDS_MAIL_PASSWORD"/>
+		<SkinComboBox Id="7103" LayoutWidth="260" LayoutHeight="28" ToBottomOf="7002,6" AlignParentLeft="95" Layout="ComboBox.xml" Image="Edit.png" ReadOnly="true"/>
+		<SkinEditView Id="7104" LayoutWidth="260" LayoutHeight="28" ToBottomOf="7003,6" AlignParentLeft="95" Image="Edit.png"/>
+		<SkinEditView Id="7105" LayoutWidth="260" LayoutHeight="28" ToBottomOf="7004,6" AlignParentLeft="95" Image="Edit.png" Number="true"/>
+		<SkinEditView Id="7106" LayoutWidth="260" LayoutHeight="28" ToBottomOf="7005,6" AlignParentLeft="95" Image="Edit.png"/>
+		<SkinEditView Id="7107" LayoutWidth="260" LayoutHeight="28" ToBottomOf="7006,6" AlignParentLeft="95" Image="Edit.png" Password="true"/>
+		<SkinCheckBox Id="7201" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="85" ToBottomOf="7107,5" ChildText1="IDS_MAIL_SSL" Layout="CheckBox.xml"/>
+		<SkinCheckBox Id="7202" LayoutWidth="WrapContent" LayoutHeight="24" ToRightOf="7201,25" ToBottomOf="7107,5" ChildText1="IDS_MAIL_SPA" Layout="CheckBox.xml"/>
+		<SkinTextView Id="7203" LayoutWidth="136" LayoutHeight="30" ToBottomOf="7202,5" AlignParentLeft="85" Text="IDS_MAIL_INTERVAL"/>
+		<SkinComboBox Id="7204" LayoutWidth="140" LayoutHeight="28" ToBottomOf="7202,6" ToRightOf="7201,25" Layout="ComboBox.xml" Image="Edit.png"/>
+		<SkinButton Id="7205" LayoutWidth="140" LayoutHeight="28" ToRightOf="7201,25" ToBottomOf="7204,7" Image="Button.png" Layout="Button.xml" ChildText1="IDS_MAIL_TEST"/>
+		<SkinButton Id="1" LayoutWidth="75" LayoutHeight="25" AlignParentLeft="48" AlignParentBottom="20" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_OK"/>
+		<SkinButton Id="2" LayoutWidth="75" LayoutHeight="25" AlignParentHorizontalCenter="0" AlignParentBottom="20" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_CANCEL"/>
+		<SkinButton Id="7301" LayoutWidth="75" LayoutHeight="25" AlignParentRight="48" AlignParentBottom="20" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_APPLY"/>
+	</SkinRelativeLayout>
+</SkinDialog>

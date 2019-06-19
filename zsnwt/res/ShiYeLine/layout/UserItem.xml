@@ -1,0 +1,6 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<UserHeadButton Id="1001" LayoutWidth="46" LayoutHeight="46" AlignParentLeft="5" AlignParentVerticalCenter="true" Layout="UserHeadButton2.xml"/>
+	<SkinTextViewEx Id="1002" LayoutWidth="WrapContent" LayoutHeight="27" ToRightOf="1001,5" AlignParentTop="5" />
+	<UserInfoView Id="1003" LayoutHeight="27" ToRightOf="1001,5" AlignParentBottom="5" AlignParentRight="5" AutoLayout="true" FontColor="ID_COLOR_DISABLE"/>
+	<SkinButton Id="1005" LayoutWidth="20" LayoutHeight="20" ToRightOf="1002,3" AlignParentTop="9" Image="IconButton.png" Layout="IconButton.xml"/>
+</SkinRelativeLayout>

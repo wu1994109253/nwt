@@ -1,0 +1,3 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<UserHeadView Id="100001" AlignParentLeft="2" AlignParentTop="2" AlignParentRight="2" AlignParentBottom="2" HeadFrame="HeadFrame2.png"/>
+</SkinRelativeLayout>

@@ -1,0 +1,11 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+		<ChatImageListView Id="5111" LayoutWidth="FillParent" AlignParentTop="0" AlignParentBottom="34" ScrollStep="100" EmptyTips="IDS_IMAGE_RECORD_EMPTY_TIPS" EmptyImage="LogoBkg.png" VScrollBar="VScrollBar.xml"/>
+		<SkinComboBox Id="5128" LayoutWidth="60" LayoutHeight="20" AlignParentRight="8" AlignParentBottom="7" Layout="ComboBox.xml" Image="Edit.png" ReadOnly="true"/>
+		<SkinButton Id="5124" LayoutWidth="20" LayoutHeight="20" AlignParentRight="72" AlignParentBottom="7" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="LastPage.png" Tips="IDS_LAST_PAGE"/>
+		<SkinButton Id="5125" LayoutWidth="20" LayoutHeight="20" ToLeftOf="5124,6" AlignParentBottom="7" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="NextPage.png" Tips="IDS_PAGE_DOWN"/>
+		<SkinButton Id="5126" LayoutWidth="20" LayoutHeight="20" ToLeftOf="5125,6" AlignParentBottom="7" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="UpPage.png" Tips="IDS_PAGE_UP"/>
+		<SkinButton Id="5127" LayoutWidth="20" LayoutHeight="20" ToLeftOf="5126,6" AlignParentBottom="7" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="FirstPage.png" Tips="IDS_FIRST_PAGE"/>
+		<SkinButton Id="5123" LayoutWidth="20" LayoutHeight="20" ToLeftOf="5127,6" AlignParentBottom="7" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="ImageRecord.png" Tips="IDS_IMAGE_RECORD"/>
+	</SkinRelativeLayout>
+</SkinRelativeLayout>

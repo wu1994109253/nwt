@@ -1,0 +1,4 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinEditView Id="100001" AlignParentLeft="5" AlignParentTop="1" AlignParentRight="24" AlignParentBottom="1"/>
+	<SkinComboArrow Id="100002" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentRight="3" Image="ComboArrow.png" AlignParentVerticalCenter="0"/>
+</SkinRelativeLayout>

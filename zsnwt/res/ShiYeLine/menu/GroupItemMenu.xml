@@ -1,0 +1,15 @@
+﻿<Menu>
+	<MenuItem Text="IDS_HEAD_SHOW">
+		<MenuItem Id="1113" Text="IDS_BIG_HEAD_SHOW"/>
+		<MenuItem Id="1114" Text="IDS_SMALL_HEAD_SHOW"/>
+	</MenuItem>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="1201" Text="IDS_BATCH_SEND"/>
+	<MenuItem Id="1202" Text="IDS_CREATE_QGROUP"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="1101" Text="IDS_ONLY_SHOW_ONLINE_USER"/>
+	<MenuItem Id="1112" Text="IDS_COLLAPSE_USER_TREE_NODE"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="1110" Text="IDS_TOOLBAR_CLEAR_ALL_USER_TIPS"/>
+	<MenuItem Id="1115" Text="IDS_TOOLBAR_CLEAR_MONTH_USER_TIPS"/>
+</Menu>

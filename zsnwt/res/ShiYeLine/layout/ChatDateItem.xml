@@ -1,0 +1,3 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinListEditView Id="20111" LayoutWidth="WrapContent" LayoutHeight="FillParent" HorzAlignment="Center" FontColor="ID_COLOR_DISABLE"/>
+</SkinRelativeLayout>

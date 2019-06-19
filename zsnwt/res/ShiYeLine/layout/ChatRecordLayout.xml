@@ -1,0 +1,17 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinAnimationGroup LayoutHeight="23" LayoutWidth="160" AlignParentLeft="5" AlignParentTop="5">
+		<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+			<SkinRadioButton Id="5101" LayoutHeight="FillParent" LayoutWidth="50" AlignParentLeft="0" BindView="5110" Image="Button4.png" Layout="ChatRecordTabButton.xml" ChildText1="IDS_TOOLBAR_ALL" Checked="true"/>
+			<SkinRadioButton Id="5102" LayoutHeight="FillParent" LayoutWidth="50" ToRightOf="5101,5" BindView="5140" Image="Button4.png" Layout="ChatRecordTabButton.xml" ChildText1="IDS_TOOLBAR_PICTURE"/>
+			<SkinRadioButton Id="5103" LayoutHeight="FillParent" LayoutWidth="50" ToRightOf="5102,5" BindView="5170" Image="Button4.png" Layout="ChatRecordTabButton.xml" ChildText1="IDS_TOOLBAR_SEND_FILE"/>
+		</SkinRelativeLayout>
+	</SkinAnimationGroup>
+	<ChatRecordAnimationHost LayoutWidth="FillParent" AlignParentTop="30" AlignParentBottom="0" Animation="LeftRightSlide">
+		<ChatMessageLayout Id="5110" LayoutWidth="FillParent" LayoutHeight="FillParent" Layout="ChatMessageLayout.xml">
+		</ChatMessageLayout>
+		<ChatImageLayout Id="5140" LayoutWidth="FillParent" LayoutHeight="FillParent" Layout="ChatImageLayout.xml" Visible="false">
+		</ChatImageLayout>
+		<ChatFileLayout Id="5170" LayoutWidth="FillParent" LayoutHeight="FillParent" Layout="ChatFileLayout.xml" Visible="false">
+		</ChatFileLayout>
+	</ChatRecordAnimationHost>
+</SkinRelativeLayout>

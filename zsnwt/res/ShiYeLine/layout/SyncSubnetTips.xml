@@ -1,0 +1,4 @@
+﻿<SkinDialog DefaultWidth="325" DefaultHeight="36">
+	<SkinTextView Id="100001" AlignParentLeft="10" AlignParentTop="5" AlignParentRight="10" AlignParentBottom="15" Text="IDS_SYNC_SUBNET_BUTTON_TIPS"/>
+	<SkinLayout AlignParentLeft="0" AlignParentTop="0" AlignParentRight="0" AlignParentBottom="0" BkgImage="SkinTips.png"/>
+</SkinDialog>

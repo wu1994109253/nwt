@@ -1,0 +1,5 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<UserHeadView Id="100001" LayoutWidth="24" LayoutHeight="24" AlignParentLeft="5" AlignParentVerticalCenter="true"/>
+	<SearchResultTextView Id="100002" ToRightOf="100001,5" LayoutWidth="WrapContent" LayoutHeight="FillParent" AlignParentVerticalCenter="true"/>
+	<SearchResultTextView Id="100003" ToRightOf="100002,0" LayoutHeight="FillParent" AlignParentRight="3" AlignParentVerticalCenter="true" FontColor="ID_COLOR_DISABLE"/>
+</SkinRelativeLayout>

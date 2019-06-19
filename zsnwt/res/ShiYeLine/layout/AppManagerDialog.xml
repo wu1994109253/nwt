@@ -1,0 +1,10 @@
+﻿<SkinDialog DefaultWidth="385" DefaultHeight="230" Caption="IDS_APP_MANAGER" Animation="SizeChange" Icon="128" SysButton="CLOSE">
+	<SkinRelativeLayout AlignParentLeft="10" AlignParentTop="40" AlignParentRight="90" AlignParentBottom="10" Border="ID_COLOR_LINE" BkgColor="ID_COLOR_WHITE">
+		<AppListView Id="101" AlignParentTop="2" AlignParentBottom="2" AlignParentLeft="2" AlignParentRight="2" VScrollBar="VScrollBar.xml"/>
+	</SkinRelativeLayout>
+	<SkinButton Id="201" LayoutWidth="70" LayoutHeight="28" AlignParentRight="10" AlignParentTop="40" Image="Button.png" Layout="Button.xml" ChildText1="IDS_ADD"/>
+	<SkinButton Id="202" LayoutWidth="70" LayoutHeight="28" AlignParentRight="10" ToBottomOf="201,10" Image="Button.png" Layout="Button.xml" ChildText1="IDS_MODIFY"/>
+	<SkinButton Id="203" LayoutWidth="70" LayoutHeight="28" AlignParentRight="10" ToBottomOf="202,10" Image="Button.png" Layout="Button.xml" ChildText1="IDS_DELETE"/>
+	<SkinButton Id="204" LayoutWidth="70" LayoutHeight="28" AlignParentRight="10" ToBottomOf="203,10" Image="Button.png" Layout="Button.xml" ChildText1="IDS_MOVE_UP"/>
+	<SkinButton Id="205" LayoutWidth="70" LayoutHeight="28" AlignParentRight="10" ToBottomOf="204,10" Image="Button.png" Layout="Button.xml" ChildText1="IDS_MOVE_DOWN"/>
+</SkinDialog>

@@ -1,0 +1,22 @@
+﻿<SkinDialog DefaultWidth="750" DefaultHeight="520" MinWidth="750" MinHeight="520" Resize="true"  Caption="IDS_BATCH_SEND" Animation="SizeChange" Icon="128" Drag="File" SysButton="MIN;MAX;CLOSE">
+	<SkinRelativeLayout LayoutWidth="200" AlignParentLeft="10" AlignParentTop="40" AlignParentBottom="40" BkgImage="BatchSendBkg.png">
+		<SkinTextView LayoutWidth="80" LayoutHeight="26" AlignParentLeft="0" AlignParentTop="0" Text="IDS_SELECT_CONTACTOR" HorzAlignment="Center"/>
+		<SelectUserTreeView Id="3000" AlignParentLeft="2" AlignParentRight="2" AlignParentTop="27" AlignParentBottom="32" ItemExpand="FALSE" VScrollBar="VScrollBar.xml"/>
+		<SearchComboBox Id="105" AlignParentLeft="1" AlignParentRight="1" LayoutHeight="28" AlignParentBottom="1" PopupDown="false" Image="ComboSearch2.png" Tips="IDS_SEARCH_COMBOBOX_SHORT_TIPS" TipsColor="ID_COLOR_DISABLE" Limit="16"/>
+	</SkinRelativeLayout>
+	<SkinRelativeLayout AlignParentLeft="220" AlignParentTop="65" AlignParentRight="10" AlignParentBottom="190" Border="ID_COLOR_LINE">
+		<OutputListView Id="300" AlignParentTop="5" AlignParentBottom="5" AlignParentLeft="5" AlignParentRight="5" ScrollStep="100" CheckItem="false" Drag="File" VScrollBar="VScrollBar.xml"/>
+	</SkinRelativeLayout>
+	<SkinButton Id="2102" LayoutWidth="24" LayoutHeight="24" AlignParentBottom="162" AlignParentLeft="225" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="Emotion.png" Tips="IDS_EMOTION_TIPS"/>
+	<SkinButton Id="2103" LayoutWidth="24" LayoutHeight="24" AlignParentBottom="162" ToRightOf="2102,10" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="Picture.png" Tips="IDS_PICTURE_TIPS"/>
+	<SkinButton Id="2104" LayoutWidth="49" LayoutHeight="24" AlignParentBottom="162" ToRightOf="2103,10" Image="PrintScreenButton.png" Layout="PrintScreenButton.xml" RedrawAllChild="true" MouseOverOffset="0" PressDownOffset="0"/>
+	<SkinButton Id="2105" LayoutWidth="24" LayoutHeight="24" AlignParentBottom="162" ToRightOf="2104,10" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="FileTrans.png" Tips="IDS_SEND_FILE_TIPS"/>
+	<SkinButton Id="2106" LayoutWidth="24" LayoutHeight="24" AlignParentBottom="162" ToRightOf="2105,10" Image="IconButton.png" Layout="IconButton.xml" ChildImage1="FolderTrans.png" Tips="IDS_SEND_FOLDER_TIPS"/>
+	<SkinRelativeLayout LayoutHeight="120" AlignParentLeft="220" AlignParentRight="10" AlignParentBottom="40" Border="ID_COLOR_LINE">
+		<InputEditView Id="400" AlignParentLeft="5" AlignParentRight="5" AlignParentTop="5" AlignParentBottom="5" Limit="5000" MultiLine="true" Drag="File" RichEdit="true" VScrollBar="VScrollBar.xml"/>
+	</SkinRelativeLayout>
+	<SkinTextView Id="101" LayoutWidth="280" LayoutHeight="24" AlignParentLeft="10" AlignParentBottom="7"/>
+	<SkinButton Id="103" LayoutWidth="80" LayoutHeight="24" AlignParentRight="10" AlignParentBottom="7" Image="Button3.png" Layout="SendMsgButton.xml" RedrawAllChild="true" MouseOverOffset="0" PressDownOffset="0"/>
+	<SkinButton Id="2" LayoutWidth="70" LayoutHeight="24" ToLeftOf="103,10" AlignParentBottom="7" Image="Button2.png" Layout="Button.xml" ChildText1="IDS_CLOSE_SHORTCUT" ChildFontColor1="ID_COLOR_WHITE"/>
+	<SkinCheckBox Id="500" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentBottom="7" ToLeftOf="2,10" ChildText1="IDS_ALL_ACTIVE_SEND" Layout="CheckBox.xml"/>
+</SkinDialog>

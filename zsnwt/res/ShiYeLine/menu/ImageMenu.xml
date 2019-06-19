@@ -1,0 +1,5 @@
+﻿<Menu>
+	<MenuItem Id="11010" Text="IDS_COPY"/>
+	<MenuItem Id="11011" Text="IDS_IMAGE_SAVEAS"/>
+	<MenuItem Id="11012" Text="IDS_ADDTO_EMOTION"/>
+</Menu>

@@ -1,0 +1,5 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinCheckBox Id="1004" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="5" AlignParentVerticalCenter="true" Layout="CheckBox.xml"/>
+	<UserHeadView Id="1001" LayoutWidth="24" LayoutHeight="24" AlignParentLeft="5" AlignParentVerticalCenter="true"/>
+	<SkinTextViewEx Id="1002" AlignParentRight="5" LayoutHeight="FillParent" ToRightOf="1001,5" AlignParentVerticalCenter="true" />
+</SkinRelativeLayout>

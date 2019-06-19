@@ -1,0 +1,385 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+body {
+	font-family: "微软雅黑", Tahoma, "宋体", Geneva, sans-serif;
+	font-size: 14px;
+	margin:0;
+}
+#MAIN_TITLE {
+	text-align: right;
+	font-weight: bold;
+	margin-right: 10px;
+}
+#MAIN_TITLE a {
+	color: #06C;
+	text-decoration: none;
+}
+#MAIN_TITLE a:hover{
+	color: #C00;
+	text-decoration: underline;
+}
+#MAIN_INTRO a {
+	color: #06C;
+	text-decoration: none;
+}
+#MAIN_INTRO a:hover{
+	color: #C00;
+	text-decoration: underline;
+}
+#MAIN_INTRO_DESC {
+	font-size: 14px;
+	color: #666;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+.DESC {
+	font-size: 14px;
+	color: #666;
+}
+h2 {
+	font-size: 14px;
+	margin-left: 10px;
+}
+.QUESTION_HEAD{
+	color: #000;
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+.QUESTION_HEAD a {
+	color: #06C;
+	text-decoration: none;
+}
+.QUESTION_HEAD a:hover{
+	color: #C00;
+	text-decoration: underline;
+}
+.QUESTION_DESC {
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+.QUESTION_ACTION {
+	text-align: right;
+	margin-right: 10px;
+}
+.QUESTION_ACTION a {
+	font-weight: bold;
+	color: #06C;
+	text-decoration: none;
+}
+.QUESTION_ACTION a:hover{
+	font-weight: bold;
+	color: #C00;
+	text-decoration: underline;
+}
+.QUESTION_ITEM{
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+}
+#MAIN #TITLE a {
+	color: #06C;
+	text-decoration: none;
+}
+#FAQ .QUESTION table tr{
+	height: 90px;
+}
+#RETURN {
+	margin-right: 10px;
+}
+#RETURN a {
+	color: #06C;
+	text-decoration: none;
+}
+#RETURN a:hover{
+	color: #C00;
+	text-decoration: underline;
+}
+#FIREWALL_DESC {
+	margin-left: 20px;
+}
+.FIREWALL_METHOD {
+	font-weight: bold;
+	margin-top: 20px;
+}
+#FIREWALL_FRAME {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.FIREWALL_STEP {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+.FIREWALL_PNG {
+	margin-left: 20px;
+}
+#NETWORK_FRAME {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#NETWORK_DESC {
+	margin-left: 20px;
+}
+#NETWORK_PNG {
+	text-align: center;
+	margin-top: 30px;
+}
+#SUBNET_FRAME {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#SUBNET_EXAMP {
+	text-align: center;
+}
+#SUBNET_DESC {
+	margin-left: 20px;
+}
+</style>
+<script type="text/javascript">
+function Init()
+{
+	ChangeColor();
+}
+	
+function ChangeColor()
+{
+	var table = document.getElementById("MAIN_FAQ").getElementsByTagName("table");
+	for (var i = 0; i < table.length; i++)
+	{
+		table[i].onmouseover = function()
+		{
+			this.style.backgroundColor = "#F5F5F5";
+			var a = this.getElementsByTagName("a");
+			a[0].style.textDecoration="underline";
+			a[1].style.textDecoration="underline";
+		}
+		
+  		table[i].onmouseout = function()
+		{
+			this.style.backgroundColor = "#FFFFFF";
+			var a = this.getElementsByTagName("a");
+			a[0].style.textDecoration = "none";
+			a[1].style.textDecoration = "none";
+		}
+	}
+}
+
+function ShowFirewallPage()
+{
+	document.getElementById("MAIN").style.display = "none";
+	document.getElementById("FIREWALL").style.display = "block";
+	document.getElementById("NETWORK").style.display = "none";
+	document.getElementById("SUBNET").style.display = "none";
+}
+
+function ShowNetworkPage()
+{
+	document.getElementById("MAIN").style.display = "none";
+	document.getElementById("FIREWALL").style.display = "none";
+	document.getElementById("NETWORK").style.display = "block";
+	document.getElementById("SUBNET").style.display = "none";
+}
+
+function ShowSubnetPage()
+{
+	document.getElementById("MAIN").style.display = "none";
+	document.getElementById("FIREWALL").style.display = "none";
+	document.getElementById("NETWORK").style.display = "none";
+	document.getElementById("SUBNET").style.display = "block";
+}
+
+function ShowMainPage()
+{
+	document.getElementById("MAIN").style.display = "block";
+	document.getElementById("FIREWALL").style.display = "none";
+	document.getElementById("NETWORK").style.display = "none";
+	document.getElementById("SUBNET").style.display = "none";
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function ChangeFirewallDimensions() //函数：获取尺寸
+{
+	var winWidth = 0;
+	var winHeight = 0;
+
+	//获取窗口宽度
+	if (window.innerWidth)
+		winWidth = window.innerWidth;
+	else if ((document.body) && (document.body.clientWidth))
+		winWidth = document.body.clientWidth;
+
+	 //获取窗口高度
+	if (window.innerHeight)
+		winHeight = window.innerHeight;
+	else if ((document.body) && (document.body.clientHeight))
+		winHeight = document.body.clientHeight;
+
+	//通过深入Document内部对body进行检测，获取窗口大小
+	 if (document.documentElement  && document.documentElement.clientHeight && document.documentElement.clientWidth)
+	{
+		winHeight = document.documentElement.clientHeight;
+		winWidth = document.documentElement.clientWidth;
+	}
+
+    //改变id=FIREWALL尺寸
+	document.getElementById("FIREWALL").style.width = winWidth  + "px";
+	document.getElementById("FIREWALL").style.height = winHeight + "px";
+}
+
+window.onresize = ChangeFirewallDimensions;
+</script>
+</head>
+
+<body onload="Init();MM_preloadImages('feedback2.png','feedback3.png','feedback1.png')">
+<div id="HIDE" style="display:none;">
+<img src="feedback2.png" width="105" height="34" /><img src="feedback3.png" width="105" height="34" />
+<img src="autoclose2.png" width="105" height="34" /><img src="autoclose3.png" width="105" height="34" />
+<img src="add2.png" width="105" height="34" /><img src="add3.png" width="105" height="34" />
+<img src="scan2.png" width="105" height="34" /><img src="scan3.png" width="105" height="34" />
+</div>
+<div id="MAIN"><div id="MAIN_INTRO">
+	<table width="100%" border="0" cellspacing="0">
+	  <tr>
+	    <td><h2>内网通怎么用？</h2></td>
+        <td style="text-align:right">咨询加QQ群：187314062&nbsp;&nbsp;&nbsp;<a href="http://www.51nwt.com/api/forum.php" target="_blank">论坛中心</a>&nbsp;&nbsp;&nbsp;</td>
+	    <td width="115px"><a href="javascript:window.external.Feedback();"><img src="feedback1.png" border="0" alt="反馈建议" width="105" height="34" id="image_feedback" onmouseover="MM_swapImage('image_feedback','','feedback2.png',1)" onmousedown="MM_swapImage('image_feedback','','feedback3.png',1)" onmouseup="MM_swapImage('image_feedback','','feedback2.png',1)" onmouseout="MM_swapImage('image_feedback','','feedback1.png',1)" /></a></td>
+      </tr>
+    </table>
+	<div id="MAIN_INTRO_DESC">内网通是一款免费的局域网聊天软件，不需要外网，同一局域网两台以上的电脑都装上内网通，不要账号，就可以进行畅快的文字沟通和极速的文件传输。</div>
+  </div>
+<div id="MAIN_FAQ">
+  <h2>找不到联系人？</h2>
+  <div class="QUESTION">
+    <table width="100%" border="0" cellspacing="0" class="QUESTION_ITEM">
+      <tr>
+        <td>
+        <div class="QUESTION_HEAD"><a href="javascript:ShowFirewallPage()">>> 没有关闭防火墙</a></div>
+    	<div class="QUESTION_DESC">现象描述：双方都在线却在内网通看不见对方，或者能看到对方但不能稳定发送文字，图片，文件，显示为发送失败。</div>			
+        </td>
+        <td width="100px"><div class="QUESTION_ACTION"><a href="javascript:window.external.CloseWindowsFirewall();"><img src="autoclose1.png" border="0" alt="自动关闭" width="105" height="34" id="image_autoclose" onmouseover="MM_swapImage('image_autoclose','','autoclose2.png',1)" onmousedown="MM_swapImage('image_autoclose','','autoclose3.png',1)" onmouseup="MM_swapImage('image_autoclose','','autoclose2.png',1)" onmouseout="MM_swapImage('image_autoclose','','autoclose1.png',1)" /></a></div></td>
+      </tr>
+    </table>
+  </div>
+	<div class="QUESTION">
+	  <table width="100%" border="0" cellspacing="0" class="QUESTION_ITEM">
+	    <tr>
+	      <td>
+          <div class="QUESTION_HEAD"><a href="javascript:ShowNetworkPage()">>> 跨网段</a></div>
+          <div class="QUESTION_DESC">现象描述：同一局域网存在多个网段，多个网段之间的用户在内网通上看不见对方。</div>
+          </td>
+          <td width="100px"><div class="QUESTION_ACTION"><a href="javascript:window.external.ScanUsers();"><img src="add1.png" border="0" alt="一键添加" width="105" height="34" id="image_add" onmouseover="MM_swapImage('image_add','','add2.png',1)" onmousedown="MM_swapImage('image_add','','add3.png',1)" onmouseup="MM_swapImage('image_add','','add2.png',1)" onmouseout="MM_swapImage('image_add','','add1.png',1)" /></a></div></td>
+        </tr>
+      </table>
+  </div>
+	<div class="QUESTION">
+	  <table width="100%" border="0" cellspacing="0"  class="QUESTION_ITEM">
+	    <tr>
+	      <td>
+          <div class="QUESTION_HEAD"><a href="javascript:ShowSubnetPage()">>> 局域网不通畅</a></div>
+          <div class="QUESTION_DESC">现象描述：A和B用户双方不能在联系人列表中看到对方或者A和B用户双方不能进行文件传输。</div>
+          </td>
+	      <td width="100px"><div class="QUESTION_ACTION"><a href="javascript:window.external.PingIp()"><img src="scan1.png" border="0" alt="自动检测" width="105" height="34" id="image_scan" onmouseover="MM_swapImage('image_scan','','scan2.png',1)" onmousedown="MM_swapImage('image_scan','','scan3.png',1)" onmouseup="MM_swapImage('image_scan','','scan2.png',1)" onmouseout="MM_swapImage('image_scan','','scan1.png',1)" /></a></div></td>
+        </tr>
+      </table>
+	</div>
+</div>
+</div>
+
+<div id="FIREWALL"  style="display:none;overflow-x:hidden;overflow-y:auto;height:503px;">
+<table width="100%" border="0" cellspacing="0">
+	    <tr>
+	      <td><h2>&nbsp;帮助-没有关闭防火墙</h2></td>
+	      <td width="140px"><div id="RETURN"><a href="javascript:ShowMainPage()"><img border="0" src="back1.png" alt="返回" width="92" height="34" id="image_firewall_back" onmouseover="MM_swapImage('image_firewall_back','','back2.png',1)" onmousedown="MM_swapImage('image_firewall_back','','back3.png',1)" onmouseup="MM_swapImage('image_firewall_back','','back2.png',1)" onmouseout="MM_swapImage('image_firewall_back','','back1.png',1)" /></a></div></td>
+        </tr>
+</table>
+<div id="FIREWALL_FRAME">
+<div id="FIREWALL_DESC">现象描述：双方都在线却在内网通看不见对方，或者能看到对方但不能稳定发送文字，图片，文件，显示为发送失败。请关闭防火墙或者有防火墙类似功能的杀毒软件。</div>
+ <div class="FIREWALL_METHOD">
+ <h2>手动关闭window 7防火墙的方法如下：</h2>
+ </div>
+ <div class="FIREWALL_STEP">1.首先"开始"里边找到并打开"控制面板"</div>
+ <div class="FIREWALL_PNG"><img src="firewall71.jpg" width="411" height="494" /></div>
+ <div class="FIREWALL_STEP">2.进入WIN7控制面板后，打开"系统和安全"</div>
+ <div class="FIREWALL_PNG"><img src="firewall72.jpg" width="595" height="508" /></div>
+ <div class="FIREWALL_STEP">3.之后我们即可找到"Windows防火墙"设置入口，我们点击进入即可</div>
+ <div class="FIREWALL_PNG"><img src="firewall73.jpg" width="595" height="508" /></div>
+ <div class="FIREWALL_STEP">4.进入Windows防火墙设置界面之后，我们选择"打开或者关闭Windows防火墙"</div>
+ <div class="FIREWALL_PNG"><img src="firewall74.jpg" width="595" height="508" /></div>
+ <div class="FIREWALL_STEP">5.最后我们即可在里面选择关闭Windows防火墙了，共两个选项，都关闭，然后点击底部的"确定"即可</div>
+ <div class="FIREWALL_PNG"><img src="firewall75.jpg" width="595" height="508" /></div>
+ 
+ <div class="FIREWALL_METHOD">
+ <h2>手动关闭window XP防火墙的方法如下：</h2>
+</div>
+ <div class="FIREWALL_STEP">1.开始-->设置-->控制面板（或者开始-->控制面板）</div>
+ <div class="FIREWALL_PNG"><img src="firewall1.jpg" width="380" height="548" /></div>
+ <div class="FIREWALL_STEP">2.在控制面板内选择"Windows防火墙"</div>
+ <div class="FIREWALL_PNG"><img src="firewall2.jpg" width="434" height="441" /></div>
+ <div class="FIREWALL_STEP">3.关闭防火墙</div>
+ <div class="FIREWALL_PNG"><img src="firewall3.jpg" width="433" height="479" /></div>
+</div>
+</div>
+
+<div id="NETWORK" style="display:none;">
+ <table width="100%" border="0" cellspacing="0">
+	    <tr>
+	      <td><h2>&nbsp;帮助-跨网段</h2></td>
+	      <td width="100px"><div id="RETURN"><a href="javascript:ShowMainPage()"><img src="back1.png" border="0" alt="返回" width="92" height="34" id="image_network_back" onmouseover="MM_swapImage('image_network_back','','back2.png',1)" onmousedown="MM_swapImage('image_network_back','','back3.png',1)" onmouseup="MM_swapImage('image_network_back','','back2.png',1)" onmouseout="MM_swapImage('image_network_back','','back1.png',1)" /></a></div></td>
+        </tr>
+</table>
+<div id="NETWORK_FRAME">
+<div id="NETWORK_DESC">现象描述：同一局域网存在多个网段，多个网段之间的用户在内网通上看不见对方，
+请首先使用"自动添加网段"功能，其次如果还有个别网段系统没有给您添加请尝试
+手动添加网段：</div>
+<div id="NETWORK_PNG"><img src="network1.jpg" width="475" height="345" /></div>
+</div>
+</div>
+
+<div id="SUBNET" style="display:none;">
+<table width="100%" border="0" cellspacing="0">
+	    <tr>
+	      <td><h2>&nbsp;帮助-局域网不通畅</h2></td>
+	      <td width="100px"><div id="RETURN"><a href="javascript:ShowMainPage()"><a href="javascript:ShowMainPage()"><img src="back1.png" border="0" alt="返回" width="92" height="34" id="image_subnet_back" onmouseover="MM_swapImage('image_subnet_back','','back2.png',1)" onmousedown="MM_swapImage('image_subnet_back','','back3.png',1)" onmouseup="MM_swapImage('image_subnet_back','','back2.png',1)" onmouseout="MM_swapImage('image_subnet_back','','back1.png',1)" /></a></div></td>
+        </tr>
+</table>
+<div id="SUBNET_FRAME">
+<div id="SUBNET_DESC">现象描述：A和B用户双方不能在联系人列表中看到对方或者A和B用户双方不能进行文件传输。<br><br>
+尝试在A的电脑上ping B的ip检测是否能通，同时在B的电脑上ping A的ip检测是否能通(以上操作建议由网管协助)，如果有一方不能ping通则不能正常使用内网通，需调整网络设置让上述两个ping操作都通。<br>
+</div>
+<div id="SUBNET_EXAMP"><br><img src="subnet1.jpg" width="330" height="270" /><br>适合内网通运行的典型网络结构</id>
+</div>
+</div>
+</div>
+
+</body>
+</html>

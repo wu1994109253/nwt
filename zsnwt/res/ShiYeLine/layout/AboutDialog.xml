@@ -1,0 +1,7 @@
+﻿<SkinDialog DefaultWidth="498" DefaultHeight="298" Caption="IDS_ABOUT_LAN" Animation="SizeChange" Icon="128" SysButton="CLOSE">
+	<SkinTextView LayoutWidth="FillParent" LayoutHeight="20" AlignParentTop="200" Id="100" HorzAlignment="Center"/>
+	<SkinTextView LayoutWidth="FillParent" LayoutHeight="20" AlignParentTop="220" HorzAlignment="Center" Text="IDS_COPYRIGHT_EN"/>
+	<SkinTextView LayoutWidth="FillParent" LayoutHeight="20" AlignParentTop="240" HorzAlignment="Center" Text="IDS_COPYRIGHT_CN"/>
+	<SkinHyperlink LayoutWidth="FillParent" LayoutHeight="20" AlignParentTop="268" HorzAlignment="Center" Text="IDS_LAN_URL" URL="IDS_LAN_URL" UnderLine="true"/>
+	<SkinRelativeLayout Id="1000" LayoutWidth="FillParent" LayoutHeight="FillParent" BkgImage="AboutBkg.png"/>
+</SkinDialog>

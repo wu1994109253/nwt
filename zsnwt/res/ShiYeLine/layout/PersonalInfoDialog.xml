@@ -1,0 +1,29 @@
+﻿<SkinDialog DefaultWidth="300" DefaultHeight="500" Caption="IDS_OPTION_PERSONAL" Animation="SizeChange" ThemeHeight="135" Icon="128" SysButton="MIN;CLOSE">
+	<SkinButton Id="101" LayoutWidth="76" LayoutHeight="76" AlignParentHorizontalCenter="Center" AlignParentTop="32" Tips="IDS_SET_PHOTO" Layout="UserHeadButton.xml"/>
+	<SkinButton Id="301" LayoutWidth="70" LayoutHeight="24" AlignParentRight="10" AlignParentTop="100" Image="Button5.png" Layout="Button.xml" ChildText1="IDS_EDIT_PERSONAL_INFO" ChildFontColor1="ID_COLOR_WHITE"/>
+	<SkinButton Id="302" LayoutWidth="45" LayoutHeight="24" AlignParentRight="10" AlignParentTop="100" Image="Button5.png" Layout="Button.xml" ChildText1="IDS_CLOSE" ChildFontColor1="ID_COLOR_WHITE" Visible="false"/>
+	<SkinButton Id="303" LayoutWidth="45" LayoutHeight="24" AlignParentRight="60" AlignParentTop="100" Image="Button5.png" Layout="Button.xml" ChildText1="IDS_SAVE" ChildFontColor1="ID_COLOR_WHITE" Visible="false"/>
+	<SkinRelativeLayout LayoutWidth="FillParent" AlignParentTop="135" AlignParentBottom="10" >
+		<SkinTextView Id="1001" LayoutWidth="36" LayoutHeight="30" AlignParentTop="15" AlignParentLeft="23" HorzAlignment="Right" Text="IDS_NAME"/>
+		<SkinTextView Id="1002" LayoutWidth="36" LayoutHeight="30" ToBottomOf="1001,3" AlignParentLeft="23" HorzAlignment="Right" Text="IDS_SIGN"/>
+		<SkinTextView Id="1003" LayoutWidth="36" LayoutHeight="30" ToBottomOf="1002,3" AlignParentLeft="23" HorzAlignment="Right" Text="IDS_GENDER"/>
+		<SkinTextView Id="1004" LayoutWidth="36" LayoutHeight="30" ToBottomOf="1003,3" AlignParentLeft="23" HorzAlignment="Right" Text="IDS_COMPANY"/>
+		<SkinTextView Id="1005" LayoutWidth="36" LayoutHeight="30" ToBottomOf="1004,3" AlignParentLeft="23" HorzAlignment="Right" Text="IDS_DEPTMENT"/>
+		<SkinTextView Id="1006" LayoutWidth="36" LayoutHeight="30" ToBottomOf="1005,3" AlignParentLeft="23" HorzAlignment="Right" Text="IDS_PHONE"/>
+		<SkinTextView Id="1007" LayoutWidth="36" LayoutHeight="30" ToBottomOf="1006,3" AlignParentLeft="23" HorzAlignment="Right" Text="IDS_MOBILE"/>
+		<SkinTextView Id="1008" LayoutWidth="36" LayoutHeight="30" ToBottomOf="1007,3" AlignParentLeft="23" HorzAlignment="Right" Text="IDS_EMAIL"/>
+		<SkinTextView Id="1010" LayoutWidth="36" LayoutHeight="30" ToBottomOf="1008,3" AlignParentLeft="23" HorzAlignment="Right" Text="IDS_VERSION"/>
+		<SkinTextView Id="1009" LayoutWidth="36" LayoutHeight="30" ToBottomOf="1010,3" AlignParentLeft="23" HorzAlignment="Right" Text="IDS_IP"/>
+		<SkinEditTextView Id="1101" AlignParentRight="28" LayoutHeight="28" AlignParentTop="15" AlignParentLeft="65" Image="Edit.png" Limit="10"/>
+		<SkinEditTextView Id="1102" AlignParentRight="28" LayoutHeight="28" ToBottomOf="1001,3" AlignParentLeft="65" Image="Edit.png" Limit="32"/>
+		<SkinComboBoxTextView Id="1103" AlignParentRight="28" LayoutHeight="28" ToBottomOf="1002,3" AlignParentLeft="65" Layout="ComboBoxTextView.xml" Image="Edit.png" ReadOnly="true"/>
+		<SkinComboBoxTextView Id="1104" AlignParentRight="28" LayoutHeight="28" ToBottomOf="1003,3" AlignParentLeft="65" Layout="ComboBoxTextView.xml" Image="Edit.png" Limit="30"/>
+		<SkinComboBoxTextView Id="1105" AlignParentRight="28" LayoutHeight="28" ToBottomOf="1004,3" AlignParentLeft="65" Layout="ComboBoxTextView.xml" Image="Edit.png" Limit="32"/>
+		<SkinImageView Id="1111" LayoutWidth="WrapContent" LayoutHeight="WrapContent" ToRightOf="1105,5" ToBottomOf="1004,10" Image="Question.png" SkinTips="DepartmentTips.xml" SkinTipsOffset="-30,0" Visible="false"/>
+		<SkinEditTextView Id="1106" AlignParentRight="28" LayoutHeight="28" ToBottomOf="1005,3" AlignParentLeft="65" Image="Edit.png" Limit="32"/>
+		<SkinEditTextView Id="1107" AlignParentRight="28" LayoutHeight="28" ToBottomOf="1006,3" AlignParentLeft="65" Image="Edit.png" Limit="32"/>
+		<SkinEditTextView Id="1108" AlignParentRight="28" LayoutHeight="28" ToBottomOf="1007,3" AlignParentLeft="65" Image="Edit.png" Limit="32"/>
+		<SkinEditTextView Id="1110" AlignParentRight="28" LayoutHeight="28" ToBottomOf="1008,3" AlignParentLeft="65" Image="Edit.png" Limit="32" ReadOnly="true"/>
+		<SkinEditTextView Id="1109" AlignParentRight="28" LayoutHeight="28" ToBottomOf="1010,3" AlignParentLeft="65" Image="Edit.png" Limit="32" ReadOnly="true"/>
+	</SkinRelativeLayout>
+</SkinDialog>

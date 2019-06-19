@@ -1,0 +1,8 @@
+﻿<SkinDialog DefaultWidth="400" DefaultHeight="275" Caption="IDS_ACCEPT_FILE" Animation="SizeChange" Icon="128" SysButton="CLOSE">
+	<SkinTextView Id="101" LayoutHeight="20" AlignParentLeft="25" AlignParentRight="20" AlignParentTop="45" Text="IDS_ACCEPT_FILE_TIPS1" FontStyle="ID_FONT_BOLD_BIG"/>
+	<SkinTextView Id="102" LayoutHeight="20" AlignParentLeft="25" AlignParentRight="20" ToBottomOf="101,1" Text="IDS_ACCEPT_FILE_TIPS2"/>
+	<SkinButton Id="201" LayoutHeight="56" AlignParentLeft="17" AlignParentRight="17" ToBottomOf="102,10" Image="Button6.png" Layout="AcceptFileButton.xml" ChildText1="IDS_ACCEPT_FILE_RENAME"/>
+	<SkinButton Id="202" LayoutHeight="56" AlignParentLeft="17" AlignParentRight="17" ToBottomOf="201,10" Image="Button6.png" Layout="AcceptFileButton.xml" ChildText1="IDS_ACCEPT_FILE_REPLACE" ChildText2="IDS_ACCEPT_FILE_REPLACE_TIPS"/>
+	<SkinCheckBox Id="301" LayoutWidth="WrapContent" LayoutHeight="24" AlignParentLeft="25" AlignParentBottom="15" ChildText1="IDS_ACCEPT_FILE_ALWAYS" Layout="CheckBox.xml"/>
+	<SkinButton Id="2" LayoutWidth="75" LayoutHeight="24" AlignParentRight="20" AlignParentBottom="15" Image="Button2.png" Layout="Button.xml" ChildFontColor1="ID_COLOR_WHITE" ChildText1="IDS_CANCEL"/>
+</SkinDialog>

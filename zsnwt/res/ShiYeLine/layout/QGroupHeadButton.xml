@@ -1,0 +1,3 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<QGroupHeadView Id="100001" AlignParentLeft="3" AlignParentTop="3" AlignParentRight="3" AlignParentBottom="3" HeadFrame="HeadFrame.png"/>
+</SkinRelativeLayout>

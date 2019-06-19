@@ -1,0 +1,9 @@
+﻿<SkinDialog DefaultWidth="375" DefaultHeight="520" Caption="IDS_SCAN_CODE" Animation="SizeChange" Icon="128" SysButton="CLOSE">
+	<SkinTextView Id="101" LayoutHeight="28" AlignParentLeft="25" AlignParentRight="25" AlignParentTop="50" Text="IDS_SCAN_CODE_TIPS1" FontStyle="ID_FONT_BOLD_BIG"/>
+	<SkinRelativeLayout Id="106" LayoutWidth="300" LayoutHeight="300" AlignParentHorizontalCenter="0" BkgColor="ID_COLOR_WHITE" ToBottomOf="101,17">
+		<SkinImageView Id="102" LayoutWidth="WrapContent" LayoutHeight="WrapContent" AlignParentHorizontalCenter="0" AlignParentVerticalCenter="0" />
+	</SkinRelativeLayout>
+	<SkinTextView Id="103" LayoutHeight="28" AlignParentLeft="25" AlignParentRight="25" ToBottomOf="106,17"Text="IDS_SCAN_CODE_TIPS2" FontStyle="ID_FONT_BOLD_BIG"/>
+	<SkinEditView Id="104" LayoutHeight="28" AlignParentLeft="75" AlignParentRight="75" ToBottomOf="103,10" Limit="4" Image="Edit.png"/>
+	<SkinTextView Id="105" LayoutHeight="28" AlignParentLeft="75" AlignParentRight="75" ToBottomOf="104,3" FontColor="ID_COLOR_RED"/>
+</SkinDialog>

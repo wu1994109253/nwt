@@ -1,0 +1,17 @@
+﻿<Menu>
+	<MenuItem Id="1301" Text="IDS_OPEN_QGROUP"/>
+	<MenuItem Id="1302" Text="IDS_OPEN_QGROUO_CHAT_RECORD"/>
+	<MenuItem Id="1303" Text="IDS_EDIT_QGROUP_REMARK"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Text="IDS_QGROUP_MSG_SETTING">
+		<MenuItem Id="1304" Text="IDS_QGROUP_AUTO_POPUP_MSG"/>
+		<MenuItem Id="1305" Text="IDS_QGROUP_JUST_SAVE_MSG"/>
+		<MenuItem Id="1306" Text="IDS_QGROUP_REFUSE_MSG"/>
+	</MenuItem>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="1307" Text="IDS_QGROUP_INVITE_TIPS"/>
+	<MenuItem Id="1308" Text="IDS_QGROUP_DISMISS_TIPS"/>
+	<MenuItem Separator="true"/>
+	<MenuItem Id="1201" Text="IDS_BATCH_SEND"/>
+	<MenuItem Id="312" Text="IDS_CREATE_QGROUP"/>
+</Menu>

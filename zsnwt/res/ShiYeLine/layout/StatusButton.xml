@@ -1,0 +1,4 @@
+﻿<SkinRelativeLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinImageView Id="100001" Image="Online.png" LayoutWidth="16" LayoutHeight="16" AlignParentLeft="3" AlignParentVerticalCenter="true"/>
+	<SkinImageView Id="100002" Image="PopupArrow.png" LayoutWidth="11" LayoutHeight="10" AlignParentRight="3" AlignParentVerticalCenter="true"/>
+</SkinRelativeLayout>

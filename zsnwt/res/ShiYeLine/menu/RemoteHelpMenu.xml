@@ -1,0 +1,6 @@
+﻿<Menu>
+	<MenuItem Id="11171" Text="IDS_REMOTE_REQUEST"/>
+	<MenuItem Id="11174" Text="IDS_REMOTE_PASSWORD_REQUEST"/>
+	<MenuItem Id="11172" Text="IDS_REMOTE_INVITE"/>
+	<MenuItem Id="11173" Text="IDS_REMOTE_AUTO_ACCEPT"/>
+</Menu>

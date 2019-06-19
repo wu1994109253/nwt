@@ -1,0 +1,5 @@
+﻿<SkinHorizontalLayout LayoutWidth="FillParent" LayoutHeight="FillParent">
+	<SkinRadioState LayoutWidth="WrapContent" LayoutHeight="WrapContent" Image="RadioButton.png" FontStyle="ID_FONT_NORMAL" Margin="0,0,5,0" LayoutAlignment="Center,Center"/>
+	<SkinImageView Id="100001" LayoutWidth="WrapContent" LayoutHeight="WrapContent" FontStyle="ID_FONT_NORMAL" Margin="0,0,5,0" LayoutAlignment="Center,Center"/>
+	<SkinTextView Id="100002" LayoutWidth="WrapContent" LayoutHeight="WrapContent" FontStyle="ID_FONT_NORMAL" HorzAlignment="Left"/>
+</SkinHorizontalLayout>
